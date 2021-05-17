@@ -1,0 +1,145 @@
+Vesta static timing analysis, pin-to-register and register-to-pin minimum timing
+
+Top 20 minimum delay paths:
+Path input pin IMEM_DATA[4] to _12013_/D delay 85.3872 ps
+      0.0 ps        IMEM_DATA[4]:          ->  _9898_/A
+     45.3 ps               _302_: _9898_/Y ->  _9900_/B
+     90.5 ps  \datapath._03_ [4]: _9900_/Y -> _12013_/D
+
+   hold at destination = -5.15441
+
+Path input pin IMEM_DATA[1] to _12010_/D delay 85.3872 ps
+      0.0 ps        IMEM_DATA[1]:          ->  _9887_/A
+     45.3 ps               _294_: _9887_/Y ->  _9889_/B
+     90.5 ps  \datapath._03_ [1]: _9889_/Y -> _12010_/D
+
+   hold at destination = -5.15441
+
+Path input pin IMEM_DATA[0] to _12009_/D delay 93.5508 ps
+      0.0 ps        IMEM_DATA[0]:          ->  _9884_/A
+     43.7 ps               _292_: _9884_/Y ->  _9886_/A
+     97.9 ps  \datapath._03_ [0]: _9886_/Y -> _12009_/D
+
+   hold at destination = -4.36148
+
+Path input pin IMEM_DATA[31] to _12040_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[31]:          ->  _9979_/B
+     47.7 ps                _356_: _9979_/Y ->  _9981_/A
+    101.3 ps  \datapath._03_ [31]: _9981_/Y -> _12040_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[30] to _12039_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[30]:          ->  _9976_/B
+     47.7 ps                _354_: _9976_/Y ->  _9978_/A
+    101.3 ps  \datapath._03_ [30]: _9978_/Y -> _12039_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[29] to _12038_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[29]:          ->  _9973_/B
+     47.7 ps                _352_: _9973_/Y ->  _9975_/A
+    101.3 ps  \datapath._03_ [29]: _9975_/Y -> _12038_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[28] to _12037_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[28]:          ->  _9970_/B
+     47.7 ps                _350_: _9970_/Y ->  _9972_/A
+    101.3 ps  \datapath._03_ [28]: _9972_/Y -> _12037_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[27] to _12036_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[27]:          ->  _9967_/B
+     47.7 ps                _348_: _9967_/Y ->  _9969_/A
+    101.3 ps  \datapath._03_ [27]: _9969_/Y -> _12036_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[26] to _12035_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[26]:          ->  _9964_/B
+     47.7 ps                _346_: _9964_/Y ->  _9966_/A
+    101.3 ps  \datapath._03_ [26]: _9966_/Y -> _12035_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[25] to _12034_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[25]:          ->  _9961_/B
+     47.7 ps                _344_: _9961_/Y ->  _9963_/A
+    101.3 ps  \datapath._03_ [25]: _9963_/Y -> _12034_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[24] to _12033_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[24]:          ->  _9958_/B
+     47.7 ps                _342_: _9958_/Y ->  _9960_/A
+    101.3 ps  \datapath._03_ [24]: _9960_/Y -> _12033_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[23] to _12032_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[23]:          ->  _9955_/B
+     47.7 ps                _340_: _9955_/Y ->  _9957_/A
+    101.3 ps  \datapath._03_ [23]: _9957_/Y -> _12032_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[22] to _12031_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[22]:          ->  _9952_/B
+     47.7 ps                _338_: _9952_/Y ->  _9954_/A
+    101.3 ps  \datapath._03_ [22]: _9954_/Y -> _12031_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[21] to _12030_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[21]:          ->  _9949_/B
+     47.7 ps                _336_: _9949_/Y ->  _9951_/A
+    101.3 ps  \datapath._03_ [21]: _9951_/Y -> _12030_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[20] to _12029_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[20]:          ->  _9946_/B
+     47.7 ps                _334_: _9946_/Y ->  _9948_/A
+    101.3 ps  \datapath._03_ [20]: _9948_/Y -> _12029_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[19] to _12028_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[19]:          ->  _9943_/B
+     47.7 ps                _332_: _9943_/Y ->  _9945_/A
+    101.3 ps  \datapath._03_ [19]: _9945_/Y -> _12028_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[18] to _12027_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[18]:          ->  _9940_/B
+     47.7 ps                _330_: _9940_/Y ->  _9942_/A
+    101.3 ps  \datapath._03_ [18]: _9942_/Y -> _12027_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[17] to _12026_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[17]:          ->  _9937_/B
+     47.7 ps                _328_: _9937_/Y ->  _9939_/A
+    101.3 ps  \datapath._03_ [17]: _9939_/Y -> _12026_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[16] to _12025_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[16]:          ->  _9934_/B
+     47.7 ps                _326_: _9934_/Y ->  _9936_/A
+    101.3 ps  \datapath._03_ [16]: _9936_/Y -> _12025_/D
+
+   hold at destination = -4.57566
+
+Path input pin IMEM_DATA[15] to _12024_/D delay 96.7528 ps
+      0.0 ps        IMEM_DATA[15]:          ->  _9931_/B
+     47.7 ps                _324_: _9931_/Y ->  _9933_/A
+    101.3 ps  \datapath._03_ [15]: _9933_/Y -> _12024_/D
+
+   hold at destination = -4.57566
+
+-----------------------------------------
+

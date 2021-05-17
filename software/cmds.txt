@@ -1,0 +1,13 @@
+
+compile for rv32i with no linker
+riscv64-elf-gcc -c -march=rv32i -mabi=ilp32 -o outputfile inputfile.c 
+
+compile with linker
+riscv64-elf-gcc -march=rv32i -mabi=ilp32 -nostdlib -o outputfile inputfile.c 
+riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -nostdlib -Wl,-Ttext=0x0 -Bstatic -o sort.o init.s sort.c 
+
+asemble asmfile
+riscv32-elf-as -o outputfile inputfile.s 
+
+dump section from objectfile
+riscv32-elf-objcopy  --dump-section {section}={outputfile} {inputobjectfile}"

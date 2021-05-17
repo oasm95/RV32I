@@ -1,0 +1,184 @@
+Vesta static timing analysis, register-to-register minimum timing
+
+Top 20 minimum delay paths:
+Path _1224_/CLK to _1225_/D delay 79.4948 ps
+      0.0 ps  clk_bF$buf5: CLKBUF1_insert10/Y -> _1224_/CLK
+     61.1 ps     meta_irq:           _1224_/Q -> _1225_/D
+
+   clock skew at destination = 0
+   hold at destination = 18.3943
+
+Path _1265_/CLK to _1265_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf0: CLKBUF1_insert15/Y -> _1265_/CLK
+     64.1 ps    mcause[4]:           _1265_/Q ->  _530_/A
+    141.4 ps         _42_:            _530_/Y ->  _646_/A
+    198.1 ps      _28_[4]:            _646_/Y -> _1265_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1274_/CLK to _1274_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf0: CLKBUF1_insert15/Y -> _1274_/CLK
+     64.1 ps   mcause[13]:           _1274_/Q ->  _566_/A
+    141.4 ps         _69_:            _566_/Y ->  _668_/A
+    198.1 ps     _28_[13]:            _668_/Y -> _1274_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1283_/CLK to _1283_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf0: CLKBUF1_insert15/Y -> _1283_/CLK
+     64.1 ps   mcause[22]:           _1283_/Q ->  _593_/A
+    141.4 ps         _87_:            _593_/Y ->  _686_/A
+    198.1 ps     _28_[22]:            _686_/Y -> _1283_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1228_/CLK to _1228_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf1: CLKBUF1_insert14/Y -> _1228_/CLK
+     64.1 ps     mvect[1]:           _1228_/Q ->  _513_/A
+    141.4 ps         _26_:            _513_/Y ->  _725_/A
+    198.1 ps      _07_[1]:            _725_/Y -> _1228_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1282_/CLK to _1282_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf1: CLKBUF1_insert14/Y -> _1282_/CLK
+     64.1 ps   mcause[21]:           _1282_/Q ->  _590_/A
+    141.4 ps         _85_:            _590_/Y ->  _684_/A
+    198.1 ps     _28_[21]:            _684_/Y -> _1282_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1281_/CLK to _1281_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf2: CLKBUF1_insert13/Y -> _1281_/CLK
+     64.1 ps   mcause[20]:           _1281_/Q ->  _587_/A
+    141.4 ps         _83_:            _587_/Y ->  _682_/A
+    198.1 ps     _28_[20]:            _682_/Y -> _1281_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1290_/CLK to _1290_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf2: CLKBUF1_insert13/Y -> _1290_/CLK
+     64.1 ps   mcause[29]:           _1290_/Q ->  _614_/A
+    141.4 ps        _101_:            _614_/Y ->  _700_/A
+    198.1 ps     _28_[29]:            _700_/Y -> _1290_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1271_/CLK to _1271_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf3: CLKBUF1_insert12/Y -> _1271_/CLK
+     64.1 ps   mcause[10]:           _1271_/Q ->  _551_/A
+    141.4 ps         _57_:            _551_/Y ->  _660_/A
+    198.1 ps     _28_[10]:            _660_/Y -> _1271_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1280_/CLK to _1280_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf3: CLKBUF1_insert12/Y -> _1280_/CLK
+     64.1 ps   mcause[19]:           _1280_/Q ->  _584_/A
+    141.4 ps         _81_:            _584_/Y ->  _680_/A
+    198.1 ps     _28_[19]:            _680_/Y -> _1280_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1289_/CLK to _1289_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf3: CLKBUF1_insert12/Y -> _1289_/CLK
+     64.1 ps   mcause[28]:           _1289_/Q ->  _611_/A
+    141.4 ps         _99_:            _611_/Y ->  _698_/A
+    198.1 ps     _28_[28]:            _698_/Y -> _1289_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1270_/CLK to _1270_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf4: CLKBUF1_insert11/Y -> _1270_/CLK
+     64.1 ps    mcause[9]:           _1270_/Q ->  _548_/A
+    141.4 ps         _55_:            _548_/Y ->  _658_/A
+    198.1 ps      _28_[9]:            _658_/Y -> _1270_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1279_/CLK to _1279_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf4: CLKBUF1_insert11/Y -> _1279_/CLK
+     64.1 ps   mcause[18]:           _1279_/Q ->  _581_/A
+    141.4 ps         _79_:            _581_/Y ->  _678_/A
+    198.1 ps     _28_[18]:            _678_/Y -> _1279_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1288_/CLK to _1288_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf4: CLKBUF1_insert11/Y -> _1288_/CLK
+     64.1 ps   mcause[27]:           _1288_/Q ->  _608_/A
+    141.4 ps         _97_:            _608_/Y ->  _696_/A
+    198.1 ps     _28_[27]:            _696_/Y -> _1288_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1278_/CLK to _1278_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf5: CLKBUF1_insert10/Y -> _1278_/CLK
+     64.1 ps   mcause[17]:           _1278_/Q ->  _578_/A
+    141.4 ps         _77_:            _578_/Y ->  _676_/A
+    198.1 ps     _28_[17]:            _676_/Y -> _1278_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1287_/CLK to _1287_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf5: CLKBUF1_insert10/Y -> _1287_/CLK
+     64.1 ps   mcause[26]:           _1287_/Q ->  _605_/A
+    141.4 ps         _95_:            _605_/Y ->  _694_/A
+    198.1 ps     _28_[26]:            _694_/Y -> _1287_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1277_/CLK to _1277_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf6: CLKBUF1_insert9/Y -> _1277_/CLK
+     64.1 ps   mcause[16]:          _1277_/Q ->  _575_/A
+    141.4 ps         _75_:           _575_/Y ->  _674_/A
+    198.1 ps     _28_[16]:           _674_/Y -> _1277_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1286_/CLK to _1286_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf6: CLKBUF1_insert9/Y -> _1286_/CLK
+     64.1 ps   mcause[25]:          _1286_/Q ->  _602_/A
+    141.4 ps         _93_:           _602_/Y ->  _692_/A
+    198.1 ps     _28_[25]:           _692_/Y -> _1286_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1267_/CLK to _1267_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf7: CLKBUF1_insert8/Y -> _1267_/CLK
+     64.1 ps    mcause[6]:          _1267_/Q ->  _536_/A
+    141.4 ps         _46_:           _536_/Y ->  _650_/A
+    198.1 ps      _28_[6]:           _650_/Y -> _1267_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Path _1276_/CLK to _1276_/D delay 194.261 ps
+      0.0 ps  clk_bF$buf7: CLKBUF1_insert8/Y -> _1276_/CLK
+     64.1 ps   mcause[15]:          _1276_/Q ->  _572_/A
+    141.4 ps         _73_:           _572_/Y ->  _672_/A
+    198.1 ps     _28_[15]:           _672_/Y -> _1276_/D
+
+   clock skew at destination = 0
+   hold at destination = -3.83426
+
+Design meets minimum hold timing.
+-----------------------------------------
+

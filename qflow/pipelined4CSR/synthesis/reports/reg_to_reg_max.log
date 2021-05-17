@@ -1,0 +1,660 @@
+Vesta static timing analysis, register-to-register maximum timing
+
+Top 20 maximum delay paths:
+Path _10701_/CLK to _13537_/D delay 5543.93 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13440_/B
+   3934.9 ps                                  _3012_:           _13440_/Y ->          _13441_/B
+   4050.3 ps                                  _3013_:           _13441_/Y ->          _13442_/A
+   4311.7 ps                                  _3014_:           _13442_/Y ->  BUFX2_insert512/A
+   4654.2 ps                          _3014__bF$buf6:   BUFX2_insert512/Y ->          _13443_/A
+   4892.1 ps                                  _3015_:           _13443_/Y ->          _13450_/B
+   5015.1 ps                                  _3021_:           _13450_/Y ->          _13452_/B
+   5123.9 ps                  \datapath.csr._32_ [1]:           _13452_/Y ->          _13537_/D
+
+   clock skew at destination = 91.1904
+   setup at destination = 328.806
+
+Path _10701_/CLK to _13539_/D delay 5543.93 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13440_/B
+   3934.9 ps                                  _3012_:           _13440_/Y ->          _13441_/B
+   4050.3 ps                                  _3013_:           _13441_/Y ->          _13442_/A
+   4311.7 ps                                  _3014_:           _13442_/Y ->  BUFX2_insert512/A
+   4654.2 ps                          _3014__bF$buf6:   BUFX2_insert512/Y ->          _13443_/A
+   4892.1 ps                                  _3015_:           _13443_/Y ->          _13458_/B
+   5015.1 ps                                  _3027_:           _13458_/Y ->          _13460_/B
+   5123.9 ps                  \datapath.csr._32_ [3]:           _13460_/Y ->          _13539_/D
+
+   clock skew at destination = 91.1904
+   setup at destination = 328.806
+
+Path _10701_/CLK to _13536_/D delay 5518.23 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13440_/B
+   3934.9 ps                                  _3012_:           _13440_/Y ->          _13441_/B
+   4050.3 ps                                  _3013_:           _13441_/Y ->          _13442_/A
+   4311.7 ps                                  _3014_:           _13442_/Y ->  BUFX2_insert512/A
+   4654.2 ps                          _3014__bF$buf6:   BUFX2_insert512/Y ->          _13443_/A
+   4892.1 ps                                  _3015_:           _13443_/Y ->          _13444_/B
+   5015.1 ps                                  _3016_:           _13444_/Y ->          _13448_/B
+   5123.9 ps                  \datapath.csr._32_ [0]:           _13448_/Y ->          _13536_/D
+
+   clock skew at destination = 65.506
+   setup at destination = 328.797
+
+Path _10701_/CLK to _13582_/D delay 5425.66 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1144/A
+   4662.1 ps                          _2924__bF$buf5:  BUFX2_insert1144/Y ->          _13373_/B
+   4798.3 ps                                  _2961_:           _13373_/Y ->          _13374_/C
+   4916.2 ps                                  _2962_:           _13374_/Y ->          _13376_/B
+   5022.8 ps                 \datapath.csr._26_ [14]:           _13376_/Y ->          _13582_/D
+
+   clock skew at destination = 71.6609
+   setup at destination = 331.235
+
+Path _10701_/CLK to _13583_/D delay 5418.88 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1146/A
+   4657.3 ps                          _2924__bF$buf3:  BUFX2_insert1146/Y ->          _13377_/B
+   4791.9 ps                                  _2964_:           _13377_/Y ->          _13378_/C
+   4909.5 ps                                  _2965_:           _13378_/Y ->          _13380_/B
+   5016.0 ps                 \datapath.csr._26_ [15]:           _13380_/Y ->          _13583_/D
+
+   clock skew at destination = 71.6609
+   setup at destination = 331.231
+
+Path _10701_/CLK to _13585_/D delay 5408.88 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1143/A
+   4668.4 ps                          _2924__bF$buf6:  BUFX2_insert1143/Y ->          _13385_/B
+   4806.7 ps                                  _2970_:           _13385_/Y ->          _13386_/C
+   4925.1 ps                                  _2971_:           _13386_/Y ->          _13388_/B
+   5031.7 ps                 \datapath.csr._26_ [17]:           _13388_/Y ->          _13585_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.232
+
+Path _10701_/CLK to _13592_/D delay 5408.88 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1143/A
+   4668.4 ps                          _2924__bF$buf6:  BUFX2_insert1143/Y ->          _13413_/B
+   4806.7 ps                                  _2991_:           _13413_/Y ->          _13414_/C
+   4925.1 ps                                  _2992_:           _13414_/Y ->          _13416_/B
+   5031.7 ps                 \datapath.csr._26_ [24]:           _13416_/Y ->          _13592_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.232
+
+Path _10701_/CLK to _13593_/D delay 5406.58 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1145/A
+   4648.6 ps                          _2924__bF$buf4:  BUFX2_insert1145/Y ->          _13417_/B
+   4780.3 ps                                  _2994_:           _13417_/Y ->          _13418_/C
+   4897.3 ps                                  _2995_:           _13418_/Y ->          _13420_/B
+   5003.7 ps                 \datapath.csr._26_ [25]:           _13420_/Y ->          _13593_/D
+
+   clock skew at destination = 71.6609
+   setup at destination = 331.222
+
+Path _10701_/CLK to _13569_/D delay 5405.5 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1144/A
+   4662.1 ps                          _2924__bF$buf5:  BUFX2_insert1144/Y ->          _13326_/S
+   4903.1 ps                                  _2927_:           _13326_/Y ->          _13328_/B
+   5010.7 ps                  \datapath.csr._26_ [1]:           _13328_/Y ->          _13569_/D
+
+   clock skew at destination = 71.6609
+   setup at destination = 323.176
+
+Path _10701_/CLK to _13596_/D delay 5405.5 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1144/A
+   4662.1 ps                          _2924__bF$buf5:  BUFX2_insert1144/Y ->          _13429_/S
+   4903.1 ps                                  _3003_:           _13429_/Y ->          _13431_/B
+   5010.7 ps                 \datapath.csr._26_ [28]:           _13431_/Y ->          _13596_/D
+
+   clock skew at destination = 71.6609
+   setup at destination = 323.176
+
+Path _10701_/CLK to _13574_/D delay 5399.97 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1144/A
+   4662.1 ps                          _2924__bF$buf5:  BUFX2_insert1144/Y ->          _13343_/B
+   4798.3 ps                                  _2939_:           _13343_/Y ->          _13344_/C
+   4916.2 ps                                  _2940_:           _13344_/Y ->          _13346_/B
+   5022.8 ps                  \datapath.csr._26_ [6]:           _13346_/Y ->          _13574_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.226
+
+Path _10701_/CLK to _13589_/D delay 5399.97 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1144/A
+   4662.1 ps                          _2924__bF$buf5:  BUFX2_insert1144/Y ->          _13401_/B
+   4798.3 ps                                  _2982_:           _13401_/Y ->          _13402_/C
+   4916.2 ps                                  _2983_:           _13402_/Y ->          _13404_/B
+   5022.8 ps                 \datapath.csr._26_ [21]:           _13404_/Y ->          _13589_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.226
+
+Path _10701_/CLK to _13571_/D delay 5398.9 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1146/A
+   4657.3 ps                          _2924__bF$buf3:  BUFX2_insert1146/Y ->          _13332_/S
+   4896.4 ps                                  _2931_:           _13332_/Y ->          _13334_/B
+   5004.1 ps                  \datapath.csr._26_ [3]:           _13334_/Y ->          _13571_/D
+
+   clock skew at destination = 71.6609
+   setup at destination = 323.176
+
+Path _10701_/CLK to _13575_/D delay 5393.19 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1146/A
+   4657.3 ps                          _2924__bF$buf3:  BUFX2_insert1146/Y ->          _13347_/B
+   4791.9 ps                                  _2942_:           _13347_/Y ->          _13348_/C
+   4909.5 ps                                  _2943_:           _13348_/Y ->          _13350_/B
+   5016.0 ps                  \datapath.csr._26_ [7]:           _13350_/Y ->          _13575_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.221
+
+Path _10701_/CLK to _13590_/D delay 5393.19 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1146/A
+   4657.3 ps                          _2924__bF$buf3:  BUFX2_insert1146/Y ->          _13405_/B
+   4791.9 ps                                  _2985_:           _13405_/Y ->          _13406_/C
+   4909.5 ps                                  _2986_:           _13406_/Y ->          _13408_/B
+   5016.0 ps                 \datapath.csr._26_ [22]:           _13408_/Y ->          _13590_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.221
+
+Path _10701_/CLK to _13568_/D delay 5388.49 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1143/A
+   4668.4 ps                          _2924__bF$buf6:  BUFX2_insert1143/Y ->          _13323_/S
+   4911.8 ps                                  _2925_:           _13323_/Y ->          _13325_/B
+   5019.3 ps                  \datapath.csr._26_ [0]:           _13325_/Y ->          _13568_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 323.16
+
+Path _10701_/CLK to _13577_/D delay 5388.49 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1143/A
+   4668.4 ps                          _2924__bF$buf6:  BUFX2_insert1143/Y ->          _13355_/S
+   4911.8 ps                                  _2948_:           _13355_/Y ->          _13357_/B
+   5019.3 ps                  \datapath.csr._26_ [9]:           _13357_/Y ->          _13577_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 323.16
+
+Path _10701_/CLK to _13570_/D delay 5386.91 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1145/A
+   4648.6 ps                          _2924__bF$buf4:  BUFX2_insert1145/Y ->          _13329_/S
+   4884.3 ps                                  _2929_:           _13329_/Y ->          _13331_/B
+   4992.1 ps                  \datapath.csr._26_ [2]:           _13331_/Y ->          _13570_/D
+
+   clock skew at destination = 71.6609
+   setup at destination = 323.175
+
+Path _10701_/CLK to _13579_/D delay 5380.89 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1145/A
+   4648.6 ps                          _2924__bF$buf4:  BUFX2_insert1145/Y ->          _13361_/B
+   4780.3 ps                                  _2952_:           _13361_/Y ->          _13362_/C
+   4897.3 ps                                  _2953_:           _13362_/Y ->          _13364_/B
+   5003.7 ps                 \datapath.csr._26_ [11]:           _13364_/Y ->          _13579_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.212
+
+Path _10701_/CLK to _13586_/D delay 5380.89 ps
+      0.0 ps                            CLK_bF$buf18: CLKBUF1_insert893/Y ->          _10701_/CLK
+    351.3 ps                  \datapath.meminstr [5]:           _10701_/Q ->           _9704_/A
+    495.1 ps                                   _154_:            _9704_/Y ->           _9705_/B
+    588.7 ps                                   _155_:            _9705_/Y ->           _9706_/B
+    723.0 ps                                   _156_:            _9706_/Y ->           _9708_/A
+    865.8 ps                                   _158_:            _9708_/Y ->           _9711_/C
+   1024.9 ps                                   _161_:            _9711_/Y ->           _9713_/C
+   1132.6 ps                                   _163_:            _9713_/Y ->           _9714_/C
+   1231.6 ps                                   _164_:            _9714_/Y ->           _9718_/C
+   1420.7 ps                                   _168_:            _9718_/Y ->           _9733_/B
+   1564.0 ps            \datapath.csr.csr_mcause [2]:            _9733_/Y ->          _10143_/B
+   1845.6 ps          \controlunit.csrfile_trap_wen :           _10143_/Y ->  BUFX2_insert737/A
+   2241.2 ps  \controlunit.csrfile_trap_wen_bF$buf1 :   BUFX2_insert737/Y ->           _9300_/A
+   2377.4 ps                                    _89_:            _9300_/Y ->           _9302_/A
+   2542.0 ps                                    _91_:            _9302_/Y ->           _9303_/A
+   2733.5 ps                                    _92_:            _9303_/Y ->           _9308_/B
+   2904.1 ps                      \controlunit.mret :            _9308_/Y ->   BUFX2_insert64/A
+   3235.6 ps              \controlunit.mret_bF$buf0 :    BUFX2_insert64/Y ->          _12904_/A
+   3330.4 ps                                  _2597_:           _12904_/Y -> BUFX2_insert1362/A
+   3604.5 ps                          _2597__bF$buf4:  BUFX2_insert1362/Y ->          _13220_/A
+   3836.4 ps                                  _2855_:           _13220_/Y ->          _13221_/B
+   3934.9 ps                                  _2856_:           _13221_/Y ->          _13222_/B
+   4058.7 ps                                  _2857_:           _13222_/Y ->          _13322_/A
+   4323.5 ps                                  _2924_:           _13322_/Y -> BUFX2_insert1145/A
+   4648.6 ps                          _2924__bF$buf4:  BUFX2_insert1145/Y ->          _13389_/B
+   4780.3 ps                                  _2973_:           _13389_/Y ->          _13390_/C
+   4897.3 ps                                  _2974_:           _13390_/Y ->          _13392_/B
+   5003.7 ps                 \datapath.csr._26_ [18]:           _13392_/Y ->          _13586_/D
+
+   clock skew at destination = 45.9794
+   setup at destination = 331.212
+
+Computed maximum clock frequency (zero margin) = 180.378 MHz
+-----------------------------------------
+

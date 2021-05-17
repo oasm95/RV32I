@@ -1,0 +1,14 @@
+Esta carpeta contiene todo el codigo fuente del procesador
+adicionalmente contiene la "libreria fortestvector.vhdl" de mi autoria
+que contienen funciones y procedimientos que facilitan la lectura y validacion de componentes
+rv32iconstants.vhdl, poseen todas las constantes utilizadas en la elavoracion del procesador
+
+para generar un vector de prueba modificar el codigo de generate_test.py en la parte
+if __name__ == ...
+    aqui agregar el nombre de la funcion correspondiente al vector de prueba del componente
+    
+para ejecutar programas
+utilizar tb_RISCV32I.vhdl
+    -actualmente ejecutara el programa exceptions.
+    -el resultado o el texto que el programa despliega en consola es escrito en el archivo stdout.txt
+    -ver archivo leeme en /software para ver como ejecutar otros programas

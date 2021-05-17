@@ -1,0 +1,305 @@
+Qflow static timing analysis logfile created on mié 11 nov 2020 17:46:35 CST
+Running vesta static timing analysis
+vesta --long ImmDecoder.rtlnopwr.v /usr/share/qflow/tech/osu018/osu018_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.4.87
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu018_stdcells"
+End of library at line 6141
+Lib read /usr/share/qflow/tech/osu018/osu018_stdcells.lib:  Processed 6142 lines.
+Parsing module "ImmDecoder"
+Verilog netlist read:  Processed 928 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+1192MHz
+
+Number of paths analyzed:  32
+
+Top 20 maximum delay paths:
+Path input pin Imm_sel[2] to output pin Immediate[18] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _116_/A
+    749.1 ps       _58_[18]: _116_/Y -> _166_/A
+    838.5 ps  Immediate[18]: _166_/Y -> Immediate[18]
+
+Path input pin Imm_sel[2] to output pin Immediate[15] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _110_/A
+    749.1 ps       _58_[15]: _110_/Y -> _163_/A
+    838.5 ps  Immediate[15]: _163_/Y -> Immediate[15]
+
+Path input pin Imm_sel[2] to output pin Immediate[12] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _104_/A
+    749.1 ps       _58_[12]: _104_/Y -> _160_/A
+    838.5 ps  Immediate[12]: _160_/Y -> Immediate[12]
+
+Path input pin Imm_sel[2] to output pin Immediate[19] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _118_/A
+    749.1 ps       _58_[19]: _118_/Y -> _167_/A
+    838.5 ps  Immediate[19]: _167_/Y -> Immediate[19]
+
+Path input pin Imm_sel[2] to output pin Immediate[16] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _112_/A
+    749.1 ps       _58_[16]: _112_/Y -> _164_/A
+    838.5 ps  Immediate[16]: _164_/Y -> Immediate[16]
+
+Path input pin Imm_sel[2] to output pin Immediate[13] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _106_/A
+    749.1 ps       _58_[13]: _106_/Y -> _161_/A
+    838.5 ps  Immediate[13]: _161_/Y -> Immediate[13]
+
+Path input pin Imm_sel[2] to output pin Immediate[17] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _114_/A
+    749.1 ps       _58_[17]: _114_/Y -> _165_/A
+    838.5 ps  Immediate[17]: _165_/Y -> Immediate[17]
+
+Path input pin Imm_sel[2] to output pin Immediate[14] delay 838.465 ps
+      0.0 ps     Imm_sel[2]:         ->  _59_/A
+     85.0 ps           _37_:  _59_/Y ->  _65_/C
+    300.8 ps           _42_:  _65_/Y -> _100_/C
+    636.1 ps            _2_: _100_/Y -> _108_/A
+    749.1 ps       _58_[14]: _108_/Y -> _162_/A
+    838.5 ps  Immediate[14]: _162_/Y -> Immediate[14]
+
+Path input pin Imm_sel[1] to output pin Immediate[31] delay 731.279 ps
+      0.0 ps     Imm_sel[1]:         ->  _60_/A
+     70.1 ps           _38_:  _60_/Y ->  _61_/B
+    204.3 ps           _39_:  _61_/Y ->  _62_/A
+    541.7 ps           _40_:  _62_/Y ->  _63_/A
+    642.9 ps           _04_:  _63_/Y -> _179_/A
+    731.3 ps  Immediate[31]: _179_/Y -> Immediate[31]
+
+Path input pin Imm_sel[1] to output pin Immediate[28] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _95_/C
+    649.5 ps       _58_[28]:  _95_/Y -> _176_/A
+    726.3 ps  Immediate[28]: _176_/Y -> Immediate[28]
+
+Path input pin Imm_sel[1] to output pin Immediate[25] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _92_/C
+    649.5 ps       _58_[25]:  _92_/Y -> _173_/A
+    726.3 ps  Immediate[25]: _173_/Y -> Immediate[25]
+
+Path input pin Imm_sel[1] to output pin Immediate[23] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _89_/C
+    649.5 ps       _58_[23]:  _89_/Y -> _171_/A
+    726.3 ps  Immediate[23]: _171_/Y -> Immediate[23]
+
+Path input pin Imm_sel[1] to output pin Immediate[20] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _83_/C
+    649.5 ps       _58_[20]:  _83_/Y -> _168_/A
+    726.3 ps  Immediate[20]: _168_/Y -> Immediate[20]
+
+Path input pin Imm_sel[1] to output pin Immediate[30] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _97_/C
+    649.5 ps       _58_[30]:  _97_/Y -> _178_/A
+    726.3 ps  Immediate[30]: _178_/Y -> Immediate[30]
+
+Path input pin Imm_sel[1] to output pin Immediate[27] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _94_/C
+    649.5 ps       _58_[27]:  _94_/Y -> _175_/A
+    726.3 ps  Immediate[27]: _175_/Y -> Immediate[27]
+
+Path input pin Imm_sel[1] to output pin Immediate[24] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _91_/C
+    649.5 ps       _58_[24]:  _91_/Y -> _172_/A
+    726.3 ps  Immediate[24]: _172_/Y -> Immediate[24]
+
+Path input pin Imm_sel[1] to output pin Immediate[21] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _85_/C
+    649.5 ps       _58_[21]:  _85_/Y -> _169_/A
+    726.3 ps  Immediate[21]: _169_/Y -> Immediate[21]
+
+Path input pin Imm_sel[1] to output pin Immediate[29] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _96_/C
+    649.5 ps       _58_[29]:  _96_/Y -> _177_/A
+    726.3 ps  Immediate[29]: _177_/Y -> Immediate[29]
+
+Path input pin Imm_sel[1] to output pin Immediate[26] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _93_/C
+    649.5 ps       _58_[26]:  _93_/Y -> _174_/A
+    726.3 ps  Immediate[26]: _174_/Y -> Immediate[26]
+
+Path input pin Imm_sel[1] to output pin Immediate[22] delay 726.331 ps
+      0.0 ps     Imm_sel[1]:         ->  _79_/A
+    178.5 ps           _50_:  _79_/Y ->  _81_/B
+    524.6 ps           _52_:  _81_/Y ->  _87_/C
+    649.5 ps       _58_[22]:  _87_/Y -> _170_/A
+    726.3 ps  Immediate[22]: _170_/Y -> Immediate[22]
+
+-----------------------------------------
+
+Number of paths analyzed:  32
+
+Top 20 minimum delay paths:
+Path input pin Instruction[15] to output pin Immediate[2] delay 164.828 ps
+      0.0 ps  Instruction[15]:         -> _134_/A
+     53.1 ps             _27_: _134_/Y -> _135_/B
+     97.9 ps          _58_[2]: _135_/Y -> _150_/A
+    164.8 ps     Immediate[2]: _150_/Y -> Immediate[2]
+
+Path input pin Instruction[16] to output pin Immediate[3] delay 164.828 ps
+      0.0 ps  Instruction[16]:         -> _138_/A
+     53.1 ps             _30_: _138_/Y -> _139_/B
+     97.9 ps          _58_[3]: _139_/Y -> _151_/A
+    164.8 ps     Immediate[3]: _151_/Y -> Immediate[3]
+
+Path input pin Instruction[17] to output pin Immediate[4] delay 164.828 ps
+      0.0 ps  Instruction[17]:         -> _142_/A
+     53.1 ps             _33_: _142_/Y -> _143_/B
+     97.9 ps          _58_[4]: _143_/Y -> _152_/A
+    164.8 ps     Immediate[4]: _152_/Y -> Immediate[4]
+
+Path input pin Instruction[14] to output pin Immediate[1] delay 164.828 ps
+      0.0 ps  Instruction[14]:         -> _130_/A
+     53.1 ps             _24_: _130_/Y -> _131_/B
+     97.9 ps          _58_[1]: _131_/Y -> _149_/A
+    164.8 ps     Immediate[1]: _149_/Y -> Immediate[1]
+
+Path input pin Instruction[15] to output pin Immediate[22] delay 166.365 ps
+      0.0 ps  Instruction[15]:         ->  _86_/A
+     43.7 ps             _55_:  _86_/Y ->  _87_/A
+     98.6 ps         _58_[22]:  _87_/Y -> _170_/A
+    166.4 ps    Immediate[22]: _170_/Y -> Immediate[22]
+
+Path input pin Instruction[14] to output pin Immediate[21] delay 166.365 ps
+      0.0 ps  Instruction[14]:         ->  _84_/A
+     43.7 ps             _54_:  _84_/Y ->  _85_/A
+     98.6 ps         _58_[21]:  _85_/Y -> _169_/A
+    166.4 ps    Immediate[21]: _169_/Y -> Immediate[21]
+
+Path input pin Instruction[17] to output pin Immediate[24] delay 166.365 ps
+      0.0 ps  Instruction[17]:         ->  _90_/A
+     43.7 ps             _57_:  _90_/Y ->  _91_/A
+     98.6 ps         _58_[24]:  _91_/Y -> _172_/A
+    166.4 ps    Immediate[24]: _172_/Y -> Immediate[24]
+
+Path input pin Instruction[13] to output pin Immediate[20] delay 166.365 ps
+      0.0 ps  Instruction[13]:         ->  _78_/A
+     43.7 ps             _49_:  _78_/Y ->  _83_/A
+     98.6 ps         _58_[20]:  _83_/Y -> _168_/A
+    166.4 ps    Immediate[20]: _168_/Y -> Immediate[20]
+
+Path input pin Instruction[16] to output pin Immediate[23] delay 166.365 ps
+      0.0 ps  Instruction[16]:         ->  _88_/A
+     43.7 ps             _56_:  _88_/Y ->  _89_/A
+     98.6 ps         _58_[23]:  _89_/Y -> _171_/A
+    166.4 ps    Immediate[23]: _171_/Y -> Immediate[23]
+
+Path input pin Instruction[13] to output pin Immediate[0] delay 172.314 ps
+      0.0 ps  Instruction[13]:         -> _146_/C
+     51.9 ps             _36_: _146_/Y -> _147_/D
+    104.6 ps             _10_: _147_/Y -> _148_/A
+    172.3 ps     Immediate[0]: _148_/Y -> Immediate[0]
+
+Path input pin Instruction[0] to output pin Immediate[11] delay 172.7 ps
+      0.0 ps  Instruction[0]:         -> _123_/B
+     65.6 ps            _18_: _123_/Y -> _125_/C
+    105.3 ps            _01_: _125_/Y -> _159_/A
+    172.7 ps   Immediate[11]: _159_/Y -> Immediate[11]
+
+Path input pin Instruction[7] to output pin Immediate[14] delay 180.718 ps
+      0.0 ps  Instruction[7]:         -> _107_/A
+     67.8 ps             _7_: _107_/Y -> _108_/C
+    112.7 ps        _58_[14]: _108_/Y -> _162_/A
+    180.7 ps   Immediate[14]: _162_/Y -> Immediate[14]
+
+Path input pin Instruction[10] to output pin Immediate[17] delay 180.718 ps
+      0.0 ps  Instruction[10]:         -> _113_/A
+     67.8 ps             _11_: _113_/Y -> _114_/C
+    112.7 ps         _58_[17]: _114_/Y -> _165_/A
+    180.7 ps    Immediate[17]: _165_/Y -> Immediate[17]
+
+Path input pin Instruction[6] to output pin Immediate[13] delay 180.718 ps
+      0.0 ps  Instruction[6]:         -> _105_/A
+     67.8 ps             _6_: _105_/Y -> _106_/C
+    112.7 ps        _58_[13]: _106_/Y -> _161_/A
+    180.7 ps   Immediate[13]: _161_/Y -> Immediate[13]
+
+Path input pin Instruction[9] to output pin Immediate[16] delay 180.718 ps
+      0.0 ps  Instruction[9]:         -> _111_/A
+     67.8 ps             _9_: _111_/Y -> _112_/C
+    112.7 ps        _58_[16]: _112_/Y -> _164_/A
+    180.7 ps   Immediate[16]: _164_/Y -> Immediate[16]
+
+Path input pin Instruction[12] to output pin Immediate[19] delay 180.718 ps
+      0.0 ps  Instruction[12]:         -> _117_/A
+     67.8 ps             _13_: _117_/Y -> _118_/C
+    112.7 ps         _58_[19]: _118_/Y -> _167_/A
+    180.7 ps    Immediate[19]: _167_/Y -> Immediate[19]
+
+Path input pin Instruction[5] to output pin Immediate[12] delay 180.718 ps
+      0.0 ps  Instruction[5]:         -> _103_/A
+     67.8 ps             _5_: _103_/Y -> _104_/C
+    112.7 ps        _58_[12]: _104_/Y -> _160_/A
+    180.7 ps   Immediate[12]: _160_/Y -> Immediate[12]
+
+Path input pin Instruction[8] to output pin Immediate[15] delay 180.718 ps
+      0.0 ps  Instruction[8]:         -> _109_/A
+     67.8 ps             _8_: _109_/Y -> _110_/C
+    112.7 ps        _58_[15]: _110_/Y -> _163_/A
+    180.7 ps   Immediate[15]: _163_/Y -> Immediate[15]
+
+Path input pin Instruction[11] to output pin Immediate[18] delay 180.718 ps
+      0.0 ps  Instruction[11]:         -> _115_/A
+     67.8 ps             _12_: _115_/Y -> _116_/C
+    112.7 ps         _58_[18]: _116_/Y -> _166_/A
+    180.7 ps    Immediate[18]: _166_/Y -> Immediate[18]
+
+Path input pin Instruction[19] to output pin Immediate[26] delay 190.556 ps
+      0.0 ps  Instruction[19]:         ->  _68_/A
+     64.4 ps             _44_:  _68_/Y ->  _93_/A
+    121.9 ps         _58_[26]:  _93_/Y -> _174_/A
+    190.6 ps    Immediate[26]: _174_/Y -> Immediate[26]
+
+-----------------------------------------
+

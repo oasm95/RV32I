@@ -1,0 +1,146 @@
+Vesta static timing analysis, register-to-register minimum timing
+
+Top 20 minimum delay paths:
+Path _10861_/CLK to _10631_/D delay -128.508 ps
+      0.0 ps             CLK_bF$buf10: CLKBUF1_insert901/Y -> _10861_/CLK
+      6.7 ps  \datapath.regrs2alu [7]:           _10861_/Q -> _10631_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10860_/CLK to _10630_/D delay -128.508 ps
+      0.0 ps             CLK_bF$buf11: CLKBUF1_insert900/Y -> _10860_/CLK
+      6.7 ps  \datapath.regrs2alu [6]:           _10860_/Q -> _10630_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _11012_/CLK to _10751_/D delay -128.508 ps
+      0.0 ps            CLK_bF$buf11: CLKBUF1_insert900/Y -> _11012_/CLK
+      6.7 ps  \datapath.alupc_4 [23]:           _11012_/Q -> _10751_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10851_/CLK to _10621_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf20: CLKBUF1_insert891/Y -> _10851_/CLK
+      6.7 ps  \datapath.regcsralu [29]:           _10851_/Q -> _10621_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10850_/CLK to _10620_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf21: CLKBUF1_insert890/Y -> _10850_/CLK
+      6.7 ps  \datapath.regcsralu [28]:           _10850_/Q -> _10620_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10849_/CLK to _10619_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf22: CLKBUF1_insert889/Y -> _10849_/CLK
+      6.7 ps  \datapath.regcsralu [27]:           _10849_/Q -> _10619_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10848_/CLK to _10618_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf23: CLKBUF1_insert888/Y -> _10848_/CLK
+      6.7 ps  \datapath.regcsralu [26]:           _10848_/Q -> _10618_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _11000_/CLK to _10739_/D delay -128.508 ps
+      0.0 ps            CLK_bF$buf23: CLKBUF1_insert888/Y -> _11000_/CLK
+      6.7 ps  \datapath.alupc_4 [11]:           _11000_/Q -> _10739_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10839_/CLK to _10609_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf32: CLKBUF1_insert879/Y -> _10839_/CLK
+      6.7 ps  \datapath.regcsralu [17]:           _10839_/Q -> _10609_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10838_/CLK to _10608_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf33: CLKBUF1_insert878/Y -> _10838_/CLK
+      6.7 ps  \datapath.regcsralu [16]:           _10838_/Q -> _10608_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10837_/CLK to _10607_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf34: CLKBUF1_insert877/Y -> _10837_/CLK
+      6.7 ps  \datapath.regcsralu [15]:           _10837_/Q -> _10607_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10836_/CLK to _10606_/D delay -128.508 ps
+      0.0 ps              CLK_bF$buf35: CLKBUF1_insert876/Y -> _10836_/CLK
+      6.7 ps  \datapath.regcsralu [14]:           _10836_/Q -> _10606_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10988_/CLK to _10727_/D delay -128.508 ps
+      0.0 ps             CLK_bF$buf35: CLKBUF1_insert876/Y -> _10988_/CLK
+      6.7 ps  \datapath.aluinstr [31]:           _10988_/Q -> _10727_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10827_/CLK to _10597_/D delay -128.508 ps
+      0.0 ps             CLK_bF$buf44: CLKBUF1_insert867/Y -> _10827_/CLK
+      6.7 ps  \datapath.regcsralu [5]:           _10827_/Q -> _10597_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10826_/CLK to _10596_/D delay -128.508 ps
+      0.0 ps             CLK_bF$buf45: CLKBUF1_insert866/Y -> _10826_/CLK
+      6.7 ps  \datapath.regcsralu [4]:           _10826_/Q -> _10596_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10825_/CLK to _10595_/D delay -128.508 ps
+      0.0 ps             CLK_bF$buf46: CLKBUF1_insert865/Y -> _10825_/CLK
+      6.7 ps  \datapath.regcsralu [3]:           _10825_/Q -> _10595_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10824_/CLK to _10594_/D delay -128.508 ps
+      0.0 ps             CLK_bF$buf47: CLKBUF1_insert864/Y -> _10824_/CLK
+      6.7 ps  \datapath.regcsralu [2]:           _10824_/Q -> _10594_/D
+
+   clock skew at destination = -45.211
+   hold at destination = -89.9985
+
+Path _10863_/CLK to _10633_/D delay -108.827 ps
+      0.0 ps              CLK_bF$buf8: CLKBUF1_insert903/Y -> _10863_/CLK
+      6.7 ps  \datapath.regrs2alu [9]:           _10863_/Q -> _10633_/D
+
+   clock skew at destination = -25.6844
+   hold at destination = -89.8441
+
+Path _10862_/CLK to _10632_/D delay -108.827 ps
+      0.0 ps              CLK_bF$buf9: CLKBUF1_insert902/Y -> _10862_/CLK
+      6.7 ps  \datapath.regrs2alu [8]:           _10862_/Q -> _10632_/D
+
+   clock skew at destination = -25.6844
+   hold at destination = -89.8441
+
+Path _10979_/CLK to _10718_/D delay -108.827 ps
+      0.0 ps             CLK_bF$buf44: CLKBUF1_insert867/Y -> _10979_/CLK
+      6.7 ps  \datapath.aluinstr [22]:           _10979_/Q -> _10718_/D
+
+   clock skew at destination = -25.6844
+   hold at destination = -89.8441
+
+ERROR:  Design fails minimum hold timing.
+-----------------------------------------
+

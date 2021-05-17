@@ -1,0 +1,483 @@
+Vesta static timing analysis, register-to-register maximum timing
+
+Top 20 maximum delay paths:
+Path _12030_/CLK to _15726_/D delay 2952.17 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1106/A
+   2548.9 ps           \datapath.pcstall_bF$buf5 :  BUFX2_insert1106/Y ->          _15374_/A
+   2645.1 ps                               _4146_:           _15374_/Y ->          _15375_/C
+   2704.7 ps     \datapath.programcounter._1_ [9]:           _15375_/Y ->          _15726_/D
+
+   clock skew at destination = 66.8002
+   setup at destination = 180.683
+
+Path _12030_/CLK to _15718_/D delay 2935.74 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1106/A
+   2548.9 ps           \datapath.pcstall_bF$buf5 :  BUFX2_insert1106/Y ->          _15350_/A
+   2645.1 ps                               _4131_:           _15350_/Y ->          _15351_/C
+   2704.7 ps     \datapath.programcounter._1_ [1]:           _15351_/Y ->          _15718_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 180.676
+
+Path _12030_/CLK to _15728_/D delay 2935.74 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1110/A
+   2548.9 ps           \datapath.pcstall_bF$buf1 :  BUFX2_insert1110/Y ->          _15380_/A
+   2645.1 ps                               _4150_:           _15380_/Y ->          _15381_/C
+   2704.7 ps    \datapath.programcounter._1_ [11]:           _15381_/Y ->          _15728_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 180.676
+
+Path _12030_/CLK to _15740_/D delay 2935.74 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1110/A
+   2548.9 ps           \datapath.pcstall_bF$buf1 :  BUFX2_insert1110/Y ->          _15416_/A
+   2645.1 ps                               _4174_:           _15416_/Y ->          _15417_/C
+   2704.7 ps    \datapath.programcounter._1_ [23]:           _15417_/Y ->          _15740_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 180.676
+
+Path _12030_/CLK to _15727_/D delay 2933.93 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15377_/A
+   2632.6 ps                               _4148_:           _15377_/Y ->          _15378_/C
+   2688.8 ps    \datapath.programcounter._1_ [10]:           _15378_/Y ->          _15727_/D
+
+   clock skew at destination = 66.8002
+   setup at destination = 178.298
+
+Path _12030_/CLK to _15739_/D delay 2933.93 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15413_/A
+   2632.6 ps                               _4172_:           _15413_/Y ->          _15414_/C
+   2688.8 ps    \datapath.programcounter._1_ [22]:           _15414_/Y ->          _15739_/D
+
+   clock skew at destination = 66.8002
+   setup at destination = 178.298
+
+Path _11846_/CLK to _11612_/D delay 2931.71 ps
+      0.0 ps               CLK_bF$buf132: CLKBUF1_insert831/Y ->          _11846_/CLK
+    236.0 ps         \datapath.alu.b [4]:           _11846_/Q ->  BUFX2_insert432/A
+    439.6 ps  \datapath.alu.b_4_bF$buf3 :   BUFX2_insert432/Y ->          _12507_/A
+    503.4 ps                      _2480_:           _12507_/Y -> BUFX2_insert1273/A
+    676.4 ps              _2480__bF$buf5:  BUFX2_insert1273/Y ->          _12508_/B
+    802.7 ps                      _2481_:           _12508_/Y ->          _12509_/B
+    962.9 ps                      _2482_:           _12509_/Y ->          _12510_/B
+   1112.8 ps                      _2483_:           _12510_/Y ->          _13188_/A
+   1367.1 ps                      _3153_:           _13188_/Y ->          _13492_/B
+   1571.0 ps                      _1817_:           _13492_/Y ->          _13832_/B
+   1731.1 ps                      _2182_:           _13832_/Y ->          _13932_/A
+   1949.7 ps                      _2289_:           _13932_/Y ->          _13996_/B
+   2110.6 ps                      _2357_:           _13996_/Y ->          _14024_/A
+   2236.5 ps                      _2387_:           _14024_/Y ->          _14025_/A
+   2349.7 ps                      _2388_:           _14025_/Y ->          _14044_/B
+   2424.1 ps                      _2409_:           _14044_/Y ->          _14045_/C
+   2583.4 ps        \datapath.alu.c [31]:           _14045_/Y ->          _11612_/D
+
+   clock skew at destination = 66.8002
+   setup at destination = 281.499
+
+Path _12030_/CLK to _15738_/D delay 2929.82 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1106/A
+   2548.9 ps           \datapath.pcstall_bF$buf5 :  BUFX2_insert1106/Y ->          _15410_/A
+   2628.6 ps                               _4170_:           _15410_/Y ->          _15411_/C
+   2684.8 ps    \datapath.programcounter._1_ [21]:           _15411_/Y ->          _15738_/D
+
+   clock skew at destination = 66.8002
+   setup at destination = 178.239
+
+Path _12030_/CLK to _15717_/D delay 2926.51 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1104/A
+   2551.1 ps           \datapath.pcstall_bF$buf7 :  BUFX2_insert1104/Y ->          _15347_/B
+   2637.4 ps                               _4129_:           _15347_/Y ->          _15348_/C
+   2695.9 ps     \datapath.programcounter._1_ [0]:           _15348_/Y ->          _15717_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 180.291
+
+Path _11846_/CLK to _11648_/D delay 2919.44 ps
+      0.0 ps               CLK_bF$buf132: CLKBUF1_insert831/Y ->          _11846_/CLK
+    236.0 ps         \datapath.alu.b [4]:           _11846_/Q ->  BUFX2_insert432/A
+    439.6 ps  \datapath.alu.b_4_bF$buf3 :   BUFX2_insert432/Y ->          _12507_/A
+    503.4 ps                      _2480_:           _12507_/Y -> BUFX2_insert1273/A
+    676.4 ps              _2480__bF$buf5:  BUFX2_insert1273/Y ->          _12508_/B
+    802.7 ps                      _2481_:           _12508_/Y ->          _12509_/B
+    962.9 ps                      _2482_:           _12509_/Y ->          _12510_/B
+   1112.8 ps                      _2483_:           _12510_/Y ->          _13188_/A
+   1367.1 ps                      _3153_:           _13188_/Y ->          _13492_/B
+   1571.0 ps                      _1817_:           _13492_/Y ->          _13832_/B
+   1731.1 ps                      _2182_:           _13832_/Y ->          _13932_/A
+   1949.7 ps                      _2289_:           _13932_/Y ->          _13996_/B
+   2110.6 ps                      _2357_:           _13996_/Y ->          _14024_/A
+   2236.5 ps                      _2387_:           _14024_/Y ->          _14025_/A
+   2349.7 ps                      _2388_:           _14025_/Y ->          _14044_/B
+   2424.1 ps                      _2409_:           _14044_/Y ->          _14045_/C
+   2583.4 ps        \datapath.alu.c [31]:           _14045_/Y ->          _14064_/A
+   2667.5 ps            \datapath.alu.z :           _14064_/Y ->          _11648_/D
+
+   clock skew at destination = 66.8002
+   setup at destination = 185.134
+
+Path _12030_/CLK to _15719_/D delay 2917.49 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15353_/A
+   2632.6 ps                               _4132_:           _15353_/Y ->          _15354_/C
+   2688.8 ps     \datapath.programcounter._1_ [2]:           _15354_/Y ->          _15719_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.29
+
+Path _12030_/CLK to _15723_/D delay 2917.49 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15365_/A
+   2632.6 ps                               _4140_:           _15365_/Y ->          _15366_/C
+   2688.8 ps     \datapath.programcounter._1_ [6]:           _15366_/Y ->          _15723_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.29
+
+Path _12030_/CLK to _15743_/D delay 2917.49 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15425_/A
+   2632.6 ps                               _4180_:           _15425_/Y ->          _15426_/C
+   2688.8 ps    \datapath.programcounter._1_ [26]:           _15426_/Y ->          _15743_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.29
+
+Path _12030_/CLK to _15731_/D delay 2917.49 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15389_/A
+   2632.6 ps                               _4156_:           _15389_/Y ->          _15390_/C
+   2688.8 ps    \datapath.programcounter._1_ [14]:           _15390_/Y ->          _15731_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.29
+
+Path _12030_/CLK to _15735_/D delay 2917.49 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15401_/A
+   2632.6 ps                               _4164_:           _15401_/Y ->          _15402_/C
+   2688.8 ps    \datapath.programcounter._1_ [18]:           _15402_/Y ->          _15735_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.29
+
+Path _12030_/CLK to _15747_/D delay 2917.49 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1108/A
+   2552.3 ps           \datapath.pcstall_bF$buf3 :  BUFX2_insert1108/Y ->          _15437_/A
+   2632.6 ps                               _4188_:           _15437_/Y ->          _15438_/C
+   2688.8 ps    \datapath.programcounter._1_ [30]:           _15438_/Y ->          _15747_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.29
+
+Path _12030_/CLK to _15721_/D delay 2916.04 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1104/A
+   2551.1 ps           \datapath.pcstall_bF$buf7 :  BUFX2_insert1104/Y ->          _15359_/A
+   2631.2 ps                               _4136_:           _15359_/Y ->          _15360_/C
+   2687.4 ps     \datapath.programcounter._1_ [4]:           _15360_/Y ->          _15721_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.268
+
+Path _12030_/CLK to _15725_/D delay 2916.04 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1104/A
+   2551.1 ps           \datapath.pcstall_bF$buf7 :  BUFX2_insert1104/Y ->          _15371_/A
+   2631.2 ps                               _4144_:           _15371_/Y ->          _15372_/C
+   2687.4 ps     \datapath.programcounter._1_ [8]:           _15372_/Y ->          _15725_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.268
+
+Path _12030_/CLK to _15741_/D delay 2916.04 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1104/A
+   2551.1 ps           \datapath.pcstall_bF$buf7 :  BUFX2_insert1104/Y ->          _15419_/A
+   2631.2 ps                               _4176_:           _15419_/Y ->          _15420_/C
+   2687.4 ps    \datapath.programcounter._1_ [24]:           _15420_/Y ->          _15741_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.268
+
+Path _12030_/CLK to _15745_/D delay 2916.04 ps
+      0.0 ps                        CLK_bF$buf102: CLKBUF1_insert861/Y ->          _12030_/CLK
+    235.0 ps               \datapath.idinstr [21]:           _12030_/Q -> BUFX2_insert1417/A
+    381.3 ps  \datapath.idinstr_21_hier0_bF$buf2 :  BUFX2_insert1417/Y ->  BUFX2_insert181/A
+    586.3 ps        \datapath.idinstr_21_bF$buf9 :   BUFX2_insert181/Y ->           _9648_/B
+    739.0 ps                                 _73_:            _9648_/Y ->           _9650_/C
+    816.6 ps                                 _75_:            _9650_/Y ->           _9651_/C
+    879.7 ps                                 _76_:            _9651_/Y ->           _9652_/A
+   1053.0 ps                                 _77_:            _9652_/Y ->           _9680_/D
+   1158.9 ps                                 _98_:            _9680_/Y ->           _9681_/B
+   1263.1 ps                                 _99_:            _9681_/Y ->           _9682_/B
+   1472.3 ps           \bypassandflushunit.stall :            _9682_/Y ->  BUFX2_insert335/A
+   1787.4 ps   \bypassandflushunit.stall_bF$buf0 :   BUFX2_insert335/Y ->           _9891_/A
+   1878.3 ps                                _297_:            _9891_/Y ->   BUFX2_insert42/A
+   2093.8 ps                        _297__bF$buf1:    BUFX2_insert42/Y ->          _11233_/A
+   2188.1 ps                               _1341_:           _11233_/Y ->          _11234_/B
+   2360.0 ps                   \datapath.pcstall :           _11234_/Y -> BUFX2_insert1104/A
+   2551.1 ps           \datapath.pcstall_bF$buf7 :  BUFX2_insert1104/Y ->          _15431_/A
+   2631.2 ps                               _4184_:           _15431_/Y ->          _15432_/C
+   2687.4 ps    \datapath.programcounter._1_ [28]:           _15432_/Y ->          _15745_/D
+
+   clock skew at destination = 50.3712
+   setup at destination = 178.268
+
+Computed maximum clock frequency (zero margin) = 338.733 MHz
+-----------------------------------------
+

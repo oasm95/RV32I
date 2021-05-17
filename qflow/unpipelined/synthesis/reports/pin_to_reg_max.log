@@ -1,0 +1,305 @@
+Vesta static timing analysis, pin-to-register and register-to-pin maximum timing
+
+Top 20 maximum delay paths:
+Path input pin CSR_addr[5] to _1261_/D delay 1534.51 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert39/A
+   1156.7 ps  _114__bF$buf6: BUFX2_insert39/Y ->          _631_/A
+   1264.6 ps          _115_:          _631_/Y ->          _632_/A
+   1342.7 ps        _28_[0]:          _632_/Y ->         _1261_/D
+
+   setup at destination = 191.826
+
+Path input pin CSR_addr[5] to _1263_/D delay 1534.51 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert41/A
+   1156.7 ps  _114__bF$buf4: BUFX2_insert41/Y ->          _639_/A
+   1264.6 ps          _121_:          _639_/Y ->          _640_/A
+   1342.7 ps        _28_[2]:          _640_/Y ->         _1263_/D
+
+   setup at destination = 191.826
+
+Path input pin CSR_addr[5] to _1262_/D delay 1533.93 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert40/A
+   1156.2 ps  _114__bF$buf5: BUFX2_insert40/Y ->          _635_/A
+   1264.1 ps          _118_:          _635_/Y ->          _636_/A
+   1342.1 ps        _28_[1]:          _636_/Y ->         _1262_/D
+
+   setup at destination = 191.823
+
+Path input pin CSR_addr[5] to _1264_/D delay 1533.35 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert42/A
+   1155.7 ps  _114__bF$buf3: BUFX2_insert42/Y ->          _643_/A
+   1263.5 ps          _124_:          _643_/Y ->          _644_/A
+   1341.5 ps        _28_[3]:          _644_/Y ->         _1264_/D
+
+   setup at destination = 191.819
+
+Path input pin CSR_addr[5] to _1271_/D delay 1510.81 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert39/A
+   1156.7 ps  _114__bF$buf6: BUFX2_insert39/Y ->          _659_/A
+   1260.7 ps          _133_:          _659_/Y ->          _660_/C
+   1319.9 ps       _28_[10]:          _660_/Y ->         _1271_/D
+
+   setup at destination = 190.91
+
+Path input pin CSR_addr[5] to _1279_/D delay 1510.81 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert39/A
+   1156.7 ps  _114__bF$buf6: BUFX2_insert39/Y ->          _677_/A
+   1260.7 ps          _143_:          _677_/Y ->          _678_/C
+   1319.9 ps       _28_[18]:          _678_/Y ->         _1279_/D
+
+   setup at destination = 190.91
+
+Path input pin CSR_addr[5] to _1280_/D delay 1510.81 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert41/A
+   1156.7 ps  _114__bF$buf4: BUFX2_insert41/Y ->          _679_/A
+   1260.7 ps          _144_:          _679_/Y ->          _680_/C
+   1319.9 ps       _28_[19]:          _680_/Y ->         _1280_/D
+
+   setup at destination = 190.91
+
+Path input pin CSR_addr[5] to _1286_/D delay 1510.81 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert39/A
+   1156.7 ps  _114__bF$buf6: BUFX2_insert39/Y ->          _691_/A
+   1260.7 ps          _150_:          _691_/Y ->          _692_/C
+   1319.9 ps       _28_[25]:          _692_/Y ->         _1286_/D
+
+   setup at destination = 190.91
+
+Path input pin CSR_addr[5] to _1287_/D delay 1510.81 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert41/A
+   1156.7 ps  _114__bF$buf4: BUFX2_insert41/Y ->          _693_/A
+   1260.7 ps          _151_:          _693_/Y ->          _694_/C
+   1319.9 ps       _28_[26]:          _694_/Y ->         _1287_/D
+
+   setup at destination = 190.91
+
+Path input pin CSR_addr[5] to _1267_/D delay 1510.24 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert40/A
+   1156.2 ps  _114__bF$buf5: BUFX2_insert40/Y ->          _649_/A
+   1260.1 ps          _127_:          _649_/Y ->          _650_/C
+   1319.3 ps        _28_[6]:          _650_/Y ->         _1267_/D
+
+   setup at destination = 190.911
+
+Path input pin CSR_addr[5] to _1276_/D delay 1510.24 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert40/A
+   1156.2 ps  _114__bF$buf5: BUFX2_insert40/Y ->          _671_/A
+   1260.1 ps          _140_:          _671_/Y ->          _672_/C
+   1319.3 ps       _28_[15]:          _672_/Y ->         _1276_/D
+
+   setup at destination = 190.911
+
+Path input pin CSR_addr[5] to _1283_/D delay 1510.24 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert40/A
+   1156.2 ps  _114__bF$buf5: BUFX2_insert40/Y ->          _685_/A
+   1260.1 ps          _147_:          _685_/Y ->          _686_/C
+   1319.3 ps       _28_[22]:          _686_/Y ->         _1283_/D
+
+   setup at destination = 190.911
+
+Path input pin CSR_addr[5] to _1290_/D delay 1510.24 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert40/A
+   1156.2 ps  _114__bF$buf5: BUFX2_insert40/Y ->          _699_/A
+   1260.1 ps          _154_:          _699_/Y ->          _700_/C
+   1319.3 ps       _28_[29]:          _700_/Y ->         _1290_/D
+
+   setup at destination = 190.911
+
+Path input pin CSR_addr[5] to _1277_/D delay 1509.66 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert42/A
+   1155.7 ps  _114__bF$buf3: BUFX2_insert42/Y ->          _673_/A
+   1259.5 ps          _141_:          _673_/Y ->          _674_/C
+   1318.7 ps       _28_[16]:          _674_/Y ->         _1277_/D
+
+   setup at destination = 190.913
+
+Path input pin CSR_addr[5] to _1284_/D delay 1509.66 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert42/A
+   1155.7 ps  _114__bF$buf3: BUFX2_insert42/Y ->          _687_/A
+   1259.5 ps          _148_:          _687_/Y ->          _688_/C
+   1318.7 ps       _28_[23]:          _688_/Y ->         _1284_/D
+
+   setup at destination = 190.913
+
+Path input pin CSR_addr[5] to _1272_/D delay 1508.23 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert41/A
+   1156.7 ps  _114__bF$buf4: BUFX2_insert41/Y ->          _662_/A
+   1260.7 ps          _135_:          _662_/Y ->          _663_/B
+   1317.2 ps       _28_[11]:          _663_/Y ->         _1272_/D
+
+   setup at destination = 190.992
+
+Path input pin CSR_addr[5] to _1268_/D delay 1507.08 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert42/A
+   1155.7 ps  _114__bF$buf3: BUFX2_insert42/Y ->          _652_/A
+   1259.5 ps          _129_:          _652_/Y ->          _653_/B
+   1316.1 ps        _28_[7]:          _653_/Y ->         _1268_/D
+
+   setup at destination = 190.994
+
+Path input pin CSR_addr[5] to _1273_/D delay 1507.08 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert42/A
+   1155.7 ps  _114__bF$buf3: BUFX2_insert42/Y ->          _665_/A
+   1259.5 ps          _137_:          _665_/Y ->          _666_/B
+   1316.1 ps       _28_[12]:          _666_/Y ->         _1273_/D
+
+   setup at destination = 190.994
+
+Path input pin CSR_addr[5] to _1291_/D delay 1507.08 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert42/A
+   1155.7 ps  _114__bF$buf3: BUFX2_insert42/Y ->          _702_/A
+   1259.5 ps          _156_:          _702_/Y ->          _703_/B
+   1316.1 ps       _28_[30]:          _703_/Y ->         _1291_/D
+
+   setup at destination = 190.994
+
+Path input pin CSR_addr[5] to _1270_/D delay 1493.48 ps
+      0.0 ps    CSR_addr[5]:                  ->          _492_/A
+     84.0 ps            _4_:          _492_/Y ->          _493_/C
+    161.8 ps            _5_:          _493_/Y ->          _494_/B
+    275.1 ps            _6_:          _494_/Y ->          _499_/B
+    415.0 ps           _11_:          _499_/Y -> BUFX2_insert56/A
+    622.9 ps   _11__bF$buf4: BUFX2_insert56/Y ->          _500_/A
+    753.3 ps           _12_:          _500_/Y ->          _630_/B
+    923.8 ps          _114_:          _630_/Y -> BUFX2_insert44/A
+   1142.8 ps  _114__bF$buf1: BUFX2_insert44/Y ->          _657_/A
+   1243.8 ps          _132_:          _657_/Y ->          _658_/C
+   1302.5 ps        _28_[9]:          _658_/Y ->         _1270_/D
+
+   setup at destination = 190.954
+
+-----------------------------------------
+

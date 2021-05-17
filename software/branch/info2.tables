@@ -1,0 +1,510 @@
+except 524
+	32:		Total: 71.94%	Jal: 37.57%	Branchs: 81.13%
+	64:		Total: 78.55%	Jal: 66.86%	Branchs: 81.68%
+	128:		Total: 79.56%	Jal: 74.19%	Branchs: 81.0%
+	256:		Total: 80.39%	Jal: 83.02%	Branchs: 79.68%
+	512:		Total: 77.21%	Jal: 94.16%	Branchs: 72.68%
+	1024:		Total: 74.42%	Jal: 96.84%	Branchs: 68.43%
+	2048:		Total: 69.27%	Jal: 97.99%	Branchs: 61.59%
+	4096:		Total: 61.25%	Jal: 98.36%	Branchs: 51.32%
+	8192:		Total: 48.05%	Jal: 99.55%	Branchs: 34.28%
+
+	32:		Total: 71.94%	Jal: 37.57%	Branchs: 81.13%
+	64:		Total: 78.55%	Jal: 66.86%	Branchs: 81.68%
+	128:		Total: 79.56%	Jal: 74.19%	Branchs: 81.0%
+	256:		Total: 80.39%	Jal: 83.02%	Branchs: 79.68%
+	512:		Total: 77.21%	Jal: 94.16%	Branchs: 72.68%
+	1024:		Total: 74.42%	Jal: 96.84%	Branchs: 68.43%
+	2048:		Total: 69.27%	Jal: 97.99%	Branchs: 61.59%
+	4096:		Total: 61.25%	Jal: 98.36%	Branchs: 51.32%
+	8192:		Total: 48.05%	Jal: 99.55%	Branchs: 34.28%
+
+	32:		Total: 71.94%	Jal: 37.57%	Branchs: 81.13%
+	64:		Total: 78.55%	Jal: 66.86%	Branchs: 81.68%
+	128:		Total: 79.56%	Jal: 74.19%	Branchs: 81.0%
+	256:		Total: 80.39%	Jal: 83.02%	Branchs: 79.68%
+	512:		Total: 77.21%	Jal: 94.16%	Branchs: 72.68%
+	1024:		Total: 74.42%	Jal: 96.84%	Branchs: 68.43%
+	2048:		Total: 69.27%	Jal: 97.99%	Branchs: 61.59%
+	4096:		Total: 61.25%	Jal: 98.36%	Branchs: 51.32%
+	8192:		Total: 48.05%	Jal: 99.55%	Branchs: 34.28%
+
+	32:		Total: 71.94%	Jal: 37.57%	Branchs: 81.13%
+	64:		Total: 78.55%	Jal: 66.86%	Branchs: 81.68%
+	128:		Total: 79.56%	Jal: 74.19%	Branchs: 81.0%
+	256:		Total: 80.39%	Jal: 83.02%	Branchs: 79.68%
+	512:		Total: 77.21%	Jal: 94.16%	Branchs: 72.68%
+	1024:		Total: 74.42%	Jal: 96.84%	Branchs: 68.43%
+	2048:		Total: 69.27%	Jal: 97.99%	Branchs: 61.59%
+	4096:		Total: 61.25%	Jal: 98.36%	Branchs: 51.32%
+	8192:		Total: 48.05%	Jal: 99.55%	Branchs: 34.28%
+
+	32:		Total: 71.94%	Jal: 37.57%	Branchs: 81.13%
+	64:		Total: 78.55%	Jal: 66.86%	Branchs: 81.68%
+	128:		Total: 79.56%	Jal: 74.19%	Branchs: 81.0%
+	256:		Total: 80.39%	Jal: 83.02%	Branchs: 79.68%
+	512:		Total: 77.21%	Jal: 94.16%	Branchs: 72.68%
+	1024:		Total: 74.42%	Jal: 96.84%	Branchs: 68.43%
+	2048:		Total: 69.27%	Jal: 97.99%	Branchs: 61.59%
+	4096:		Total: 61.25%	Jal: 98.36%	Branchs: 51.32%
+	8192:		Total: 48.05%	Jal: 99.55%	Branchs: 34.28%
+
+mtvadd 239
+	32:		Total: 85.53%	Jal: 70.92%	Branchs: 87.81%
+	64:		Total: 91.65%	Jal: 88.12%	Branchs: 92.19%
+	128:		Total: 91.68%	Jal: 88.22%	Branchs: 92.22%
+	256:		Total: 92.43%	Jal: 90.04%	Branchs: 92.81%
+	512:		Total: 94.79%	Jal: 98.81%	Branchs: 94.17%
+	1024:		Total: 87.19%	Jal: 99.0%	Branchs: 85.35%
+	2048:		Total: 63.28%	Jal: 99.13%	Branchs: 57.7%
+	4096:		Total: 63.32%	Jal: 99.58%	Branchs: 57.68%
+	8192:		Total: 63.3%	Jal: 99.97%	Branchs: 57.59%
+
+	32:		Total: 85.53%	Jal: 70.92%	Branchs: 87.81%
+	64:		Total: 91.65%	Jal: 88.12%	Branchs: 92.19%
+	128:		Total: 91.68%	Jal: 88.22%	Branchs: 92.22%
+	256:		Total: 92.43%	Jal: 90.04%	Branchs: 92.81%
+	512:		Total: 94.79%	Jal: 98.81%	Branchs: 94.17%
+	1024:		Total: 87.19%	Jal: 99.0%	Branchs: 85.35%
+	2048:		Total: 63.28%	Jal: 99.13%	Branchs: 57.7%
+	4096:		Total: 63.32%	Jal: 99.58%	Branchs: 57.68%
+	8192:		Total: 63.3%	Jal: 99.97%	Branchs: 57.59%
+
+	32:		Total: 85.53%	Jal: 70.92%	Branchs: 87.81%
+	64:		Total: 91.65%	Jal: 88.12%	Branchs: 92.19%
+	128:		Total: 91.68%	Jal: 88.22%	Branchs: 92.22%
+	256:		Total: 92.43%	Jal: 90.04%	Branchs: 92.81%
+	512:		Total: 94.79%	Jal: 98.81%	Branchs: 94.17%
+	1024:		Total: 87.19%	Jal: 99.0%	Branchs: 85.35%
+	2048:		Total: 63.28%	Jal: 99.13%	Branchs: 57.7%
+	4096:		Total: 63.32%	Jal: 99.58%	Branchs: 57.68%
+	8192:		Total: 63.3%	Jal: 99.97%	Branchs: 57.59%
+
+	32:		Total: 85.53%	Jal: 70.92%	Branchs: 87.81%
+	64:		Total: 91.65%	Jal: 88.12%	Branchs: 92.19%
+	128:		Total: 91.68%	Jal: 88.22%	Branchs: 92.22%
+	256:		Total: 92.43%	Jal: 90.04%	Branchs: 92.81%
+	512:		Total: 94.79%	Jal: 98.81%	Branchs: 94.17%
+	1024:		Total: 87.19%	Jal: 99.0%	Branchs: 85.35%
+	2048:		Total: 63.28%	Jal: 99.13%	Branchs: 57.7%
+	4096:		Total: 63.32%	Jal: 99.58%	Branchs: 57.68%
+	8192:		Total: 63.3%	Jal: 99.97%	Branchs: 57.59%
+
+	32:		Total: 85.53%	Jal: 70.92%	Branchs: 87.81%
+	64:		Total: 91.65%	Jal: 88.12%	Branchs: 92.19%
+	128:		Total: 91.68%	Jal: 88.22%	Branchs: 92.22%
+	256:		Total: 92.43%	Jal: 90.04%	Branchs: 92.81%
+	512:		Total: 94.79%	Jal: 98.81%	Branchs: 94.17%
+	1024:		Total: 87.19%	Jal: 99.0%	Branchs: 85.35%
+	2048:		Total: 63.28%	Jal: 99.13%	Branchs: 57.7%
+	4096:		Total: 63.32%	Jal: 99.58%	Branchs: 57.68%
+	8192:		Total: 63.3%	Jal: 99.97%	Branchs: 57.59%
+
+rsort 327
+	32:		Total: 74.75%	Jal: 41.86%	Branchs: 77.0%
+	64:		Total: 76.01%	Jal: 61.77%	Branchs: 76.99%
+	128:		Total: 77.98%	Jal: 67.27%	Branchs: 78.72%
+	256:		Total: 79.35%	Jal: 87.75%	Branchs: 78.78%
+	512:		Total: 79.9%	Jal: 92.81%	Branchs: 79.01%
+	1024:		Total: 79.9%	Jal: 93.45%	Branchs: 78.98%
+	2048:		Total: 80.56%	Jal: 99.79%	Branchs: 79.24%
+	4096:		Total: 80.19%	Jal: 99.99%	Branchs: 78.84%
+	8192:		Total: 80.16%	Jal: 99.99%	Branchs: 78.8%
+
+	32:		Total: 74.75%	Jal: 41.86%	Branchs: 77.0%
+	64:		Total: 76.01%	Jal: 61.77%	Branchs: 76.99%
+	128:		Total: 77.98%	Jal: 67.27%	Branchs: 78.72%
+	256:		Total: 79.35%	Jal: 87.75%	Branchs: 78.78%
+	512:		Total: 79.9%	Jal: 92.81%	Branchs: 79.01%
+	1024:		Total: 79.9%	Jal: 93.45%	Branchs: 78.98%
+	2048:		Total: 80.56%	Jal: 99.79%	Branchs: 79.24%
+	4096:		Total: 80.19%	Jal: 99.99%	Branchs: 78.84%
+	8192:		Total: 80.16%	Jal: 99.99%	Branchs: 78.8%
+
+	32:		Total: 74.75%	Jal: 41.86%	Branchs: 77.0%
+	64:		Total: 76.01%	Jal: 61.77%	Branchs: 76.99%
+	128:		Total: 77.98%	Jal: 67.27%	Branchs: 78.72%
+	256:		Total: 79.35%	Jal: 87.75%	Branchs: 78.78%
+	512:		Total: 79.9%	Jal: 92.81%	Branchs: 79.01%
+	1024:		Total: 79.9%	Jal: 93.45%	Branchs: 78.98%
+	2048:		Total: 80.56%	Jal: 99.79%	Branchs: 79.24%
+	4096:		Total: 80.19%	Jal: 99.99%	Branchs: 78.84%
+	8192:		Total: 80.16%	Jal: 99.99%	Branchs: 78.8%
+
+	32:		Total: 74.75%	Jal: 41.86%	Branchs: 77.0%
+	64:		Total: 76.01%	Jal: 61.77%	Branchs: 76.99%
+	128:		Total: 77.98%	Jal: 67.27%	Branchs: 78.72%
+	256:		Total: 79.35%	Jal: 87.75%	Branchs: 78.78%
+	512:		Total: 79.9%	Jal: 92.81%	Branchs: 79.01%
+	1024:		Total: 79.9%	Jal: 93.45%	Branchs: 78.98%
+	2048:		Total: 80.56%	Jal: 99.79%	Branchs: 79.24%
+	4096:		Total: 80.19%	Jal: 99.99%	Branchs: 78.84%
+	8192:		Total: 80.16%	Jal: 99.99%	Branchs: 78.8%
+
+	32:		Total: 74.75%	Jal: 41.86%	Branchs: 77.0%
+	64:		Total: 76.01%	Jal: 61.77%	Branchs: 76.99%
+	128:		Total: 77.98%	Jal: 67.27%	Branchs: 78.72%
+	256:		Total: 79.35%	Jal: 87.75%	Branchs: 78.78%
+	512:		Total: 79.9%	Jal: 92.81%	Branchs: 79.01%
+	1024:		Total: 79.9%	Jal: 93.45%	Branchs: 78.98%
+	2048:		Total: 80.56%	Jal: 99.79%	Branchs: 79.24%
+	4096:		Total: 80.19%	Jal: 99.99%	Branchs: 78.84%
+	8192:		Total: 80.16%	Jal: 99.99%	Branchs: 78.8%
+
+towers 288
+	32:		Total: 59.15%	Jal: 20.77%	Branchs: 67.06%
+	64:		Total: 67.28%	Jal: 44.32%	Branchs: 72.01%
+	128:		Total: 69.07%	Jal: 52.05%	Branchs: 72.57%
+	256:		Total: 77.08%	Jal: 80.73%	Branchs: 76.33%
+	512:		Total: 79.82%	Jal: 91.45%	Branchs: 77.42%
+	1024:		Total: 80.35%	Jal: 96.8%	Branchs: 76.96%
+	2048:		Total: 81.05%	Jal: 96.93%	Branchs: 77.77%
+	4096:		Total: 73.1%	Jal: 96.99%	Branchs: 68.18%
+	8192:		Total: 73.34%	Jal: 99.71%	Branchs: 67.9%
+
+	32:		Total: 59.15%	Jal: 20.77%	Branchs: 67.06%
+	64:		Total: 67.28%	Jal: 44.32%	Branchs: 72.01%
+	128:		Total: 69.07%	Jal: 52.05%	Branchs: 72.57%
+	256:		Total: 77.08%	Jal: 80.73%	Branchs: 76.33%
+	512:		Total: 79.82%	Jal: 91.45%	Branchs: 77.42%
+	1024:		Total: 80.35%	Jal: 96.8%	Branchs: 76.96%
+	2048:		Total: 81.05%	Jal: 96.93%	Branchs: 77.77%
+	4096:		Total: 73.1%	Jal: 96.99%	Branchs: 68.18%
+	8192:		Total: 73.34%	Jal: 99.71%	Branchs: 67.9%
+
+	32:		Total: 59.15%	Jal: 20.77%	Branchs: 67.06%
+	64:		Total: 67.28%	Jal: 44.32%	Branchs: 72.01%
+	128:		Total: 69.07%	Jal: 52.05%	Branchs: 72.57%
+	256:		Total: 77.08%	Jal: 80.73%	Branchs: 76.33%
+	512:		Total: 79.82%	Jal: 91.45%	Branchs: 77.42%
+	1024:		Total: 80.35%	Jal: 96.8%	Branchs: 76.96%
+	2048:		Total: 81.05%	Jal: 96.93%	Branchs: 77.77%
+	4096:		Total: 73.1%	Jal: 96.99%	Branchs: 68.18%
+	8192:		Total: 73.34%	Jal: 99.71%	Branchs: 67.9%
+
+	32:		Total: 59.15%	Jal: 20.77%	Branchs: 67.06%
+	64:		Total: 67.28%	Jal: 44.32%	Branchs: 72.01%
+	128:		Total: 69.07%	Jal: 52.05%	Branchs: 72.57%
+	256:		Total: 77.08%	Jal: 80.73%	Branchs: 76.33%
+	512:		Total: 79.82%	Jal: 91.45%	Branchs: 77.42%
+	1024:		Total: 80.35%	Jal: 96.8%	Branchs: 76.96%
+	2048:		Total: 81.05%	Jal: 96.93%	Branchs: 77.77%
+	4096:		Total: 73.1%	Jal: 96.99%	Branchs: 68.18%
+	8192:		Total: 73.34%	Jal: 99.71%	Branchs: 67.9%
+
+	32:		Total: 59.15%	Jal: 20.77%	Branchs: 67.06%
+	64:		Total: 67.28%	Jal: 44.32%	Branchs: 72.01%
+	128:		Total: 69.07%	Jal: 52.05%	Branchs: 72.57%
+	256:		Total: 77.08%	Jal: 80.73%	Branchs: 76.33%
+	512:		Total: 79.82%	Jal: 91.45%	Branchs: 77.42%
+	1024:		Total: 80.35%	Jal: 96.8%	Branchs: 76.96%
+	2048:		Total: 81.05%	Jal: 96.93%	Branchs: 77.77%
+	4096:		Total: 73.1%	Jal: 96.99%	Branchs: 68.18%
+	8192:		Total: 73.34%	Jal: 99.71%	Branchs: 67.9%
+
+median 329
+	32:		Total: 63.41%	Jal: 37.28%	Branchs: 68.1%
+	64:		Total: 67.54%	Jal: 51.76%	Branchs: 70.37%
+	128:		Total: 69.08%	Jal: 59.06%	Branchs: 70.88%
+	256:		Total: 76.54%	Jal: 89.2%	Branchs: 74.26%
+	512:		Total: 78.23%	Jal: 91.3%	Branchs: 75.88%
+	1024:		Total: 67.65%	Jal: 95.73%	Branchs: 62.6%
+	2048:		Total: 66.48%	Jal: 99.96%	Branchs: 60.47%
+	4096:		Total: 65.69%	Jal: 99.96%	Branchs: 59.53%
+	8192:		Total: 65.69%	Jal: 99.97%	Branchs: 59.53%
+
+	32:		Total: 63.41%	Jal: 37.28%	Branchs: 68.1%
+	64:		Total: 67.54%	Jal: 51.76%	Branchs: 70.37%
+	128:		Total: 69.08%	Jal: 59.06%	Branchs: 70.88%
+	256:		Total: 76.54%	Jal: 89.2%	Branchs: 74.26%
+	512:		Total: 78.23%	Jal: 91.3%	Branchs: 75.88%
+	1024:		Total: 67.65%	Jal: 95.73%	Branchs: 62.6%
+	2048:		Total: 66.48%	Jal: 99.96%	Branchs: 60.47%
+	4096:		Total: 65.69%	Jal: 99.96%	Branchs: 59.53%
+	8192:		Total: 65.69%	Jal: 99.97%	Branchs: 59.53%
+
+	32:		Total: 63.41%	Jal: 37.28%	Branchs: 68.1%
+	64:		Total: 67.54%	Jal: 51.76%	Branchs: 70.37%
+	128:		Total: 69.08%	Jal: 59.06%	Branchs: 70.88%
+	256:		Total: 76.54%	Jal: 89.2%	Branchs: 74.26%
+	512:		Total: 78.23%	Jal: 91.3%	Branchs: 75.88%
+	1024:		Total: 67.65%	Jal: 95.73%	Branchs: 62.6%
+	2048:		Total: 66.48%	Jal: 99.96%	Branchs: 60.47%
+	4096:		Total: 65.69%	Jal: 99.96%	Branchs: 59.53%
+	8192:		Total: 65.69%	Jal: 99.97%	Branchs: 59.53%
+
+	32:		Total: 63.41%	Jal: 37.28%	Branchs: 68.1%
+	64:		Total: 67.54%	Jal: 51.76%	Branchs: 70.37%
+	128:		Total: 69.08%	Jal: 59.06%	Branchs: 70.88%
+	256:		Total: 76.54%	Jal: 89.2%	Branchs: 74.26%
+	512:		Total: 78.23%	Jal: 91.3%	Branchs: 75.88%
+	1024:		Total: 67.65%	Jal: 95.73%	Branchs: 62.6%
+	2048:		Total: 66.48%	Jal: 99.96%	Branchs: 60.47%
+	4096:		Total: 65.69%	Jal: 99.96%	Branchs: 59.53%
+	8192:		Total: 65.69%	Jal: 99.97%	Branchs: 59.53%
+
+	32:		Total: 63.41%	Jal: 37.28%	Branchs: 68.1%
+	64:		Total: 67.54%	Jal: 51.76%	Branchs: 70.37%
+	128:		Total: 69.08%	Jal: 59.06%	Branchs: 70.88%
+	256:		Total: 76.54%	Jal: 89.2%	Branchs: 74.26%
+	512:		Total: 78.23%	Jal: 91.3%	Branchs: 75.88%
+	1024:		Total: 67.65%	Jal: 95.73%	Branchs: 62.6%
+	2048:		Total: 66.48%	Jal: 99.96%	Branchs: 60.47%
+	4096:		Total: 65.69%	Jal: 99.96%	Branchs: 59.53%
+	8192:		Total: 65.69%	Jal: 99.97%	Branchs: 59.53%
+
+qsort 334
+	32:		Total: 75.32%	Jal: 43.27%	Branchs: 77.52%
+	64:		Total: 76.18%	Jal: 55.02%	Branchs: 77.63%
+	128:		Total: 76.77%	Jal: 58.29%	Branchs: 78.04%
+	256:		Total: 79.22%	Jal: 92.16%	Branchs: 78.33%
+	512:		Total: 80.04%	Jal: 93.69%	Branchs: 79.1%
+	1024:		Total: 80.11%	Jal: 95.27%	Branchs: 79.07%
+	2048:		Total: 80.21%	Jal: 99.99%	Branchs: 78.85%
+	4096:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+	8192:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+
+	32:		Total: 75.32%	Jal: 43.27%	Branchs: 77.52%
+	64:		Total: 76.18%	Jal: 55.02%	Branchs: 77.63%
+	128:		Total: 76.77%	Jal: 58.29%	Branchs: 78.04%
+	256:		Total: 79.22%	Jal: 92.16%	Branchs: 78.33%
+	512:		Total: 80.04%	Jal: 93.69%	Branchs: 79.1%
+	1024:		Total: 80.11%	Jal: 95.27%	Branchs: 79.07%
+	2048:		Total: 80.21%	Jal: 99.99%	Branchs: 78.85%
+	4096:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+	8192:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+
+	32:		Total: 75.32%	Jal: 43.27%	Branchs: 77.52%
+	64:		Total: 76.18%	Jal: 55.02%	Branchs: 77.63%
+	128:		Total: 76.77%	Jal: 58.29%	Branchs: 78.04%
+	256:		Total: 79.22%	Jal: 92.16%	Branchs: 78.33%
+	512:		Total: 80.04%	Jal: 93.69%	Branchs: 79.1%
+	1024:		Total: 80.11%	Jal: 95.27%	Branchs: 79.07%
+	2048:		Total: 80.21%	Jal: 99.99%	Branchs: 78.85%
+	4096:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+	8192:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+
+	32:		Total: 75.32%	Jal: 43.27%	Branchs: 77.52%
+	64:		Total: 76.18%	Jal: 55.02%	Branchs: 77.63%
+	128:		Total: 76.77%	Jal: 58.29%	Branchs: 78.04%
+	256:		Total: 79.22%	Jal: 92.16%	Branchs: 78.33%
+	512:		Total: 80.04%	Jal: 93.69%	Branchs: 79.1%
+	1024:		Total: 80.11%	Jal: 95.27%	Branchs: 79.07%
+	2048:		Total: 80.21%	Jal: 99.99%	Branchs: 78.85%
+	4096:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+	8192:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+
+	32:		Total: 75.32%	Jal: 43.27%	Branchs: 77.52%
+	64:		Total: 76.18%	Jal: 55.02%	Branchs: 77.63%
+	128:		Total: 76.77%	Jal: 58.29%	Branchs: 78.04%
+	256:		Total: 79.22%	Jal: 92.16%	Branchs: 78.33%
+	512:		Total: 80.04%	Jal: 93.69%	Branchs: 79.1%
+	1024:		Total: 80.11%	Jal: 95.27%	Branchs: 79.07%
+	2048:		Total: 80.21%	Jal: 99.99%	Branchs: 78.85%
+	4096:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+	8192:		Total: 80.08%	Jal: 99.99%	Branchs: 78.72%
+
+mtmul 332
+	32:		Total: 58.38%	Jal: 38.91%	Branchs: 63.06%
+	64:		Total: 63.33%	Jal: 54.27%	Branchs: 65.51%
+	128:		Total: 65.83%	Jal: 64.04%	Branchs: 66.26%
+	256:		Total: 74.77%	Jal: 92.09%	Branchs: 70.61%
+	512:		Total: 76.75%	Jal: 94.61%	Branchs: 72.47%
+	1024:		Total: 77.71%	Jal: 99.59%	Branchs: 72.45%
+	2048:		Total: 69.56%	Jal: 99.79%	Branchs: 62.31%
+	4096:		Total: 66.07%	Jal: 99.8%	Branchs: 57.98%
+	8192:		Total: 65.79%	Jal: 99.84%	Branchs: 57.62%
+
+	32:		Total: 58.38%	Jal: 38.91%	Branchs: 63.06%
+	64:		Total: 63.33%	Jal: 54.27%	Branchs: 65.51%
+	128:		Total: 65.83%	Jal: 64.04%	Branchs: 66.26%
+	256:		Total: 74.77%	Jal: 92.09%	Branchs: 70.61%
+	512:		Total: 76.75%	Jal: 94.61%	Branchs: 72.47%
+	1024:		Total: 77.71%	Jal: 99.59%	Branchs: 72.45%
+	2048:		Total: 69.56%	Jal: 99.79%	Branchs: 62.31%
+	4096:		Total: 66.07%	Jal: 99.8%	Branchs: 57.98%
+	8192:		Total: 65.79%	Jal: 99.84%	Branchs: 57.62%
+
+	32:		Total: 58.38%	Jal: 38.91%	Branchs: 63.06%
+	64:		Total: 63.33%	Jal: 54.27%	Branchs: 65.51%
+	128:		Total: 65.83%	Jal: 64.04%	Branchs: 66.26%
+	256:		Total: 74.77%	Jal: 92.09%	Branchs: 70.61%
+	512:		Total: 76.75%	Jal: 94.61%	Branchs: 72.47%
+	1024:		Total: 77.71%	Jal: 99.59%	Branchs: 72.45%
+	2048:		Total: 69.56%	Jal: 99.79%	Branchs: 62.31%
+	4096:		Total: 66.07%	Jal: 99.8%	Branchs: 57.98%
+	8192:		Total: 65.79%	Jal: 99.84%	Branchs: 57.62%
+
+	32:		Total: 58.38%	Jal: 38.91%	Branchs: 63.06%
+	64:		Total: 63.33%	Jal: 54.27%	Branchs: 65.51%
+	128:		Total: 65.83%	Jal: 64.04%	Branchs: 66.26%
+	256:		Total: 74.77%	Jal: 92.09%	Branchs: 70.61%
+	512:		Total: 76.75%	Jal: 94.61%	Branchs: 72.47%
+	1024:		Total: 77.71%	Jal: 99.59%	Branchs: 72.45%
+	2048:		Total: 69.56%	Jal: 99.79%	Branchs: 62.31%
+	4096:		Total: 66.07%	Jal: 99.8%	Branchs: 57.98%
+	8192:		Total: 65.79%	Jal: 99.84%	Branchs: 57.62%
+
+	32:		Total: 58.38%	Jal: 38.91%	Branchs: 63.06%
+	64:		Total: 63.33%	Jal: 54.27%	Branchs: 65.51%
+	128:		Total: 65.83%	Jal: 64.04%	Branchs: 66.26%
+	256:		Total: 74.77%	Jal: 92.09%	Branchs: 70.61%
+	512:		Total: 76.75%	Jal: 94.61%	Branchs: 72.47%
+	1024:		Total: 77.71%	Jal: 99.59%	Branchs: 72.45%
+	2048:		Total: 69.56%	Jal: 99.79%	Branchs: 62.31%
+	4096:		Total: 66.07%	Jal: 99.8%	Branchs: 57.98%
+	8192:		Total: 65.79%	Jal: 99.84%	Branchs: 57.62%
+
+spmv 289
+	32:		Total: 69.72%	Jal: 28.21%	Branchs: 74.57%
+	64:		Total: 75.05%	Jal: 70.29%	Branchs: 75.61%
+	128:		Total: 78.26%	Jal: 87.89%	Branchs: 77.14%
+	256:		Total: 78.22%	Jal: 89.68%	Branchs: 76.89%
+	512:		Total: 79.31%	Jal: 99.81%	Branchs: 76.92%
+	1024:		Total: 79.31%	Jal: 99.83%	Branchs: 76.92%
+	2048:		Total: 77.37%	Jal: 99.85%	Branchs: 74.75%
+	4096:		Total: 74.73%	Jal: 99.93%	Branchs: 71.79%
+	8192:		Total: 74.74%	Jal: 99.98%	Branchs: 71.79%
+
+	32:		Total: 69.72%	Jal: 28.21%	Branchs: 74.57%
+	64:		Total: 75.05%	Jal: 70.29%	Branchs: 75.61%
+	128:		Total: 78.26%	Jal: 87.89%	Branchs: 77.14%
+	256:		Total: 78.22%	Jal: 89.68%	Branchs: 76.89%
+	512:		Total: 79.31%	Jal: 99.81%	Branchs: 76.92%
+	1024:		Total: 79.31%	Jal: 99.83%	Branchs: 76.92%
+	2048:		Total: 77.37%	Jal: 99.85%	Branchs: 74.75%
+	4096:		Total: 74.73%	Jal: 99.93%	Branchs: 71.79%
+	8192:		Total: 74.74%	Jal: 99.98%	Branchs: 71.79%
+
+	32:		Total: 69.72%	Jal: 28.21%	Branchs: 74.57%
+	64:		Total: 75.05%	Jal: 70.29%	Branchs: 75.61%
+	128:		Total: 78.26%	Jal: 87.89%	Branchs: 77.14%
+	256:		Total: 78.22%	Jal: 89.68%	Branchs: 76.89%
+	512:		Total: 79.31%	Jal: 99.81%	Branchs: 76.92%
+	1024:		Total: 79.31%	Jal: 99.83%	Branchs: 76.92%
+	2048:		Total: 77.37%	Jal: 99.85%	Branchs: 74.75%
+	4096:		Total: 74.73%	Jal: 99.93%	Branchs: 71.79%
+	8192:		Total: 74.74%	Jal: 99.98%	Branchs: 71.79%
+
+	32:		Total: 69.72%	Jal: 28.21%	Branchs: 74.57%
+	64:		Total: 75.05%	Jal: 70.29%	Branchs: 75.61%
+	128:		Total: 78.26%	Jal: 87.89%	Branchs: 77.14%
+	256:		Total: 78.22%	Jal: 89.68%	Branchs: 76.89%
+	512:		Total: 79.31%	Jal: 99.81%	Branchs: 76.92%
+	1024:		Total: 79.31%	Jal: 99.83%	Branchs: 76.92%
+	2048:		Total: 77.37%	Jal: 99.85%	Branchs: 74.75%
+	4096:		Total: 74.73%	Jal: 99.93%	Branchs: 71.79%
+	8192:		Total: 74.74%	Jal: 99.98%	Branchs: 71.79%
+
+	32:		Total: 69.72%	Jal: 28.21%	Branchs: 74.57%
+	64:		Total: 75.05%	Jal: 70.29%	Branchs: 75.61%
+	128:		Total: 78.26%	Jal: 87.89%	Branchs: 77.14%
+	256:		Total: 78.22%	Jal: 89.68%	Branchs: 76.89%
+	512:		Total: 79.31%	Jal: 99.81%	Branchs: 76.92%
+	1024:		Total: 79.31%	Jal: 99.83%	Branchs: 76.92%
+	2048:		Total: 77.37%	Jal: 99.85%	Branchs: 74.75%
+	4096:		Total: 74.73%	Jal: 99.93%	Branchs: 71.79%
+	8192:		Total: 74.74%	Jal: 99.98%	Branchs: 71.79%
+
+dhrystone 465
+	32:		Total: 62.89%	Jal: 29.18%	Branchs: 73.39%
+	64:		Total: 78.99%	Jal: 71.3%	Branchs: 81.39%
+	128:		Total: 77.1%	Jal: 74.82%	Branchs: 77.81%
+	256:		Total: 81.57%	Jal: 87.67%	Branchs: 79.67%
+	512:		Total: 82.0%	Jal: 94.57%	Branchs: 78.09%
+	1024:		Total: 81.35%	Jal: 96.62%	Branchs: 76.59%
+	2048:		Total: 69.19%	Jal: 98.02%	Branchs: 60.21%
+	4096:		Total: 55.93%	Jal: 98.42%	Branchs: 42.69%
+	8192:		Total: 54.36%	Jal: 99.54%	Branchs: 40.28%
+
+	32:		Total: 62.89%	Jal: 29.18%	Branchs: 73.39%
+	64:		Total: 78.99%	Jal: 71.3%	Branchs: 81.39%
+	128:		Total: 77.1%	Jal: 74.82%	Branchs: 77.81%
+	256:		Total: 81.57%	Jal: 87.67%	Branchs: 79.67%
+	512:		Total: 82.0%	Jal: 94.57%	Branchs: 78.09%
+	1024:		Total: 81.35%	Jal: 96.62%	Branchs: 76.59%
+	2048:		Total: 69.19%	Jal: 98.02%	Branchs: 60.21%
+	4096:		Total: 55.93%	Jal: 98.42%	Branchs: 42.69%
+	8192:		Total: 54.36%	Jal: 99.54%	Branchs: 40.28%
+
+	32:		Total: 62.89%	Jal: 29.18%	Branchs: 73.39%
+	64:		Total: 78.99%	Jal: 71.3%	Branchs: 81.39%
+	128:		Total: 77.1%	Jal: 74.82%	Branchs: 77.81%
+	256:		Total: 81.57%	Jal: 87.67%	Branchs: 79.67%
+	512:		Total: 82.0%	Jal: 94.57%	Branchs: 78.09%
+	1024:		Total: 81.35%	Jal: 96.62%	Branchs: 76.59%
+	2048:		Total: 69.19%	Jal: 98.02%	Branchs: 60.21%
+	4096:		Total: 55.93%	Jal: 98.42%	Branchs: 42.69%
+	8192:		Total: 54.36%	Jal: 99.54%	Branchs: 40.28%
+
+	32:		Total: 62.89%	Jal: 29.18%	Branchs: 73.39%
+	64:		Total: 78.99%	Jal: 71.3%	Branchs: 81.39%
+	128:		Total: 77.1%	Jal: 74.82%	Branchs: 77.81%
+	256:		Total: 81.57%	Jal: 87.67%	Branchs: 79.67%
+	512:		Total: 82.0%	Jal: 94.57%	Branchs: 78.09%
+	1024:		Total: 81.35%	Jal: 96.62%	Branchs: 76.59%
+	2048:		Total: 69.19%	Jal: 98.02%	Branchs: 60.21%
+	4096:		Total: 55.93%	Jal: 98.42%	Branchs: 42.69%
+	8192:		Total: 54.36%	Jal: 99.54%	Branchs: 40.28%
+
+	32:		Total: 62.89%	Jal: 29.18%	Branchs: 73.39%
+	64:		Total: 78.99%	Jal: 71.3%	Branchs: 81.39%
+	128:		Total: 77.1%	Jal: 74.82%	Branchs: 77.81%
+	256:		Total: 81.57%	Jal: 87.67%	Branchs: 79.67%
+	512:		Total: 82.0%	Jal: 94.57%	Branchs: 78.09%
+	1024:		Total: 81.35%	Jal: 96.62%	Branchs: 76.59%
+	2048:		Total: 69.19%	Jal: 98.02%	Branchs: 60.21%
+	4096:		Total: 55.93%	Jal: 98.42%	Branchs: 42.69%
+	8192:		Total: 54.36%	Jal: 99.54%	Branchs: 40.28%
+
+multiply 316
+	32:		Total: 70.68%	Jal: 34.38%	Branchs: 74.57%
+	64:		Total: 73.98%	Jal: 61.87%	Branchs: 75.28%
+	128:		Total: 75.63%	Jal: 68.41%	Branchs: 76.4%
+	256:		Total: 79.08%	Jal: 90.59%	Branchs: 77.85%
+	512:		Total: 79.34%	Jal: 91.62%	Branchs: 78.03%
+	1024:		Total: 79.76%	Jal: 95.03%	Branchs: 78.13%
+	2048:		Total: 79.94%	Jal: 99.56%	Branchs: 77.84%
+	4096:		Total: 79.61%	Jal: 99.59%	Branchs: 77.48%
+	8192:		Total: 79.63%	Jal: 99.79%	Branchs: 77.48%
+
+	32:		Total: 70.68%	Jal: 34.38%	Branchs: 74.57%
+	64:		Total: 73.98%	Jal: 61.87%	Branchs: 75.28%
+	128:		Total: 75.63%	Jal: 68.41%	Branchs: 76.4%
+	256:		Total: 79.08%	Jal: 90.59%	Branchs: 77.85%
+	512:		Total: 79.34%	Jal: 91.62%	Branchs: 78.03%
+	1024:		Total: 79.76%	Jal: 95.03%	Branchs: 78.13%
+	2048:		Total: 79.94%	Jal: 99.56%	Branchs: 77.84%
+	4096:		Total: 79.61%	Jal: 99.59%	Branchs: 77.48%
+	8192:		Total: 79.63%	Jal: 99.79%	Branchs: 77.48%
+
+	32:		Total: 70.68%	Jal: 34.38%	Branchs: 74.57%
+	64:		Total: 73.98%	Jal: 61.87%	Branchs: 75.28%
+	128:		Total: 75.63%	Jal: 68.41%	Branchs: 76.4%
+	256:		Total: 79.08%	Jal: 90.59%	Branchs: 77.85%
+	512:		Total: 79.34%	Jal: 91.62%	Branchs: 78.03%
+	1024:		Total: 79.76%	Jal: 95.03%	Branchs: 78.13%
+	2048:		Total: 79.94%	Jal: 99.56%	Branchs: 77.84%
+	4096:		Total: 79.61%	Jal: 99.59%	Branchs: 77.48%
+	8192:		Total: 79.63%	Jal: 99.79%	Branchs: 77.48%
+
+	32:		Total: 70.68%	Jal: 34.38%	Branchs: 74.57%
+	64:		Total: 73.98%	Jal: 61.87%	Branchs: 75.28%
+	128:		Total: 75.63%	Jal: 68.41%	Branchs: 76.4%
+	256:		Total: 79.08%	Jal: 90.59%	Branchs: 77.85%
+	512:		Total: 79.34%	Jal: 91.62%	Branchs: 78.03%
+	1024:		Total: 79.76%	Jal: 95.03%	Branchs: 78.13%
+	2048:		Total: 79.94%	Jal: 99.56%	Branchs: 77.84%
+	4096:		Total: 79.61%	Jal: 99.59%	Branchs: 77.48%
+	8192:		Total: 79.63%	Jal: 99.79%	Branchs: 77.48%
+
+	32:		Total: 70.68%	Jal: 34.38%	Branchs: 74.57%
+	64:		Total: 73.98%	Jal: 61.87%	Branchs: 75.28%
+	128:		Total: 75.63%	Jal: 68.41%	Branchs: 76.4%
+	256:		Total: 79.08%	Jal: 90.59%	Branchs: 77.85%
+	512:		Total: 79.34%	Jal: 91.62%	Branchs: 78.03%
+	1024:		Total: 79.76%	Jal: 95.03%	Branchs: 78.13%
+	2048:		Total: 79.94%	Jal: 99.56%	Branchs: 77.84%
+	4096:		Total: 79.61%	Jal: 99.59%	Branchs: 77.48%
+	8192:		Total: 79.63%	Jal: 99.79%	Branchs: 77.48%
+

@@ -1,0 +1,50 @@
+﻿lui t3, 4;LUI;LUI;nextPC;x;imm;utype;alu;b;1;0;0;0;0;x;x;x
+auipc t3, 4;AUIPC;AUIPC;nextPC;currentPC;imm;utype;alu;add;1;0;0;0;0;x;x;x
+jal t1, .+4;JAL;JAL;jmp;x;x;jtype;nextPC;x;1;0;0;0;0;x;x;x
+jr a1;JALR;JALR;jalr;rs1;imm;itype;nextPC;add;1;0;0;0;0;x;x;x
+beq a1, a2, .+36;BRANCH;BEQ;nextPC;rs1;rs2;btype;x;sub;0;0;0;0;0;x;x;x
+bne a1, a2, .+36;BRANCH;BNE;jmp;rs1;rs2;btype;x;sub;0;0;0;0;0;x;x;x
+blt a1, a2, .+36;BRANCH;BLT;nextPC;rs1;rs2;btype;x;slt;0;0;0;0;0;x;x;x
+bge a1, a2, .+36;BRANCH;BGE;jmp;rs1;rs2;btype;x;slt;0;0;0;0;0;x;x;x
+bltu a1, a2, .+36;BRANCH;BLTU;nextPC;rs1;rs2;btype;x;sltu;0;0;0;0;0;x;x;x
+bgeu a1, a2, .+36;BRANCH;BGEU;jmp;rs1;rs2;btype;x;sltu;0;0;0;0;0;x;x;x
+lb a1, 0(a2);LOAD;LB;nextPC;rs1;imm;itype;mem;add;1;0;0;0;0;x;x;x
+lh a1, 0(a2);LOAD;LH;nextPC;rs1;imm;itype;mem;add;1;0;0;0;0;x;x;x
+lw a1, 0(a2);LOAD;LW;nextPC;rs1;imm;itype;mem;add;1;0;0;0;0;x;x;x
+lbu a1, 0(a2);LOAD;LBU;nextPC;rs1;imm;itype;mem;add;1;0;0;0;0;x;x;x
+lhu a1, 0(a2);LOAD;LHU;nextPC;rs1;imm;itype;mem;add;1;0;0;0;0;x;x;x
+sb a1, 0(a2);STORE;SB;nextPC;rs1;imm;stype;x;add;0;1;0;0;0;x;x;x
+sh a1, 0(a2);STORE;SH;nextPC;rs1;imm;stype;x;add;0;1;0;0;0;x;x;x
+sw a1, 0(a2);STORE;SW;nextPC;rs1;imm;stype;x;add;0;1;0;0;0;x;x;x
+addi a1, a3, 4;OP-IMM;ADDI;nextPC;rs1;imm;itype;alu;add;1;0;0;0;0;x;x;x
+slti a1, a3, 4;OP-IMM;SLTI;nextPC;rs1;imm;itype;alu;slt;1;0;0;0;0;x;x;x
+sltiu a1, a3, 4;OP-IMM;SLTIU;nextPC;rs1;imm;itype;alu;sltu;1;0;0;0;0;x;x;x
+xori a1, a3, 4;OP-IMM;XORI;nextPC;rs1;imm;itype;alu;xor;1;0;0;0;0;x;x;x
+ori a1, a3, 4;OP-IMM;ORI;nextPC;rs1;imm;itype;alu;or;1;0;0;0;0;x;x;x
+andi a1, a3, 4;OP-IMM;ANDI;nextPC;rs1;imm;itype;alu;and;1;0;0;0;0;x;x;x
+slli a1, a3, 4;OP-IMM;SLLI;nextPC;rs1;imm;itype;alu;sll;1;0;0;0;0;x;x;x
+srli a1, a3, 4;OP-IMM;SRLI;nextPC;rs1;imm;itype;alu;srl;1;0;0;0;0;x;x;x
+srai a1, a3, 4;OP-IMM;SRAI;nextPC;rs1;imm;itype;alu;sra;1;0;0;0;0;x;x;x
+add a1 ,a1, a2;OP;ADD;nextPC;rs1;rs2;x;alu;add;1;0;0;0;0;x;x;x
+sub a1 ,a1, a2;OP;SUB;nextPC;rs1;rs2;x;alu;sub;1;0;0;0;0;x;x;x
+sll a1 ,a1, a2;OP;SLL;nextPC;rs1;rs2;x;alu;sll;1;0;0;0;0;x;x;x
+slt a1 ,a1, a2;OP;SLT;nextPC;rs1;rs2;x;alu;slt;1;0;0;0;0;x;x;x
+sltu a1 ,a1, a2;OP;SLTU;nextPC;rs1;rs2;x;alu;sltu;1;0;0;0;0;x;x;x
+xor a1 ,a1, a2;OP;XOR;nextPC;rs1;rs2;x;alu;xor;1;0;0;0;0;x;x;x
+srl a1 ,a1, a2;OP;SRL;nextPC;rs1;rs2;x;alu;srl;1;0;0;0;0;x;x;x
+sra a1 ,a1, a2;OP;SRA;nextPC;rs1;rs2;x;alu;sra;1;0;0;0;0;x;x;x
+or a1 ,a1, a2;OP;OR;nextPC;rs1;rs2;x;alu;or;1;0;0;0;0;x;x;x
+and a1 ,a1, a2;OP;AND;nextPC;rs1;rs2;x;alu;and;1;0;0;0;0;x;x;x
+fence;0001111;FENCE;nextPC;x;x;x;x;x;0;0;0;0;0;x;x;x
+ecall;SYSTEM;ECALL;trap;x;x;x;x;x;0;0;0;1;0;1;0;0
+ebreak;SYSTEM;EBREAK;trap;x;x;x;x;x;0;0;0;1;0;0;1;0
+mret;SYSTEM;MRET;trap;x;x;x;x;x;0;0;0;0;1;0;0;0
+sret;SYSTEM;SRET;trap;x;x;x;x;x;0;0;0;1;0;0;0;1
+uret;SYSTEM;URET;trap;x;x;x;x;x;0;0;0;1;0;0;0;1
+csrrw a1, 0x301,a2;SYSTEM;CSRRW;nextPC;rs1;x;x;csrdata;a;1;0;1;0;0;x;x;x
+csrrs a1, 0x301,a4;SYSTEM;CSRRS;nextPC;rs1;csr;x;csrdata;or;1;0;1;0;0;x;x;x
+csrrc a1, 0x301,a4;SYSTEM;CSRRC;nextPC;rs1;csr;x;csrdata;clear;1;0;1;0;0;x;x;x
+csrrwi a1, 0x301,3;SYSTEM;CSRRWI;nextPC;x;imm;csrtype;csrdata;b;1;0;1;0;0;x;x;x
+csrrsi a1, 0x301,3;SYSTEM;CSRRSI;nextPC;csr;imm;csrtype;csrdata;or;1;0;1;0;0;x;x;x
+csrrci a1, 0x301,3;SYSTEM;CSRRCI;nextPC;csr;imm;csrtype;csrdata;clear;1;0;1;0;0;x;x;x
+x;x;TRAP;trap;x;x;x;x;x;0;0;0;1;0;0;0;0

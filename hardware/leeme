@@ -1,0 +1,18 @@
+/cache
+	posee el codigo fuente en vhdl del cache
+/fivestage
+	codigo fuente microarquitectura con pipeline de cinco etapas
+	con mitigación de riesgos de control, estructurales y datos.
+/pipelined
+	codigo fuente microarquitectura con pipeline preliminar
+/pipelined4(csr)
+	codigo fuente microarquitectura con pipeline preliminar
+	con detección y control de Traps junta.
+/unpipelined
+	microarquitectura de control
+/unpipelinedtest
+	procesador utilizado para obtener "ejecution traces" trazos de ejecución
+/VBP
+	codigo fuente microarquitectura con pipeline de cinco etapas
+	con mitigación de riesgos de control, estructurales y datos,
+	y predictor dinamico de saltos

@@ -1,0 +1,828 @@
+Qflow static timing analysis logfile created on mié 11 nov 2020 18:24:33 CST
+Running vesta static timing analysis
+vesta --long RegisterFile.rtlnopwr.v /usr/share/qflow/tech/osu018/osu018_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.4.87
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu018_stdcells"
+End of library at line 6141
+Lib read /usr/share/qflow/tech/osu018/osu018_stdcells.lib:  Processed 6142 lines.
+Parsing module "RegisterFile"
+Verilog netlist read:  Processed 56817 lines.
+Number of paths analyzed:  1088
+
+Top 20 maximum delay paths:
+Path _10245_/CLK to output pin RegB_data[20] delay 850.044 ps
+      0.0 ps   clk_bF$buf77: CLKBUF1_insert129/Y -> _10245_/CLK
+    238.2 ps   \39[14] [20]:           _10245_/Q ->  _8983_/A
+    336.3 ps         _1567_:            _8983_/Y ->  _7471_/A
+    432.4 ps         _4507_:            _7471_/Y ->  _7475_/B
+    523.3 ps         _4511_:            _7475_/Y ->  _7476_/A
+    616.1 ps         _4512_:            _7476_/Y ->  _7486_/B
+    705.6 ps         _4522_:            _7486_/Y ->  _7487_/B
+    772.3 ps     _4997_[20]:            _7487_/Y -> _10110_/A
+    850.0 ps  RegB_data[20]:           _10110_/Y -> RegB_data[20]
+
+Path _10247_/CLK to output pin RegA_data[22] delay 850.044 ps
+      0.0 ps   clk_bF$buf13: CLKBUF1_insert193/Y -> _10247_/CLK
+    238.2 ps   \39[14] [22]:           _10247_/Q ->  _8989_/A
+    336.3 ps         _1571_:            _8989_/Y ->  _6111_/A
+    432.4 ps         _3177_:            _6111_/Y ->  _6115_/B
+    523.3 ps         _3181_:            _6115_/Y ->  _6116_/A
+    616.1 ps         _3182_:            _6116_/Y ->  _6126_/B
+    705.6 ps         _3192_:            _6126_/Y ->  _6151_/B
+    772.3 ps     _4996_[22]:            _6151_/Y -> _10080_/A
+    850.0 ps  RegA_data[22]:           _10080_/Y -> RegA_data[22]
+
+Path _10228_/CLK to output pin RegB_data[3] delay 850.044 ps
+      0.0 ps  clk_bF$buf59: CLKBUF1_insert147/Y -> _10228_/CLK
+    238.2 ps   \39[14] [3]:           _10228_/Q ->  _8934_/A
+    336.3 ps        _1535_:            _8934_/Y ->  _6726_/A
+    432.4 ps        _3779_:            _6726_/Y ->  _6730_/B
+    523.3 ps        _3783_:            _6730_/Y ->  _6731_/A
+    616.1 ps        _3784_:            _6731_/Y ->  _6741_/B
+    705.6 ps        _3794_:            _6741_/Y ->  _6742_/B
+    772.3 ps     _4997_[3]:            _6742_/Y -> _10093_/A
+    850.0 ps  RegB_data[3]:           _10093_/Y -> RegB_data[3]
+
+Path _10253_/CLK to output pin RegB_data[28] delay 850.044 ps
+      0.0 ps   clk_bF$buf53: CLKBUF1_insert153/Y -> _10253_/CLK
+    238.2 ps   \39[14] [28]:           _10253_/Q ->  _9006_/A
+    336.3 ps         _1582_:            _9006_/Y ->  _7826_/A
+    432.4 ps         _4854_:            _7826_/Y ->  _7830_/B
+    523.3 ps         _4858_:            _7830_/Y ->  _7831_/A
+    616.1 ps         _4859_:            _7831_/Y ->  _7841_/B
+    705.6 ps         _4869_:            _7841_/Y ->  _7842_/B
+    772.3 ps     _4997_[28]:            _7842_/Y -> _10118_/A
+    850.0 ps  RegB_data[28]:           _10118_/Y -> RegB_data[28]
+
+Path _10238_/CLK to output pin RegB_data[13] delay 850.043 ps
+      0.0 ps   clk_bF$buf21: CLKBUF1_insert185/Y -> _10238_/CLK
+    238.2 ps   \39[14] [13]:           _10238_/Q ->  _8963_/A
+    336.3 ps         _1554_:            _8963_/Y ->  _7163_/A
+    432.4 ps         _4206_:            _7163_/Y ->  _7167_/B
+    523.3 ps         _4210_:            _7167_/Y ->  _7168_/A
+    616.1 ps         _4211_:            _7168_/Y ->  _7178_/B
+    705.6 ps         _4221_:            _7178_/Y ->  _7179_/B
+    772.3 ps     _4997_[13]:            _7179_/Y -> _10103_/A
+    850.0 ps  RegB_data[13]:           _10103_/Y -> RegB_data[13]
+
+Path _10233_/CLK to output pin RegB_data[8] delay 850.043 ps
+      0.0 ps  clk_bF$buf55: CLKBUF1_insert151/Y -> _10233_/CLK
+    238.2 ps   \39[14] [8]:           _10233_/Q ->  _8949_/A
+    336.3 ps        _1545_:            _8949_/Y ->  _6922_/A
+    432.4 ps        _3970_:            _6922_/Y ->  _6926_/B
+    523.3 ps        _3974_:            _6926_/Y ->  _6927_/A
+    616.1 ps        _3975_:            _6927_/Y ->  _6937_/B
+    705.6 ps        _3985_:            _6937_/Y ->  _6962_/B
+    772.3 ps     _4997_[8]:            _6962_/Y -> _10098_/A
+    850.0 ps  RegB_data[8]:           _10098_/Y -> RegB_data[8]
+
+Path _10243_/CLK to output pin RegA_data[18] delay 850.043 ps
+      0.0 ps   clk_bF$buf57: CLKBUF1_insert149/Y -> _10243_/CLK
+    238.2 ps   \39[14] [18]:           _10243_/Q ->  _8978_/A
+    336.3 ps         _1564_:            _8978_/Y ->  _5953_/A
+    432.4 ps         _3023_:            _5953_/Y ->  _5957_/B
+    523.3 ps         _3027_:            _5957_/Y ->  _5958_/A
+    616.1 ps         _3028_:            _5958_/Y ->  _5968_/B
+    705.6 ps         _3038_:            _5968_/Y ->  _5969_/B
+    772.3 ps     _4996_[18]:            _5969_/Y -> _10076_/A
+    850.0 ps  RegA_data[18]:           _10076_/Y -> RegA_data[18]
+
+Path _10231_/CLK to output pin RegA_data[6] delay 850.043 ps
+      0.0 ps  clk_bF$buf61: CLKBUF1_insert145/Y -> _10231_/CLK
+    238.2 ps   \39[14] [6]:           _10231_/Q ->  _8943_/A
+    336.3 ps        _1541_:            _8943_/Y ->  _5409_/A
+    432.4 ps        _2491_:            _5409_/Y ->  _5413_/B
+    523.3 ps        _2495_:            _5413_/Y ->  _5414_/A
+    616.1 ps        _2496_:            _5414_/Y ->  _5424_/B
+    705.6 ps        _2506_:            _5424_/Y ->  _5425_/B
+    772.3 ps     _4996_[6]:            _5425_/Y -> _10064_/A
+    850.0 ps  RegA_data[6]:           _10064_/Y -> RegA_data[6]
+
+Path _10555_/CLK to output pin RegA_data[10] delay 849.631 ps
+      0.0 ps   clk_bF$buf48: CLKBUF1_insert158/Y -> _10555_/CLK
+    238.2 ps   \39[24] [10]:           _10555_/Q ->  _9649_/A
+    336.3 ps         _1923_:            _9649_/Y ->  _5592_/A
+    428.3 ps         _2670_:            _5592_/Y ->  _5593_/B
+    524.1 ps         _2671_:            _5593_/Y ->  _5594_/B
+    607.6 ps         _2672_:            _5594_/Y ->  _5604_/B
+    694.1 ps         _2682_:            _5604_/Y ->  _5605_/A
+    770.2 ps     _4996_[10]:            _5605_/Y -> _10068_/A
+    849.6 ps  RegA_data[10]:           _10068_/Y -> RegA_data[10]
+
+Path _10316_/CLK to output pin RegB_data[27] delay 849.631 ps
+      0.0 ps    clk_bF$buf3: CLKBUF1_insert203/Y -> _10316_/CLK
+    238.2 ps   \39[16] [27]:           _10316_/Q ->  _9146_/A
+    336.3 ps         _1659_:            _9146_/Y ->  _7786_/A
+    428.3 ps         _4815_:            _7786_/Y ->  _7787_/B
+    524.1 ps         _4816_:            _7787_/Y ->  _7788_/B
+    607.6 ps         _4817_:            _7788_/Y ->  _7798_/B
+    694.1 ps         _4827_:            _7798_/Y ->  _7799_/A
+    770.2 ps     _4997_[27]:            _7799_/Y -> _10117_/A
+    849.6 ps  RegB_data[27]:           _10117_/Y -> RegB_data[27]
+
+Path _10313_/CLK to output pin RegB_data[24] delay 849.631 ps
+      0.0 ps    clk_bF$buf1: CLKBUF1_insert205/Y -> _10313_/CLK
+    238.2 ps   \39[16] [24]:           _10313_/Q ->  _9139_/A
+    336.3 ps         _1655_:            _9139_/Y ->  _7654_/A
+    428.3 ps         _4686_:            _7654_/Y ->  _7655_/B
+    524.1 ps         _4687_:            _7655_/Y ->  _7656_/B
+    607.6 ps         _4688_:            _7656_/Y ->  _7666_/B
+    694.1 ps         _4698_:            _7666_/Y ->  _7667_/A
+    770.2 ps     _4997_[24]:            _7667_/Y -> _10114_/A
+    849.6 ps  RegB_data[24]:           _10114_/Y -> RegB_data[24]
+
+Path _10304_/CLK to output pin RegB_data[15] delay 849.631 ps
+      0.0 ps    clk_bF$buf9: CLKBUF1_insert197/Y -> _10304_/CLK
+    238.2 ps   \39[16] [15]:           _10304_/Q ->  _9119_/A
+    336.3 ps         _1644_:            _9119_/Y ->  _7256_/A
+    428.3 ps         _4297_:            _7256_/Y ->  _7257_/B
+    524.1 ps         _4298_:            _7257_/Y ->  _7258_/B
+    607.6 ps         _4299_:            _7258_/Y ->  _7268_/B
+    694.1 ps         _4309_:            _7268_/Y ->  _7269_/A
+    770.2 ps     _4997_[15]:            _7269_/Y -> _10105_/A
+    849.6 ps  RegB_data[15]:           _10105_/Y -> RegB_data[15]
+
+Path _10560_/CLK to output pin RegA_data[15] delay 849.631 ps
+      0.0 ps   clk_bF$buf84: CLKBUF1_insert122/Y -> _10560_/CLK
+    238.2 ps   \39[24] [15]:           _10560_/Q ->  _9661_/A
+    336.3 ps         _1930_:            _9661_/Y ->  _5820_/A
+    428.3 ps         _2893_:            _5820_/Y ->  _5821_/B
+    524.1 ps         _2894_:            _5821_/Y ->  _5822_/B
+    607.6 ps         _2895_:            _5822_/Y ->  _5832_/B
+    694.1 ps         _2905_:            _5832_/Y ->  _5833_/A
+    770.2 ps     _4996_[15]:            _5833_/Y -> _10073_/A
+    849.6 ps  RegA_data[15]:           _10073_/Y -> RegA_data[15]
+
+Path _10803_/CLK to output pin RegB_data[2] delay 849.631 ps
+      0.0 ps  clk_bF$buf48: CLKBUF1_insert158/Y -> _10803_/CLK
+    238.2 ps   \39[10] [2]:           _10803_/Q ->  _8664_/A
+    336.3 ps        _1394_:            _8664_/Y ->  _6671_/A
+    428.3 ps        _3725_:            _6671_/Y ->  _6672_/B
+    524.1 ps        _3726_:            _6672_/Y ->  _6673_/B
+    607.6 ps        _3727_:            _6673_/Y ->  _6674_/B
+    694.1 ps        _3728_:            _6674_/Y ->  _6699_/A
+    770.2 ps     _4997_[2]:            _6699_/Y -> _10092_/A
+    849.6 ps  RegB_data[2]:           _10092_/Y -> RegB_data[2]
+
+Path _10562_/CLK to output pin RegA_data[17] delay 849.631 ps
+      0.0 ps    clk_bF$buf1: CLKBUF1_insert205/Y -> _10562_/CLK
+    238.2 ps   \39[24] [17]:           _10562_/Q ->  _9666_/A
+    336.3 ps         _1933_:            _9666_/Y ->  _5913_/A
+    428.3 ps         _2984_:            _5913_/Y ->  _5914_/B
+    524.1 ps         _2985_:            _5914_/Y ->  _5915_/B
+    607.6 ps         _2986_:            _5915_/Y ->  _5925_/B
+    694.1 ps         _2996_:            _5925_/Y ->  _5926_/A
+    770.2 ps     _4996_[17]:            _5926_/Y -> _10075_/A
+    849.6 ps  RegA_data[17]:           _10075_/Y -> RegA_data[17]
+
+Path _10303_/CLK to output pin RegB_data[14] delay 849.631 ps
+      0.0 ps   clk_bF$buf92: CLKBUF1_insert114/Y -> _10303_/CLK
+    238.2 ps   \39[16] [14]:           _10303_/Q ->  _9116_/A
+    336.3 ps         _1642_:            _9116_/Y ->  _7211_/A
+    428.3 ps         _4253_:            _7211_/Y ->  _7212_/B
+    524.1 ps         _4254_:            _7212_/Y ->  _7213_/B
+    607.6 ps         _4255_:            _7213_/Y ->  _7223_/B
+    694.1 ps         _4265_:            _7223_/Y ->  _7224_/A
+    770.2 ps     _4997_[14]:            _7224_/Y -> _10104_/A
+    849.6 ps  RegB_data[14]:           _10104_/Y -> RegB_data[14]
+
+Path _10566_/CLK to output pin RegB_data[21] delay 849.631 ps
+      0.0 ps   clk_bF$buf99: CLKBUF1_insert107/Y -> _10566_/CLK
+    238.2 ps   \39[24] [21]:           _10566_/Q ->  _9675_/A
+    336.3 ps         _1938_:            _9675_/Y ->  _7520_/A
+    428.3 ps         _4555_:            _7520_/Y ->  _7521_/B
+    524.1 ps         _4556_:            _7521_/Y ->  _7522_/B
+    607.6 ps         _4557_:            _7522_/Y ->  _7532_/B
+    694.1 ps         _4567_:            _7532_/Y ->  _7533_/A
+    770.2 ps     _4997_[21]:            _7533_/Y -> _10111_/A
+    849.6 ps  RegB_data[21]:           _10111_/Y -> RegB_data[21]
+
+Path _10575_/CLK to output pin RegA_data[30] delay 849.631 ps
+      0.0 ps   clk_bF$buf14: CLKBUF1_insert192/Y -> _10575_/CLK
+    238.2 ps   \39[24] [30]:           _10575_/Q ->  _9696_/A
+    336.3 ps         _1950_:            _9696_/Y ->  _6499_/A
+    428.3 ps         _3557_:            _6499_/Y ->  _6500_/B
+    524.1 ps         _3558_:            _6500_/Y ->  _6501_/B
+    607.6 ps         _3559_:            _6501_/Y ->  _6511_/B
+    694.1 ps         _3569_:            _6511_/Y ->  _6512_/A
+    770.2 ps     _4996_[30]:            _6512_/Y -> _10088_/A
+    849.6 ps  RegA_data[30]:           _10088_/Y -> RegA_data[30]
+
+Path _10549_/CLK to output pin RegA_data[4] delay 849.631 ps
+      0.0 ps  clk_bF$buf24: CLKBUF1_insert182/Y -> _10549_/CLK
+    238.2 ps   \39[24] [4]:           _10549_/Q ->  _9635_/A
+    336.3 ps        _1915_:            _9635_/Y ->  _5325_/A
+    428.3 ps        _2409_:            _5325_/Y ->  _5326_/B
+    524.1 ps        _2410_:            _5326_/Y ->  _5327_/B
+    607.6 ps        _2411_:            _5327_/Y ->  _5337_/B
+    694.1 ps        _2421_:            _5337_/Y ->  _5338_/A
+    770.2 ps     _4996_[4]:            _5338_/Y -> _10062_/A
+    849.6 ps  RegA_data[4]:           _10062_/Y -> RegA_data[4]
+
+Path _10355_/CLK to output pin RegA_data[2] delay 849.606 ps
+      0.0 ps  clk_bF$buf29: CLKBUF1_insert177/Y -> _10355_/CLK
+    238.2 ps   \39[18] [2]:           _10355_/Q ->  _9235_/A
+    336.3 ps        _1709_:            _9235_/Y ->  _5236_/A
+    428.3 ps        _2322_:            _5236_/Y ->  _5237_/B
+    523.3 ps        _2323_:            _5237_/Y ->  _5243_/A
+    615.7 ps        _2329_:            _5243_/Y ->  _5244_/B
+    705.1 ps        _2330_:            _5244_/Y ->  _5245_/B
+    771.8 ps     _4996_[2]:            _5245_/Y -> _10060_/A
+    849.6 ps  RegA_data[2]:           _10060_/Y -> RegA_data[2]
+
+Computed maximum clock frequency (zero margin) = 1176.41 MHz
+-----------------------------------------
+
+Number of paths analyzed:  1088
+
+Top 20 minimum delay paths:
+Path _10929_/CLK to _10929_/D delay 184.246 ps
+      0.0 ps  clk_bF$buf76: CLKBUF1_insert130/Y -> _10929_/CLK
+    111.9 ps    \39[0] [0]:           _10929_/Q ->  _7972_/A
+    189.1 ps           _0_:            _7972_/Y -> _10929_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.84866
+
+Path _10948_/CLK to _10948_/D delay 184.246 ps
+      0.0 ps  clk_bF$buf81: CLKBUF1_insert125/Y -> _10948_/CLK
+    111.9 ps   \39[0] [19]:           _10948_/Q ->  _7991_/A
+    189.1 ps          _10_:            _7991_/Y -> _10948_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.84866
+
+Path _10930_/CLK to _10930_/D delay 221.626 ps
+      0.0 ps  clk_bF$buf39: CLKBUF1_insert167/Y -> _10930_/CLK
+    148.2 ps    \39[0] [1]:           _10930_/Q ->  _7973_/A
+    226.4 ps          _11_:            _7973_/Y -> _10930_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.81009
+
+Path _10957_/CLK to _10957_/D delay 222.689 ps
+      0.0 ps  clk_bF$buf73: CLKBUF1_insert133/Y -> _10957_/CLK
+    149.1 ps   \39[0] [28]:           _10957_/Q ->  _8000_/A
+    227.5 ps          _20_:            _8000_/Y -> _10957_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.8065
+
+Path _10949_/CLK to _10949_/D delay 222.689 ps
+      0.0 ps  clk_bF$buf72: CLKBUF1_insert134/Y -> _10949_/CLK
+    149.1 ps   \39[0] [20]:           _10949_/Q ->  _7992_/A
+    227.5 ps          _12_:            _7992_/Y -> _10949_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.8065
+
+Path _10951_/CLK to _10951_/D delay 222.689 ps
+      0.0 ps  clk_bF$buf38: CLKBUF1_insert168/Y -> _10951_/CLK
+    149.1 ps   \39[0] [22]:           _10951_/Q ->  _7994_/A
+    227.5 ps          _14_:            _7994_/Y -> _10951_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.8065
+
+Path _10932_/CLK to _10932_/D delay 222.689 ps
+      0.0 ps  clk_bF$buf25: CLKBUF1_insert181/Y -> _10932_/CLK
+    149.1 ps    \39[0] [3]:           _10932_/Q ->  _7975_/A
+    227.5 ps          _25_:            _7975_/Y -> _10932_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.8065
+
+Path _10931_/CLK to _10931_/D delay 224.995 ps
+      0.0 ps  clk_bF$buf43: CLKBUF1_insert163/Y -> _10931_/CLK
+    151.3 ps    \39[0] [2]:           _10931_/Q ->  _7974_/A
+    229.8 ps          _22_:            _7974_/Y -> _10931_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.80154
+
+Path _10287_/CLK to _10287_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf27: CLKBUF1_insert179/Y -> _10287_/CLK
+    128.8 ps  \39[15] [30]:           _10287_/Q ->  _9079_/C
+    187.2 ps        _1621_:            _9079_/Y ->  _9080_/C
+    230.3 ps         _215_:            _9080_/Y -> _10287_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10261_/CLK to _10261_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf27: CLKBUF1_insert179/Y -> _10261_/CLK
+    128.8 ps   \39[15] [4]:           _10261_/Q ->  _9027_/C
+    187.2 ps        _1595_:            _9027_/Y ->  _9028_/C
+    230.3 ps         _218_:            _9028_/Y -> _10261_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10155_/CLK to _10155_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf62: CLKBUF1_insert144/Y -> _10155_/CLK
+    128.8 ps  \39[11] [26]:           _10155_/Q ->  _8784_/C
+    187.2 ps        _1458_:            _8784_/Y ->  _8785_/C
+    230.3 ps          _82_:            _8785_/Y -> _10155_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10667_/CLK to _10667_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf46: CLKBUF1_insert160/Y -> _10667_/CLK
+    128.8 ps  \39[27] [26]:           _10667_/Q ->  _9884_/C
+    187.2 ps        _2046_:            _9884_/Y ->  _9885_/C
+    230.3 ps         _626_:            _9885_/Y -> _10667_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10980_/CLK to _10980_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf72: CLKBUF1_insert134/Y -> _10980_/CLK
+    128.8 ps   \39[1] [19]:           _10980_/Q ->  _8073_/C
+    187.2 ps        _1074_:            _8073_/Y ->  _8074_/C
+    230.3 ps         _362_:            _8074_/Y -> _10980_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10278_/CLK to _10278_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf90: CLKBUF1_insert116/Y -> _10278_/CLK
+    128.8 ps  \39[15] [21]:           _10278_/Q ->  _9061_/C
+    187.2 ps        _1612_:            _9061_/Y ->  _9062_/C
+    230.3 ps         _205_:            _9062_/Y -> _10278_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10286_/CLK to _10286_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf90: CLKBUF1_insert116/Y -> _10286_/CLK
+    128.8 ps  \39[15] [29]:           _10286_/Q ->  _9077_/C
+    187.2 ps        _1620_:            _9077_/Y ->  _9078_/C
+    230.3 ps         _213_:            _9078_/Y -> _10286_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10274_/CLK to _10274_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf97: CLKBUF1_insert109/Y -> _10274_/CLK
+    128.8 ps  \39[15] [17]:           _10274_/Q ->  _9053_/C
+    187.2 ps        _1608_:            _9053_/Y ->  _9054_/C
+    230.3 ps         _200_:            _9054_/Y -> _10274_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10281_/CLK to _10281_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf64: CLKBUF1_insert142/Y -> _10281_/CLK
+    128.8 ps  \39[15] [24]:           _10281_/Q ->  _9067_/C
+    187.2 ps        _1615_:            _9067_/Y ->  _9068_/C
+    230.3 ps         _208_:            _9068_/Y -> _10281_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10282_/CLK to _10282_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf64: CLKBUF1_insert142/Y -> _10282_/CLK
+    128.8 ps  \39[15] [25]:           _10282_/Q ->  _9069_/C
+    187.2 ps        _1616_:            _9069_/Y ->  _9070_/C
+    230.3 ps         _209_:            _9070_/Y -> _10282_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10898_/CLK to _10898_/D delay 225.791 ps
+      0.0 ps  clk_bF$buf5: CLKBUF1_insert201/Y -> _10898_/CLK
+    128.8 ps   \39[2] [1]:           _10898_/Q ->  _8118_/C
+    187.2 ps       _1105_:            _8118_/Y ->  _8119_/C
+    230.3 ps        _715_:            _8119_/Y -> _10898_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Path _10268_/CLK to _10268_/D delay 225.791 ps
+      0.0 ps   clk_bF$buf5: CLKBUF1_insert201/Y -> _10268_/CLK
+    128.8 ps  \39[15] [11]:           _10268_/Q ->  _9041_/C
+    187.2 ps        _1602_:            _9041_/Y ->  _9042_/C
+    230.3 ps         _194_:            _9042_/Y -> _10268_/D
+
+   clock skew at destination = 0
+   hold at destination = -4.46204
+
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  1056
+
+Top 20 maximum delay paths:
+Path input pin W_addr[1] to _10783_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert233/A
+   1264.3 ps   _2153__bF$buf4: BUFX2_insert233/Y ->          _5063_/A
+   1352.1 ps            _773_:          _5063_/Y ->         _10783_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10796_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert233/A
+   1264.3 ps   _2153__bF$buf4: BUFX2_insert233/Y ->          _5089_/A
+   1352.1 ps            _787_:          _5089_/Y ->         _10796_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10787_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert233/A
+   1264.3 ps   _2153__bF$buf4: BUFX2_insert233/Y ->          _5071_/A
+   1352.1 ps            _777_:          _5071_/Y ->         _10787_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10778_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert233/A
+   1264.3 ps   _2153__bF$buf4: BUFX2_insert233/Y ->          _5053_/A
+   1352.1 ps            _799_:          _5053_/Y ->         _10778_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10797_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert233/A
+   1264.3 ps   _2153__bF$buf4: BUFX2_insert233/Y ->          _5091_/A
+   1352.1 ps            _788_:          _5091_/Y ->         _10797_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10769_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert233/A
+   1264.3 ps   _2153__bF$buf4: BUFX2_insert233/Y ->          _5035_/A
+   1352.1 ps            _768_:          _5035_/Y ->         _10769_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10788_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert233/A
+   1264.3 ps   _2153__bF$buf4: BUFX2_insert233/Y ->          _5073_/A
+   1352.1 ps            _778_:          _5073_/Y ->         _10788_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10773_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert234/A
+   1264.3 ps   _2153__bF$buf3: BUFX2_insert234/Y ->          _5043_/A
+   1352.1 ps            _794_:          _5043_/Y ->         _10773_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10784_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert234/A
+   1264.3 ps   _2153__bF$buf3: BUFX2_insert234/Y ->          _5065_/A
+   1352.1 ps            _774_:          _5065_/Y ->         _10784_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10781_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert234/A
+   1264.3 ps   _2153__bF$buf3: BUFX2_insert234/Y ->          _5059_/A
+   1352.1 ps            _771_:          _5059_/Y ->         _10781_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10771_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert234/A
+   1264.3 ps   _2153__bF$buf3: BUFX2_insert234/Y ->          _5039_/A
+   1352.1 ps            _790_:          _5039_/Y ->         _10771_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10785_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert234/A
+   1264.3 ps   _2153__bF$buf3: BUFX2_insert234/Y ->          _5067_/A
+   1352.1 ps            _775_:          _5067_/Y ->         _10785_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10782_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert234/A
+   1264.3 ps   _2153__bF$buf3: BUFX2_insert234/Y ->          _5061_/A
+   1352.1 ps            _772_:          _5061_/Y ->         _10782_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10770_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _5033_/B
+   1071.0 ps           _2153_:          _5033_/Y -> BUFX2_insert234/A
+   1264.3 ps   _2153__bF$buf3: BUFX2_insert234/Y ->          _5037_/A
+   1352.1 ps            _779_:          _5037_/Y ->         _10770_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10661_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _9831_/B
+   1071.0 ps           _2019_:          _9831_/Y -> BUFX2_insert734/A
+   1264.3 ps   _2019__bF$buf4: BUFX2_insert734/Y ->          _9873_/A
+   1352.1 ps            _620_:          _9873_/Y ->         _10661_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10658_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _9831_/B
+   1071.0 ps           _2019_:          _9831_/Y -> BUFX2_insert734/A
+   1264.3 ps   _2019__bF$buf4: BUFX2_insert734/Y ->          _9867_/A
+   1352.1 ps            _616_:          _9867_/Y ->         _10658_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10652_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _9831_/B
+   1071.0 ps           _2019_:          _9831_/Y -> BUFX2_insert734/A
+   1264.3 ps   _2019__bF$buf4: BUFX2_insert734/Y ->          _9855_/A
+   1352.1 ps            _610_:          _9855_/Y ->         _10652_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10646_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _9831_/B
+   1071.0 ps           _2019_:          _9831_/Y -> BUFX2_insert734/A
+   1264.3 ps   _2019__bF$buf4: BUFX2_insert734/Y ->          _9843_/A
+   1352.1 ps            _635_:          _9843_/Y ->         _10646_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10663_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _9831_/B
+   1071.0 ps           _2019_:          _9831_/Y -> BUFX2_insert734/A
+   1264.3 ps   _2019__bF$buf4: BUFX2_insert734/Y ->          _9877_/A
+   1352.1 ps            _622_:          _9877_/Y ->         _10663_/D
+
+   setup at destination = 195.329
+
+Path input pin W_addr[1] to _10653_/D delay 1547.38 ps
+      0.0 ps        W_addr[1]:                   ->          _8010_/A
+     51.2 ps           _1030_:          _8010_/Y ->          _8181_/A
+    114.0 ps           _1137_:          _8181_/Y ->          _8182_/B
+    388.4 ps           _1138_:          _8182_/Y -> BUFX2_insert475/A
+    743.5 ps  _1138__bF$buf10: BUFX2_insert475/Y ->          _8454_/A
+    921.1 ps           _1282_:          _8454_/Y ->          _9831_/B
+   1071.0 ps           _2019_:          _9831_/Y -> BUFX2_insert735/A
+   1264.3 ps   _2019__bF$buf3: BUFX2_insert735/Y ->          _9857_/A
+   1352.1 ps            _611_:          _9857_/Y ->         _10653_/D
+
+   setup at destination = 195.329
+
+-----------------------------------------
+
+Number of paths analyzed:  1056
+
+Top 20 minimum delay paths:
+Path input pin W_data[2] to _10355_/D delay 85.7126 ps
+      0.0 ps  W_data[2]:          ->  _9236_/A
+     48.5 ps     _1710_: _9236_/Y ->  _9237_/C
+     90.4 ps      _310_: _9237_/Y -> _10355_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[1] to _10354_/D delay 85.7126 ps
+      0.0 ps  W_data[1]:          ->  _9233_/A
+     48.5 ps     _1708_: _9233_/Y ->  _9234_/C
+     90.4 ps      _299_: _9234_/Y -> _10354_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[16] to _10305_/D delay 85.7126 ps
+      0.0 ps  W_data[16]:          ->  _9123_/A
+     48.5 ps      _1647_: _9123_/Y ->  _9124_/C
+     90.4 ps       _231_: _9124_/Y -> _10305_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[15] to _10304_/D delay 85.7126 ps
+      0.0 ps  W_data[15]:          ->  _9120_/A
+     48.5 ps      _1645_: _9120_/Y ->  _9121_/C
+     90.4 ps       _230_: _9121_/Y -> _10304_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[1] to _10290_/D delay 85.7126 ps
+      0.0 ps  W_data[1]:          ->  _9089_/A
+     48.5 ps     _1628_: _9089_/Y ->  _9090_/C
+     90.4 ps      _235_: _9090_/Y -> _10290_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[27] to _10316_/D delay 85.7126 ps
+      0.0 ps  W_data[27]:          ->  _9147_/A
+     48.5 ps      _1660_: _9147_/Y ->  _9148_/C
+     90.4 ps       _243_: _9148_/Y -> _10316_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[14] to _10303_/D delay 85.7126 ps
+      0.0 ps  W_data[14]:          ->  _9117_/A
+     48.5 ps      _1643_: _9117_/Y ->  _9118_/C
+     90.4 ps       _229_: _9118_/Y -> _10303_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[24] to _10313_/D delay 85.7126 ps
+      0.0 ps  W_data[24]:          ->  _9140_/A
+     48.5 ps      _1656_: _9140_/Y ->  _9141_/C
+     90.4 ps       _240_: _9141_/Y -> _10313_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[2] to _10291_/D delay 85.7126 ps
+      0.0 ps  W_data[2]:          ->  _9092_/A
+     48.5 ps     _1630_: _9092_/Y ->  _9093_/C
+     90.4 ps      _246_: _9093_/Y -> _10291_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[1] to _10322_/D delay 85.7126 ps
+      0.0 ps  W_data[1]:          ->  _9161_/A
+     48.5 ps     _1668_: _9161_/Y ->  _9162_/C
+     90.4 ps      _267_: _9162_/Y -> _10322_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[15] to _10336_/D delay 85.7126 ps
+      0.0 ps  W_data[15]:          ->  _9192_/A
+     48.5 ps      _1685_: _9192_/Y ->  _9193_/C
+     90.4 ps       _262_: _9193_/Y -> _10336_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[14] to _10335_/D delay 85.7126 ps
+      0.0 ps  W_data[14]:          ->  _9189_/A
+     48.5 ps      _1683_: _9189_/Y ->  _9190_/C
+     90.4 ps       _261_: _9190_/Y -> _10335_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[27] to _10348_/D delay 85.7126 ps
+      0.0 ps  W_data[27]:          ->  _9219_/A
+     48.5 ps      _1700_: _9219_/Y ->  _9220_/C
+     90.4 ps       _275_: _9220_/Y -> _10348_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[16] to _10337_/D delay 85.7126 ps
+      0.0 ps  W_data[16]:          ->  _9195_/A
+     48.5 ps      _1687_: _9195_/Y ->  _9196_/C
+     90.4 ps       _263_: _9196_/Y -> _10337_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[24] to _10345_/D delay 85.7126 ps
+      0.0 ps  W_data[24]:          ->  _9212_/A
+     48.5 ps      _1696_: _9212_/Y ->  _9213_/C
+     90.4 ps       _272_: _9213_/Y -> _10345_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[2] to _10323_/D delay 85.7126 ps
+      0.0 ps  W_data[2]:          ->  _9164_/A
+     48.5 ps     _1670_: _9164_/Y ->  _9165_/C
+     90.4 ps      _278_: _9165_/Y -> _10323_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[19] to _11044_/D delay 85.7126 ps
+      0.0 ps  W_data[19]:          ->  _8226_/A
+     48.5 ps      _1163_: _8226_/Y ->  _8227_/C
+     90.4 ps       _810_: _8227_/Y -> _11044_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[22] to _11047_/D delay 85.7126 ps
+      0.0 ps  W_data[22]:          ->  _8234_/A
+     48.5 ps      _1168_: _8234_/Y ->  _8235_/C
+     90.4 ps       _814_: _8235_/Y -> _11047_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[0] to _11025_/D delay 85.7126 ps
+      0.0 ps  W_data[0]:          ->  _8184_/A
+     48.5 ps     _1140_: _8184_/Y ->  _8185_/C
+     90.4 ps      _800_: _8185_/Y -> _11025_/D
+
+   hold at destination = -4.7033
+
+Path input pin W_data[20] to _11045_/D delay 85.7126 ps
+      0.0 ps  W_data[20]:          ->  _8229_/A
+     48.5 ps      _1165_: _8229_/Y ->  _8230_/C
+     90.4 ps       _812_: _8230_/Y -> _11045_/D
+
+   hold at destination = -4.7033
+
+-----------------------------------------
+

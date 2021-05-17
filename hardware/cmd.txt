@@ -1,0 +1,4 @@
+ghdl -r tb_riscv32i --ieee-asserts=disable
+
+//Utilizado para generar automaticamente testbechs de un modulo en VHDL
+python tbcrator.py inputfile outputfile(if blank prints in stdo)

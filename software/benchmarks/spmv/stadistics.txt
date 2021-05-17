@@ -1,0 +1,8 @@
+Ejecucion ciclos: 1973309
+#Loads: 61178
+#Store: 44454
+#Jalr: 45008
+#JAL: 49504
+#Branch: 423727#taken: 304174
+#System: 28
+#Reg: 1349410

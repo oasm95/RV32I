@@ -1,0 +1,205 @@
+Vesta static timing analysis, pin-to-register and register-to-pin maximum timing
+
+Top 20 maximum delay paths:
+Path input pin DMEM_DATA_L[15] to _10467_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14132_/C
+   1367.9 ps  \datapath.memdataload [19]: _14132_/Y -> _10467_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10471_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14140_/C
+   1367.9 ps  \datapath.memdataload [23]: _14140_/Y -> _10471_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10475_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14148_/C
+   1367.9 ps  \datapath.memdataload [27]: _14148_/Y -> _10475_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10479_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14156_/C
+   1367.9 ps  \datapath.memdataload [31]: _14156_/Y -> _10479_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10466_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14130_/C
+   1367.9 ps  \datapath.memdataload [18]: _14130_/Y -> _10466_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10470_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14138_/C
+   1367.9 ps  \datapath.memdataload [22]: _14138_/Y -> _10470_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10474_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14146_/C
+   1367.9 ps  \datapath.memdataload [26]: _14146_/Y -> _10474_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10478_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14154_/C
+   1367.9 ps  \datapath.memdataload [30]: _14154_/Y -> _10478_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10465_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14128_/C
+   1367.9 ps  \datapath.memdataload [17]: _14128_/Y -> _10465_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10469_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14136_/C
+   1367.9 ps  \datapath.memdataload [21]: _14136_/Y -> _10469_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10473_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14144_/C
+   1367.9 ps  \datapath.memdataload [25]: _14144_/Y -> _10473_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10477_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14152_/C
+   1367.9 ps  \datapath.memdataload [29]: _14152_/Y -> _10477_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10464_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14126_/C
+   1367.9 ps  \datapath.memdataload [16]: _14126_/Y -> _10464_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10468_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14134_/C
+   1367.9 ps  \datapath.memdataload [20]: _14134_/Y -> _10468_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10472_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14142_/C
+   1367.9 ps  \datapath.memdataload [24]: _14142_/Y -> _10472_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[15] to _10476_/D delay 1641.74 ps
+      0.0 ps             DMEM_DATA_L[15]:           -> _13995_/A
+    115.8 ps                      _3348_: _13995_/Y -> _14119_/B
+    281.3 ps                      _3440_: _14119_/Y -> _14125_/C
+   1074.0 ps                      _3445_: _14125_/Y -> _14150_/C
+   1367.9 ps  \datapath.memdataload [28]: _14150_/Y -> _10476_/D
+
+   setup at destination = 273.83
+
+Path input pin DMEM_DATA_L[31] to _10459_/D delay 1375.16 ps
+      0.0 ps                                       DMEM_DATA_L[31]:                   ->         _14193_/B
+     81.0 ps                                                _3490_:         _14193_/Y ->         _14194_/A
+    161.9 ps                                                _3491_:         _14194_/Y ->         _14195_/C
+    240.9 ps                                                _3492_:         _14195_/Y ->         _14196_/B
+    361.5 ps  \datapath.memoryinterface.byte_size_load.byteval [7]:         _14196_/Y ->         _14080_/A
+    453.9 ps                                                _3408_:         _14080_/Y ->         _14081_/B
+    545.3 ps                                                _3409_:         _14081_/Y ->         _14082_/C
+    716.2 ps                                                _3410_:         _14082_/Y -> BUFX2_insert730/A
+    976.0 ps                                        _3410__bF$buf0: BUFX2_insert730/Y ->         _14102_/C
+   1093.0 ps                            \datapath.memdataload [11]:         _14102_/Y ->         _10459_/D
+
+   setup at destination = 282.142
+
+Path input pin DMEM_DATA_L[31] to _10463_/D delay 1375.16 ps
+      0.0 ps                                       DMEM_DATA_L[31]:                   ->         _14193_/B
+     81.0 ps                                                _3490_:         _14193_/Y ->         _14194_/A
+    161.9 ps                                                _3491_:         _14194_/Y ->         _14195_/C
+    240.9 ps                                                _3492_:         _14195_/Y ->         _14196_/B
+    361.5 ps  \datapath.memoryinterface.byte_size_load.byteval [7]:         _14196_/Y ->         _14080_/A
+    453.9 ps                                                _3408_:         _14080_/Y ->         _14081_/B
+    545.3 ps                                                _3409_:         _14081_/Y ->         _14082_/C
+    716.2 ps                                                _3410_:         _14082_/Y -> BUFX2_insert730/A
+    976.0 ps                                        _3410__bF$buf0: BUFX2_insert730/Y ->         _14122_/C
+   1093.0 ps                            \datapath.memdataload [15]:         _14122_/Y ->         _10463_/D
+
+   setup at destination = 282.142
+
+Path input pin DMEM_DATA_L[31] to _10458_/D delay 1375.16 ps
+      0.0 ps                                       DMEM_DATA_L[31]:                   ->         _14193_/B
+     81.0 ps                                                _3490_:         _14193_/Y ->         _14194_/A
+    161.9 ps                                                _3491_:         _14194_/Y ->         _14195_/C
+    240.9 ps                                                _3492_:         _14195_/Y ->         _14196_/B
+    361.5 ps  \datapath.memoryinterface.byte_size_load.byteval [7]:         _14196_/Y ->         _14080_/A
+    453.9 ps                                                _3408_:         _14080_/Y ->         _14081_/B
+    545.3 ps                                                _3409_:         _14081_/Y ->         _14082_/C
+    716.2 ps                                                _3410_:         _14082_/Y -> BUFX2_insert729/A
+    976.0 ps                                        _3410__bF$buf1: BUFX2_insert729/Y ->         _14097_/C
+   1093.0 ps                            \datapath.memdataload [10]:         _14097_/Y ->         _10458_/D
+
+   setup at destination = 282.142
+
+Path input pin DMEM_DATA_L[31] to _10462_/D delay 1375.16 ps
+      0.0 ps                                       DMEM_DATA_L[31]:                   ->         _14193_/B
+     81.0 ps                                                _3490_:         _14193_/Y ->         _14194_/A
+    161.9 ps                                                _3491_:         _14194_/Y ->         _14195_/C
+    240.9 ps                                                _3492_:         _14195_/Y ->         _14196_/B
+    361.5 ps  \datapath.memoryinterface.byte_size_load.byteval [7]:         _14196_/Y ->         _14080_/A
+    453.9 ps                                                _3408_:         _14080_/Y ->         _14081_/B
+    545.3 ps                                                _3409_:         _14081_/Y ->         _14082_/C
+    716.2 ps                                                _3410_:         _14082_/Y -> BUFX2_insert729/A
+    976.0 ps                                        _3410__bF$buf1: BUFX2_insert729/Y ->         _14117_/C
+   1093.0 ps                            \datapath.memdataload [14]:         _14117_/Y ->         _10462_/D
+
+   setup at destination = 282.142
+
+-----------------------------------------
+

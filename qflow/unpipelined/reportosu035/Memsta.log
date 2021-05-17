@@ -1,0 +1,396 @@
+Qflow static timing analysis logfile created on mié 11 nov 2020 18:45:00 CST
+Running vesta static timing analysis
+vesta --long MemInterface.rtlnopwr.v /usr/share/qflow/tech/osu035/osu035_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.4.87
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu035_stdcells"
+End of library at line 6636
+Lib read /usr/share/qflow/tech/osu035/osu035_stdcells.lib:  Processed 6637 lines.
+Parsing module "MemInterface"
+Verilog netlist read:  Processed 4541 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+367866155.57795453 Hz
+
+Number of paths analyzed:  96
+
+Top 20 maximum delay paths:
+Path input pin Mem_addr[1] to output pin Data_Load[20] delay 2718.38 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert7/A
+   2438.5 ps                _115__bF$buf2:  BUFX2_insert7/Y ->          _573_/B
+   2587.5 ps                    _370_[20]:          _573_/Y ->          _866_/A
+   2718.4 ps                Data_Load[20]:          _866_/Y -> Data_Load[20]
+
+Path input pin Mem_addr[1] to output pin Data_Load[21] delay 2718.38 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert7/A
+   2438.5 ps                _115__bF$buf2:  BUFX2_insert7/Y ->          _575_/B
+   2587.5 ps                    _370_[21]:          _575_/Y ->          _867_/A
+   2718.4 ps                Data_Load[21]:          _867_/Y -> Data_Load[21]
+
+Path input pin Mem_addr[1] to output pin Data_Load[31] delay 2718.38 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert7/A
+   2438.5 ps                _115__bF$buf2:  BUFX2_insert7/Y ->          _595_/B
+   2587.5 ps                    _370_[31]:          _595_/Y ->          _877_/A
+   2718.4 ps                Data_Load[31]:          _877_/Y -> Data_Load[31]
+
+Path input pin Mem_addr[1] to output pin Data_Load[26] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert6/A
+   2438.1 ps                _115__bF$buf3:  BUFX2_insert6/Y ->          _585_/B
+   2587.1 ps                    _370_[26]:          _585_/Y ->          _872_/A
+   2717.9 ps                Data_Load[26]:          _872_/Y -> Data_Load[26]
+
+Path input pin Mem_addr[1] to output pin Data_Load[23] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert6/A
+   2438.1 ps                _115__bF$buf3:  BUFX2_insert6/Y ->          _579_/B
+   2587.1 ps                    _370_[23]:          _579_/Y ->          _869_/A
+   2717.9 ps                Data_Load[23]:          _869_/Y -> Data_Load[23]
+
+Path input pin Mem_addr[1] to output pin Data_Load[17] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert9/A
+   2438.1 ps                _115__bF$buf0:  BUFX2_insert9/Y ->          _567_/B
+   2587.1 ps                    _370_[17]:          _567_/Y ->          _863_/A
+   2717.9 ps                Data_Load[17]:          _863_/Y -> Data_Load[17]
+
+Path input pin Mem_addr[1] to output pin Data_Load[30] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert9/A
+   2438.1 ps                _115__bF$buf0:  BUFX2_insert9/Y ->          _593_/B
+   2587.1 ps                    _370_[30]:          _593_/Y ->          _876_/A
+   2717.9 ps                Data_Load[30]:          _876_/Y -> Data_Load[30]
+
+Path input pin Mem_addr[1] to output pin Data_Load[18] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert6/A
+   2438.1 ps                _115__bF$buf3:  BUFX2_insert6/Y ->          _569_/B
+   2587.1 ps                    _370_[18]:          _569_/Y ->          _864_/A
+   2717.9 ps                Data_Load[18]:          _864_/Y -> Data_Load[18]
+
+Path input pin Mem_addr[1] to output pin Data_Load[28] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert9/A
+   2438.1 ps                _115__bF$buf0:  BUFX2_insert9/Y ->          _589_/B
+   2587.1 ps                    _370_[28]:          _589_/Y ->          _874_/A
+   2717.9 ps                Data_Load[28]:          _874_/Y -> Data_Load[28]
+
+Path input pin Mem_addr[1] to output pin Data_Load[25] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert6/A
+   2438.1 ps                _115__bF$buf3:  BUFX2_insert6/Y ->          _583_/B
+   2587.1 ps                    _370_[25]:          _583_/Y ->          _871_/A
+   2717.9 ps                Data_Load[25]:          _871_/Y -> Data_Load[25]
+
+Path input pin Mem_addr[1] to output pin Data_Load[22] delay 2717.91 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert9/A
+   2438.1 ps                _115__bF$buf0:  BUFX2_insert9/Y ->          _577_/B
+   2587.1 ps                    _370_[22]:          _577_/Y ->          _868_/A
+   2717.9 ps                Data_Load[22]:          _868_/Y -> Data_Load[22]
+
+Path input pin Mem_addr[1] to output pin Data_Load[27] delay 2717.44 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert8/A
+   2437.8 ps                _115__bF$buf1:  BUFX2_insert8/Y ->          _587_/B
+   2586.6 ps                    _370_[27]:          _587_/Y ->          _873_/A
+   2717.4 ps                Data_Load[27]:          _873_/Y -> Data_Load[27]
+
+Path input pin Mem_addr[1] to output pin Data_Load[24] delay 2717.44 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert8/A
+   2437.8 ps                _115__bF$buf1:  BUFX2_insert8/Y ->          _581_/B
+   2586.6 ps                    _370_[24]:          _581_/Y ->          _870_/A
+   2717.4 ps                Data_Load[24]:          _870_/Y -> Data_Load[24]
+
+Path input pin Mem_addr[1] to output pin Data_Load[19] delay 2717.44 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert8/A
+   2437.8 ps                _115__bF$buf1:  BUFX2_insert8/Y ->          _571_/B
+   2586.6 ps                    _370_[19]:          _571_/Y ->          _865_/A
+   2717.4 ps                Data_Load[19]:          _865_/Y -> Data_Load[19]
+
+Path input pin Mem_addr[1] to output pin Data_Load[16] delay 2717.44 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert8/A
+   2437.8 ps                _115__bF$buf1:  BUFX2_insert8/Y ->          _565_/B
+   2586.6 ps                    _370_[16]:          _565_/Y ->          _862_/A
+   2717.4 ps                Data_Load[16]:          _862_/Y -> Data_Load[16]
+
+Path input pin Mem_addr[1] to output pin Data_Load[29] delay 2717.44 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert8/A
+   2437.8 ps                _115__bF$buf1:  BUFX2_insert8/Y ->          _591_/B
+   2586.6 ps                    _370_[29]:          _591_/Y ->          _875_/A
+   2717.4 ps                Data_Load[29]:          _875_/Y -> Data_Load[29]
+
+Path input pin Mem_addr[1] to output pin Data_Load[11] delay 2681.99 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert7/A
+   2438.5 ps                _115__bF$buf2:  BUFX2_insert7/Y ->          _541_/C
+   2556.4 ps                    _370_[11]:          _541_/Y ->          _857_/A
+   2682.0 ps                Data_Load[11]:          _857_/Y -> Data_Load[11]
+
+Path input pin Mem_addr[1] to output pin Data_Load[8] delay 2681.99 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert7/A
+   2438.5 ps                _115__bF$buf2:  BUFX2_insert7/Y ->          _526_/C
+   2556.4 ps                     _370_[8]:          _526_/Y ->          _854_/A
+   2682.0 ps                 Data_Load[8]:          _854_/Y -> Data_Load[8]
+
+Path input pin Mem_addr[1] to output pin Data_Load[15] delay 2681.99 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert7/A
+   2438.5 ps                _115__bF$buf2:  BUFX2_insert7/Y ->          _561_/C
+   2556.4 ps                    _370_[15]:          _561_/Y ->          _861_/A
+   2682.0 ps                Data_Load[15]:          _861_/Y -> Data_Load[15]
+
+Path input pin Mem_addr[1] to output pin Data_Load[12] delay 2681.55 ps
+      0.0 ps                  Mem_addr[1]:                  -> BUFX2_insert16/A
+    317.0 ps           Mem_addr_1_bF$buf3: BUFX2_insert16/Y ->          _408_/A
+    518.0 ps                         _26_:          _408_/Y ->          _409_/B
+   1377.5 ps                         _27_:          _409_/Y ->          _633_/A
+   1626.8 ps                        _196_:          _633_/Y ->          _635_/B
+   1811.4 ps  \byte_size_load.byteval [7]:          _635_/Y ->          _519_/A
+   1914.1 ps                        _113_:          _519_/Y ->          _520_/B
+   2007.0 ps                        _114_:          _520_/Y ->          _521_/C
+   2178.3 ps                        _115_:          _521_/Y ->  BUFX2_insert6/A
+   2438.1 ps                _115__bF$buf3:  BUFX2_insert6/Y ->          _546_/C
+   2555.9 ps                    _370_[12]:          _546_/Y ->          _858_/A
+   2681.6 ps                Data_Load[12]:          _858_/Y -> Data_Load[12]
+
+-----------------------------------------
+
+Number of paths analyzed:  96
+
+Top 20 minimum delay paths:
+Path input pin Mem_addr[31] to output pin Extern_Mem_addr[31] delay 94.55 ps
+      0.0 ps         Mem_addr[31]:         -> _941_/A
+     94.5 ps  Extern_Mem_addr[31]: _941_/Y -> Extern_Mem_addr[31]
+
+Path input pin Mem_addr[30] to output pin Extern_Mem_addr[30] delay 94.55 ps
+      0.0 ps         Mem_addr[30]:         -> _940_/A
+     94.5 ps  Extern_Mem_addr[30]: _940_/Y -> Extern_Mem_addr[30]
+
+Path input pin Mem_addr[29] to output pin Extern_Mem_addr[29] delay 94.55 ps
+      0.0 ps         Mem_addr[29]:         -> _939_/A
+     94.5 ps  Extern_Mem_addr[29]: _939_/Y -> Extern_Mem_addr[29]
+
+Path input pin Mem_addr[28] to output pin Extern_Mem_addr[28] delay 94.55 ps
+      0.0 ps         Mem_addr[28]:         -> _938_/A
+     94.5 ps  Extern_Mem_addr[28]: _938_/Y -> Extern_Mem_addr[28]
+
+Path input pin Mem_addr[27] to output pin Extern_Mem_addr[27] delay 94.55 ps
+      0.0 ps         Mem_addr[27]:         -> _937_/A
+     94.5 ps  Extern_Mem_addr[27]: _937_/Y -> Extern_Mem_addr[27]
+
+Path input pin Mem_addr[26] to output pin Extern_Mem_addr[26] delay 94.55 ps
+      0.0 ps         Mem_addr[26]:         -> _936_/A
+     94.5 ps  Extern_Mem_addr[26]: _936_/Y -> Extern_Mem_addr[26]
+
+Path input pin Mem_addr[25] to output pin Extern_Mem_addr[25] delay 94.55 ps
+      0.0 ps         Mem_addr[25]:         -> _935_/A
+     94.5 ps  Extern_Mem_addr[25]: _935_/Y -> Extern_Mem_addr[25]
+
+Path input pin Mem_addr[24] to output pin Extern_Mem_addr[24] delay 94.55 ps
+      0.0 ps         Mem_addr[24]:         -> _934_/A
+     94.5 ps  Extern_Mem_addr[24]: _934_/Y -> Extern_Mem_addr[24]
+
+Path input pin Mem_addr[23] to output pin Extern_Mem_addr[23] delay 94.55 ps
+      0.0 ps         Mem_addr[23]:         -> _933_/A
+     94.5 ps  Extern_Mem_addr[23]: _933_/Y -> Extern_Mem_addr[23]
+
+Path input pin Mem_addr[22] to output pin Extern_Mem_addr[22] delay 94.55 ps
+      0.0 ps         Mem_addr[22]:         -> _932_/A
+     94.5 ps  Extern_Mem_addr[22]: _932_/Y -> Extern_Mem_addr[22]
+
+Path input pin Mem_addr[21] to output pin Extern_Mem_addr[21] delay 94.55 ps
+      0.0 ps         Mem_addr[21]:         -> _931_/A
+     94.5 ps  Extern_Mem_addr[21]: _931_/Y -> Extern_Mem_addr[21]
+
+Path input pin Mem_addr[20] to output pin Extern_Mem_addr[20] delay 94.55 ps
+      0.0 ps         Mem_addr[20]:         -> _930_/A
+     94.5 ps  Extern_Mem_addr[20]: _930_/Y -> Extern_Mem_addr[20]
+
+Path input pin Mem_addr[19] to output pin Extern_Mem_addr[19] delay 94.55 ps
+      0.0 ps         Mem_addr[19]:         -> _929_/A
+     94.5 ps  Extern_Mem_addr[19]: _929_/Y -> Extern_Mem_addr[19]
+
+Path input pin Mem_addr[18] to output pin Extern_Mem_addr[18] delay 94.55 ps
+      0.0 ps         Mem_addr[18]:         -> _928_/A
+     94.5 ps  Extern_Mem_addr[18]: _928_/Y -> Extern_Mem_addr[18]
+
+Path input pin Mem_addr[17] to output pin Extern_Mem_addr[17] delay 94.55 ps
+      0.0 ps         Mem_addr[17]:         -> _927_/A
+     94.5 ps  Extern_Mem_addr[17]: _927_/Y -> Extern_Mem_addr[17]
+
+Path input pin Mem_addr[16] to output pin Extern_Mem_addr[16] delay 94.55 ps
+      0.0 ps         Mem_addr[16]:         -> _926_/A
+     94.5 ps  Extern_Mem_addr[16]: _926_/Y -> Extern_Mem_addr[16]
+
+Path input pin Mem_addr[15] to output pin Extern_Mem_addr[15] delay 94.55 ps
+      0.0 ps         Mem_addr[15]:         -> _925_/A
+     94.5 ps  Extern_Mem_addr[15]: _925_/Y -> Extern_Mem_addr[15]
+
+Path input pin Mem_addr[14] to output pin Extern_Mem_addr[14] delay 94.55 ps
+      0.0 ps         Mem_addr[14]:         -> _924_/A
+     94.5 ps  Extern_Mem_addr[14]: _924_/Y -> Extern_Mem_addr[14]
+
+Path input pin Mem_addr[13] to output pin Extern_Mem_addr[13] delay 94.55 ps
+      0.0 ps         Mem_addr[13]:         -> _923_/A
+     94.5 ps  Extern_Mem_addr[13]: _923_/Y -> Extern_Mem_addr[13]
+
+Path input pin Mem_addr[12] to output pin Extern_Mem_addr[12] delay 94.55 ps
+      0.0 ps         Mem_addr[12]:         -> _922_/A
+     94.5 ps  Extern_Mem_addr[12]: _922_/Y -> Extern_Mem_addr[12]
+
+-----------------------------------------
+

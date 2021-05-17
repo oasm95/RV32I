@@ -1,0 +1,22 @@
+
+osu035:
+   Number of cells:              10811
+     AND2X2                         85
+     AOI21X1                      1341
+     AOI22X1                       263
+     BUFX2                         129
+     DFFPOSX1                     1155
+     INVX1                         741
+     MUX2X1                        418
+     NAND2X1                      2007
+     NAND3X1                       864
+     NOR2X1                       1103
+     NOR3X1                         25
+     OAI21X1                      2264
+     OAI22X1                       282
+     OR2X2                          72
+     XNOR2X1                        52
+     XOR2X1                         10
+--------------------------------------------
+Computed maximum clock frequency (zero margin) = 95.8497 MHz
+

@@ -1,0 +1,4 @@
+/tb_riscv32i/realdmemaddr
+/tb_riscv32i/realstackaddr
+/tb_riscv32i/imem_addr
+/tb_riscv32i/riscv32i/datapath/registers/registers

@@ -1,0 +1,5 @@
+docker run --rm -v $(pwd)/unpipelined:/src -w /src --name yosyscont ghdl/synth:beta yosys -m ghdl -p 'ghdl riscv32i; synth -top RISCV32I; dfflibmap -liberty vsclib013.lib; abc -dff -liberty vsclib013.lib -D 1 -constr vsclib013.lib; stat' > riscv3.txt
+
+docker run --rm -v $(pwd)/unpipelined:/src -w /src --name yosyscont ghdl/synth:beta yosys -m ghdl -p 'ghdl riscv32i; synth -top RISCV32I; dfflibmap -liberty vsclib013.lib; abc -liberty vsclib013.lib -script +strash;scorr;ifraig;retime;dch,-f;map;print_stats;' > riscv4.txt   
+
+docker run --rm -v $(pwd)/unpipelined:/src -w /src --name yosyscont ghdl/synth:beta yosys -m ghdl -p 'ghdl RISCV32I; write_verilog riscv32i.v' #dump in verilog

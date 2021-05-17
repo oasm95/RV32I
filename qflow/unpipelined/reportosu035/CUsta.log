@@ -1,0 +1,278 @@
+Qflow static timing analysis logfile created on mié 11 nov 2020 18:40:35 CST
+Running vesta static timing analysis
+vesta --long ControlUnit.rtlnopwr.v /usr/share/qflow/tech/osu035/osu035_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.4.87
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu035_stdcells"
+End of library at line 6636
+Lib read /usr/share/qflow/tech/osu035/osu035_stdcells.lib:  Processed 6637 lines.
+Parsing module "ControlUnit"
+Verilog netlist read:  Processed 1232 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+645190427.9548109 Hz
+Number of paths analyzed:  15
+
+Top 15 maximum delay paths:
+Path input pin OPCODE[1] to output pin PC_Sel[1] delay 1549.93 ps
+      0.0 ps  OPCODE[1]:         -> _132_/A
+    140.1 ps       _70_: _132_/Y -> _133_/C
+    654.7 ps       _71_: _133_/Y -> _134_/C
+   1070.2 ps       _72_: _134_/Y -> _234_/C
+   1238.8 ps       _49_: _234_/Y -> _235_/B
+   1327.7 ps       _50_: _235_/Y -> _236_/A
+   1425.3 ps   _116_[1]: _236_/Y -> _268_/A
+   1549.9 ps  PC_Sel[1]: _268_/Y -> PC_Sel[1]
+
+Path input pin OPCODE[6] to output pin ALU_Sel[2] delay 1527.18 ps
+      0.0 ps   OPCODE[6]:         -> _126_/A
+    288.9 ps        _64_: _126_/Y -> _127_/A
+    530.2 ps        _65_: _127_/Y -> _128_/C
+    954.5 ps        _66_: _128_/Y -> _183_/A
+   1198.4 ps        _10_: _183_/Y -> _185_/C
+   1301.3 ps        _12_: _185_/Y -> _186_/A
+   1402.2 ps    _105_[2]: _186_/Y -> _251_/A
+   1527.2 ps  ALU_Sel[2]: _251_/Y -> ALU_Sel[2]
+
+Path input pin OPCODE[1] to output pin PC_Sel[0] delay 1525.59 ps
+      0.0 ps  OPCODE[1]:         -> _132_/A
+    140.1 ps       _70_: _132_/Y -> _133_/C
+    654.7 ps       _71_: _133_/Y -> _134_/C
+   1070.2 ps       _72_: _134_/Y -> _231_/C
+   1241.3 ps       _47_: _231_/Y -> _232_/C
+   1328.9 ps       _48_: _232_/Y -> _233_/B
+   1406.7 ps   _116_[0]: _233_/Y -> _267_/A
+   1525.6 ps  PC_Sel[0]: _267_/Y -> PC_Sel[0]
+
+Path input pin OPCODE[1] to output pin ALU_Sel[3] delay 1514.37 ps
+      0.0 ps   OPCODE[1]:         -> _132_/A
+    140.1 ps        _70_: _132_/Y -> _133_/C
+    654.7 ps        _71_: _133_/Y -> _156_/A
+   1039.3 ps        _90_: _156_/Y -> _192_/C
+   1200.6 ps        _18_: _192_/Y -> _193_/C
+   1293.0 ps        _19_: _193_/Y -> _194_/A
+   1389.9 ps    _105_[3]: _194_/Y -> _252_/A
+   1514.4 ps  ALU_Sel[3]: _252_/Y -> ALU_Sel[3]
+
+Path input pin OPCODE[6] to output pin ALU_Sel[0] delay 1475.5 ps
+      0.0 ps   OPCODE[6]:         -> _126_/A
+    288.9 ps        _64_: _126_/Y -> _127_/A
+    530.2 ps        _65_: _127_/Y -> _128_/C
+    954.5 ps        _66_: _128_/Y -> _159_/B
+   1155.9 ps        _93_: _159_/Y -> _160_/B
+   1265.2 ps        _94_: _160_/Y -> _161_/C
+   1349.3 ps    _105_[0]: _161_/Y -> _249_/A
+   1475.5 ps  ALU_Sel[0]: _249_/Y -> ALU_Sel[0]
+
+Path input pin OPCODE[4] to output pin B_Sel[0] delay 1405.53 ps
+      0.0 ps  OPCODE[4]:         -> _119_/A
+    178.4 ps       _58_: _119_/Y -> _120_/C
+    628.8 ps       _59_: _120_/Y -> _215_/C
+    902.0 ps       _35_: _215_/Y -> _216_/B
+   1026.6 ps       _36_: _216_/Y -> _217_/C
+   1170.3 ps       _37_: _217_/Y -> _218_/C
+   1275.6 ps   _107_[0]: _218_/Y -> _255_/A
+   1405.5 ps   B_Sel[0]: _255_/Y -> B_Sel[0]
+
+Path input pin OPCODE[1] to output pin Imm_Sel[1] delay 1404.49 ps
+      0.0 ps   OPCODE[1]:         -> _132_/A
+    140.1 ps        _70_: _132_/Y -> _133_/C
+    654.7 ps        _71_: _133_/Y -> _197_/A
+    934.6 ps        _22_: _197_/Y -> _202_/B
+   1162.3 ps        _27_: _202_/Y -> _205_/B
+   1290.1 ps    _114_[1]: _205_/Y -> _264_/A
+   1404.5 ps  Imm_Sel[1]: _264_/Y -> Imm_Sel[1]
+
+Path input pin OPCODE[1] to output pin Imm_Sel[0] delay 1404.49 ps
+      0.0 ps   OPCODE[1]:         -> _132_/A
+    140.1 ps        _70_: _132_/Y -> _133_/C
+    654.7 ps        _71_: _133_/Y -> _197_/A
+    934.6 ps        _22_: _197_/Y -> _202_/B
+   1162.3 ps        _27_: _202_/Y -> _204_/B
+   1290.1 ps    _114_[0]: _204_/Y -> _263_/A
+   1404.5 ps  Imm_Sel[0]: _263_/Y -> Imm_Sel[0]
+
+Path input pin OPCODE[1] to output pin ALU_Sel[1] delay 1386.12 ps
+      0.0 ps   OPCODE[1]:         -> _132_/A
+    140.1 ps        _70_: _132_/Y -> _133_/C
+    654.7 ps        _71_: _133_/Y -> _165_/C
+    905.5 ps        _98_: _165_/Y -> _174_/A
+   1161.5 ps         _2_: _174_/Y -> _182_/B
+   1276.0 ps    _105_[1]: _182_/Y -> _250_/A
+   1386.1 ps  ALU_Sel[1]: _250_/Y -> ALU_Sel[1]
+
+Path input pin OPCODE[4] to output pin A_Sel[0] delay 1385.71 ps
+      0.0 ps  OPCODE[4]:         -> _119_/A
+    178.4 ps       _58_: _119_/Y -> _120_/C
+    628.8 ps       _59_: _120_/Y -> _215_/C
+    902.0 ps       _35_: _215_/Y -> _216_/B
+   1026.6 ps       _36_: _216_/Y -> _217_/C
+   1170.3 ps       _37_: _217_/Y -> _223_/B
+   1257.6 ps   _106_[0]: _223_/Y -> _253_/A
+   1385.7 ps   A_Sel[0]: _253_/Y -> A_Sel[0]
+
+Path input pin OPCODE[6] to output pin B_Sel[1] delay 1213.85 ps
+      0.0 ps  OPCODE[6]:         -> _126_/A
+    288.9 ps       _64_: _126_/Y -> _127_/A
+    530.2 ps       _65_: _127_/Y -> _128_/C
+    954.5 ps       _66_: _128_/Y -> _219_/B
+   1074.3 ps   _107_[1]: _219_/Y -> _256_/A
+   1213.8 ps   B_Sel[1]: _256_/Y -> B_Sel[1]
+
+Path input pin OPCODE[6] to output pin A_Sel[1] delay 1213.85 ps
+      0.0 ps  OPCODE[6]:         -> _126_/A
+    288.9 ps       _64_: _126_/Y -> _127_/A
+    530.2 ps       _65_: _127_/Y -> _128_/C
+    954.5 ps       _66_: _128_/Y -> _224_/B
+   1074.3 ps   _106_[1]: _224_/Y -> _254_/A
+   1213.8 ps   A_Sel[1]: _254_/Y -> A_Sel[1]
+
+Path input pin OPCODE[1] to output pin WB_Sel[0] delay 1157.94 ps
+      0.0 ps  OPCODE[1]:         -> _132_/A
+    140.1 ps       _70_: _132_/Y -> _133_/C
+    654.7 ps       _71_: _133_/Y -> _195_/C
+    934.5 ps       _20_: _195_/Y -> _209_/A
+   1031.4 ps   _118_[0]: _209_/Y -> _270_/A
+   1157.9 ps  WB_Sel[0]: _270_/Y -> WB_Sel[0]
+
+Path input pin OPCODE[4] to output pin WB_Sel[1] delay 1062.41 ps
+      0.0 ps  OPCODE[4]:         -> _119_/A
+    178.4 ps       _58_: _119_/Y -> _157_/B
+    390.1 ps       _91_: _157_/Y -> _158_/C
+    648.5 ps       _92_: _158_/Y -> _213_/B
+    865.8 ps       _34_: _213_/Y -> _214_/A
+    953.9 ps   _118_[1]: _214_/Y -> _271_/A
+   1062.4 ps  WB_Sel[1]: _271_/Y -> WB_Sel[1]
+
+Path input pin OPCODE[0] to output pin Imm_Sel[2] delay 1031.82 ps
+      0.0 ps   OPCODE[0]:         -> _121_/B
+    284.1 ps        _60_: _121_/Y -> _123_/B
+    634.3 ps        _62_: _123_/Y -> _208_/B
+    870.7 ps    _114_[2]: _208_/Y -> _265_/A
+   1031.8 ps  Imm_Sel[2]: _265_/Y -> Imm_Sel[2]
+
+-----------------------------------------
+
+Number of paths analyzed:  15
+
+Top 15 minimum delay paths:
+Path input pin FUNCT3[2] to output pin B_Sel[1] delay 170.319 ps
+      0.0 ps  FUNCT3[2]:         -> _219_/A
+     65.3 ps   _107_[1]: _219_/Y -> _256_/A
+    170.3 ps   B_Sel[1]: _256_/Y -> B_Sel[1]
+
+Path input pin FUNCT3[2] to output pin ALU_Sel[2] delay 234.274 ps
+      0.0 ps   FUNCT3[2]:         -> _185_/B
+     82.0 ps        _12_: _185_/Y -> _186_/A
+    130.4 ps    _105_[2]: _186_/Y -> _251_/A
+    234.3 ps  ALU_Sel[2]: _251_/Y -> ALU_Sel[2]
+
+Path input pin FUNCT3[0] to output pin ALU_Sel[0] delay 239.193 ps
+      0.0 ps   FUNCT3[0]:         -> _160_/A
+     70.6 ps        _94_: _160_/Y -> _161_/C
+    133.9 ps    _105_[0]: _161_/Y -> _249_/A
+    239.2 ps  ALU_Sel[0]: _249_/Y -> ALU_Sel[0]
+
+Path input pin FUNCT3[2] to output pin A_Sel[1] delay 289.161 ps
+      0.0 ps  FUNCT3[2]:         -> _177_/A
+    100.5 ps        _5_: _177_/Y -> _224_/A
+    180.5 ps   _106_[1]: _224_/Y -> _254_/A
+    289.2 ps   A_Sel[1]: _254_/Y -> A_Sel[1]
+
+Path input pin FUNCT3[2] to output pin B_Sel[0] delay 299.675 ps
+      0.0 ps  FUNCT3[2]:         -> _177_/A
+    100.5 ps        _5_: _177_/Y -> _218_/A
+    190.3 ps   _107_[0]: _218_/Y -> _255_/A
+    299.7 ps   B_Sel[0]: _255_/Y -> B_Sel[0]
+
+Path input pin FUNCT3[2] to output pin ALU_Sel[1] delay 394.047 ps
+      0.0 ps   FUNCT3[2]:         -> _176_/A
+    119.7 ps         _4_: _176_/Y -> _180_/C
+    173.5 ps         _8_: _180_/Y -> _181_/A
+    242.0 ps         _9_: _181_/Y -> _182_/A
+    290.4 ps    _105_[1]: _182_/Y -> _250_/A
+    394.0 ps  ALU_Sel[1]: _250_/Y -> ALU_Sel[1]
+
+Path input pin FUNCT3[0] to output pin PC_Sel[0] delay 397.851 ps
+      0.0 ps  FUNCT3[0]:         -> _151_/B
+    144.8 ps       _05_: _151_/Y -> _232_/B
+    242.4 ps       _48_: _232_/Y -> _233_/B
+    293.6 ps   _116_[0]: _233_/Y -> _267_/A
+    397.9 ps  PC_Sel[0]: _267_/Y -> PC_Sel[0]
+
+Path input pin FUNCT7[3] to output pin ALU_Sel[3] delay 403.096 ps
+      0.0 ps   FUNCT7[3]:         -> _189_/A
+     55.4 ps        _15_: _189_/Y -> _190_/A
+    153.2 ps        _16_: _190_/Y -> _193_/B
+    249.6 ps        _19_: _193_/Y -> _194_/A
+    298.4 ps    _105_[3]: _194_/Y -> _252_/A
+    403.1 ps  ALU_Sel[3]: _252_/Y -> ALU_Sel[3]
+
+Path input pin OPCODE[6] to output pin Imm_Sel[0] delay 437.734 ps
+      0.0 ps   OPCODE[6]:         -> _164_/A
+    172.1 ps        _97_: _164_/Y -> _203_/B
+    246.4 ps        _28_: _203_/Y -> _204_/C
+    328.3 ps    _114_[0]: _204_/Y -> _263_/A
+    437.7 ps  Imm_Sel[0]: _263_/Y -> Imm_Sel[0]
+
+Path input pin OPCODE[5] to output pin WB_Sel[0] delay 440.816 ps
+      0.0 ps  OPCODE[5]:         -> _162_/C
+    164.1 ps       _95_: _162_/Y -> _195_/B
+    263.6 ps       _20_: _195_/Y -> _209_/A
+    334.8 ps   _118_[0]: _209_/Y -> _270_/A
+    440.8 ps  WB_Sel[0]: _270_/Y -> WB_Sel[0]
+
+Path input pin OPCODE[6] to output pin A_Sel[0] delay 442.912 ps
+      0.0 ps  OPCODE[6]:         -> _220_/C
+     68.2 ps       _38_: _220_/Y -> _221_/C
+    151.7 ps       _39_: _221_/Y -> _222_/C
+    256.6 ps       _40_: _222_/Y -> _223_/A
+    334.6 ps   _106_[0]: _223_/Y -> _253_/A
+    442.9 ps   A_Sel[0]: _253_/Y -> A_Sel[0]
+
+Path input pin OPCODE[2] to output pin WB_Sel[1] delay 482.393 ps
+      0.0 ps  OPCODE[2]:         -> _210_/B
+    122.4 ps       _31_: _210_/Y -> _211_/C
+    215.7 ps       _32_: _211_/Y -> _213_/C
+    305.9 ps       _34_: _213_/Y -> _214_/A
+    376.4 ps   _118_[1]: _214_/Y -> _271_/A
+    482.4 ps  WB_Sel[1]: _271_/Y -> WB_Sel[1]
+
+Path input pin OPCODE[2] to output pin Imm_Sel[2] delay 503.863 ps
+      0.0 ps   OPCODE[2]:         -> _206_/A
+    113.8 ps        _29_: _206_/Y -> _207_/B
+    260.0 ps        _30_: _207_/Y -> _208_/D
+    390.1 ps    _114_[2]: _208_/Y -> _265_/A
+    503.9 ps  Imm_Sel[2]: _265_/Y -> Imm_Sel[2]
+
+Path input pin OPCODE[5] to output pin Imm_Sel[1] delay 512.072 ps
+      0.0 ps   OPCODE[5]:         -> _163_/A
+    131.1 ps        _96_: _163_/Y -> _196_/A
+    285.2 ps        _21_: _196_/Y -> _205_/A
+    399.0 ps    _114_[1]: _205_/Y -> _264_/A
+    512.1 ps  Imm_Sel[1]: _264_/Y -> Imm_Sel[1]
+
+Path input pin OPCODE[6] to output pin PC_Sel[1] delay 651.252 ps
+      0.0 ps  OPCODE[6]:         -> _220_/C
+     68.2 ps       _38_: _220_/Y -> _221_/C
+    151.7 ps       _39_: _221_/Y -> _227_/C
+    258.2 ps       _43_: _227_/Y -> _228_/B
+    339.5 ps       _44_: _228_/Y -> _230_/B
+    488.1 ps       _46_: _230_/Y -> _236_/B
+    544.3 ps   _116_[1]: _236_/Y -> _268_/A
+    651.3 ps  PC_Sel[1]: _268_/Y -> PC_Sel[1]
+
+-----------------------------------------
+

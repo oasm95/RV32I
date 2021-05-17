@@ -1,0 +1,60 @@
+para compilar un programa ejecutar compile.sh
+compile.sh nombre_de_programa_sin_extencion 'opciones adicionales para el compilar por ejemplo: -O3 para optimizar el codigo' 'archivos adicionales necesarios para compilar el programa'
+
+En teoria se puede compilar y ejecutar cualquier programa que utilize malloc y las funciones asociadas a el, y stdout.
+NO puede ejecutarse algun programa que utilize algo adicional a estos dos.
+
+Por ejemplo para compilar el programa exceptions usar:
+bash compile.sh benchmarks/exceptions/dhrystone_main '-O3 -D EXPTEST' 'benchmarks/exceptions/dhrystone.c' 
+
+Dara como resultado:
+    espacio entre secciones: 4
+    Imemdepth: 15487
+    Dmemdepth: 6236
+    bss: 10356
+
+se generan los archivos programText.txt y programData.txt mover estos archivos
+a las carpetas correspondiente a la microarquitectura que ejecutará un programa
+ejemplo, moverlas a la carpeta ../hardware/unpipelined/ #(microarquitectura de control)
+(Las unicas microarquitecturas capaces de ejecutar programas son: VBP,unpipelined,
+unpipelinedtest y fivestage)
+para ejecutar el programa solo se deben cambiar dos valores en 
+../hardware/(microarquitectura)/tb_RISCVI32.vhd: Imemdepth y Dmemdepth
+modificar estos valores con el resultado del comando anterior
+
+Al modificar estos valores correr la simulacion y automaticamente se detendra la simulacion al completar el programa
+el resultado es escrito en el archivo ../hardware/(microarquitectura)/stdout.txt
+
+Debido a utilizar valores '-' dont care en el codigo fuente en vhdl, para ayudar al sintetisador
+es recomendable desactivar las advertencias numericas ieee, 
+
+Mientras el simulador corre en consola aparecera informacion si hubo una excepcion, un syscall no implementado 
+o si es necesario aumentar el tamaño del heap., de necesitar aumentar el heap, 
+hacerlo modificando el archivo ./dumpsoftware.py , donde dice HEAPSIZE = ###.
+
+Al finalizar el programa en consola despliega la cantidad de ciclos que tomo la ejecucion del programa y
+la cantidad maxima de Stack utilizado en la ejecucion del programa.
+
+El resultado de cada programa se encuentra en su respectiva carpeta
+
+en caso de que no funcione la ejecucion de un programa, correr el siguiente comando:
+riscv64-elf-objdump -D $1.elf | less donde $1.elf es el nombre programa compilado
+que se debe encontrar en su respectiva carpeta, por ejemplo benchmarks/exceptions/dhrystone_main.elf
+se abrira el disasembly del programa, buscar la subrutina _startup, y anotar su direccion de memoria
+luego abrir ../hardware/(microarquitectura)/tb_RISCVI32.vhd y ver si la constante
+RESET_ADDR posee el mismo valor. Me paso que al actualizar la versión del compilador
+esta dirección cambió.
+
+
+**** Carpetas****
+/benchmarks
+	contiene los dies programas de prueba utilizados en la tesis
+/brach
+	simulador de predictor dinamico, y generador de graficas
+/Cache
+	simulador de caches y generador de graficas
+	para ver uso de cacti para extraer tiempos de acceso ver carpeta
+	../cacti
+
+
+

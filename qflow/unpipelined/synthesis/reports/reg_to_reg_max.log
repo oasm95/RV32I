@@ -1,0 +1,240 @@
+Vesta static timing analysis, register-to-register maximum timing
+
+Top 20 maximum delay paths:
+Path _1259_/CLK to output pin CSR_PCaddr[27] delay 1751.25 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1074_/A
+   1335.7 ps           _438_:          _1074_/Y -> _1086_/C
+   1495.5 ps           _448_:          _1086_/Y -> _1090_/C
+   1581.2 ps           _451_:          _1090_/Y -> _1096_/A
+   1677.3 ps       _486_[27]:          _1096_/Y -> _1157_/A
+   1751.2 ps  CSR_PCaddr[27]:          _1157_/Y -> CSR_PCaddr[27]
+
+Path _1259_/CLK to output pin CSR_PCaddr[24] delay 1731.53 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1074_/A
+   1335.7 ps           _438_:          _1074_/Y -> _1076_/A
+   1483.7 ps           _440_:          _1076_/Y -> _1077_/A
+   1582.9 ps           _441_:          _1077_/Y -> _1078_/A
+   1660.9 ps       _486_[24]:          _1078_/Y -> _1154_/A
+   1731.5 ps  CSR_PCaddr[24]:          _1154_/Y -> CSR_PCaddr[24]
+
+Path _1259_/CLK to output pin CSR_PCaddr[25] delay 1731.53 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1074_/A
+   1335.7 ps           _438_:          _1074_/Y -> _1076_/A
+   1483.7 ps           _440_:          _1076_/Y -> _1082_/A
+   1582.9 ps           _445_:          _1082_/Y -> _1083_/A
+   1660.9 ps       _486_[25]:          _1083_/Y -> _1155_/A
+   1731.5 ps  CSR_PCaddr[25]:          _1155_/Y -> CSR_PCaddr[25]
+
+Path _1259_/CLK to output pin CSR_PCaddr[26] delay 1728.49 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1074_/A
+   1335.7 ps           _438_:          _1074_/Y -> _1086_/C
+   1495.5 ps           _448_:          _1086_/Y -> _1087_/B
+   1581.9 ps           _449_:          _1087_/Y -> _1089_/A
+   1658.1 ps       _486_[26]:          _1089_/Y -> _1156_/A
+   1728.5 ps  CSR_PCaddr[26]:          _1156_/Y -> CSR_PCaddr[26]
+
+Path _1259_/CLK to output pin CSR_PCaddr[20] delay 1719.59 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1020_/B
+   1321.0 ps           _392_:          _1020_/Y -> _1047_/C
+   1472.4 ps           _415_:          _1047_/Y -> _1049_/A
+   1571.7 ps           _417_:          _1049_/Y -> _1050_/B
+   1648.8 ps       _486_[20]:          _1050_/Y -> _1150_/A
+   1719.6 ps  CSR_PCaddr[20]:          _1150_/Y -> CSR_PCaddr[20]
+
+Path _1259_/CLK to output pin CSR_PCaddr[17] delay 1708.97 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1020_/B
+   1321.0 ps           _392_:          _1020_/Y -> _1029_/A
+   1461.9 ps           _400_:          _1029_/Y -> _1031_/A
+   1560.4 ps           _402_:          _1031_/Y -> _1032_/A
+   1638.3 ps       _486_[17]:          _1032_/Y -> _1147_/A
+   1709.0 ps  CSR_PCaddr[17]:          _1147_/Y -> CSR_PCaddr[17]
+
+Path _1259_/CLK to output pin CSR_PCaddr[21] delay 1708.97 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1020_/B
+   1321.0 ps           _392_:          _1020_/Y -> _1029_/A
+   1461.9 ps           _400_:          _1029_/Y -> _1056_/A
+   1560.4 ps           _423_:          _1056_/Y -> _1057_/A
+   1638.3 ps       _486_[21]:          _1057_/Y -> _1151_/A
+   1709.0 ps  CSR_PCaddr[21]:          _1151_/Y -> CSR_PCaddr[21]
+
+Path _1259_/CLK to output pin CSR_PCaddr[18] delay 1708.97 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1020_/B
+   1321.0 ps           _392_:          _1020_/Y -> _1029_/A
+   1461.9 ps           _400_:          _1029_/Y -> _1037_/A
+   1560.4 ps           _407_:          _1037_/Y -> _1038_/A
+   1638.3 ps       _486_[18]:          _1038_/Y -> _1148_/A
+   1709.0 ps  CSR_PCaddr[18]:          _1148_/Y -> CSR_PCaddr[18]
+
+Path _1259_/CLK to output pin CSR_PCaddr[19] delay 1708.97 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1020_/B
+   1321.0 ps           _392_:          _1020_/Y -> _1029_/A
+   1461.9 ps           _400_:          _1029_/Y -> _1044_/A
+   1560.4 ps           _413_:          _1044_/Y -> _1045_/A
+   1638.3 ps       _486_[19]:          _1045_/Y -> _1149_/A
+   1709.0 ps  CSR_PCaddr[19]:          _1149_/Y -> CSR_PCaddr[19]
+
+Path _1259_/CLK to output pin CSR_PCaddr[29] delay 1635.02 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1100_/A
+   1255.7 ps           _460_:          _1100_/Y -> _1107_/B
+   1388.4 ps           _466_:          _1107_/Y -> _1108_/A
+   1497.7 ps           _467_:          _1108_/Y -> _1110_/B
+   1559.0 ps       _486_[29]:          _1110_/Y -> _1159_/A
+   1635.0 ps  CSR_PCaddr[29]:          _1159_/Y -> CSR_PCaddr[29]
+
+Path _1259_/CLK to output pin CSR_PCaddr[16] delay 1610.94 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1020_/B
+   1321.0 ps           _392_:          _1020_/Y -> _1025_/B
+   1448.6 ps           _397_:          _1025_/Y -> _1026_/A
+   1529.4 ps       _486_[16]:          _1026_/Y -> _1146_/A
+   1610.9 ps  CSR_PCaddr[16]:          _1146_/Y -> CSR_PCaddr[16]
+
+Path _1259_/CLK to output pin CSR_PCaddr[23] delay 1573.3 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1063_/A
+   1183.5 ps           _429_:          _1063_/Y -> _1065_/B
+   1322.2 ps           _431_:          _1065_/Y -> _1069_/A
+   1435.9 ps           _434_:          _1069_/Y -> _1071_/B
+   1497.3 ps       _486_[23]:          _1071_/Y -> _1153_/A
+   1573.3 ps  CSR_PCaddr[23]:          _1153_/Y -> CSR_PCaddr[23]
+
+Path _1259_/CLK to output pin CSR_PCaddr[31] delay 1561.64 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1100_/A
+   1255.7 ps           _460_:          _1100_/Y -> _1124_/B
+   1354.4 ps           _481_:          _1124_/Y -> _1126_/B
+   1437.8 ps           _483_:          _1126_/Y -> _1128_/B
+   1493.3 ps       _486_[31]:          _1128_/Y -> _1161_/A
+   1561.6 ps  CSR_PCaddr[31]:          _1161_/Y -> CSR_PCaddr[31]
+
+Path _1259_/CLK to output pin CSR_PCaddr[22] delay 1558.8 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1063_/A
+   1183.5 ps           _429_:          _1063_/Y -> _1065_/B
+   1322.2 ps           _431_:          _1065_/Y -> _1066_/B
+   1411.9 ps           _432_:          _1066_/Y -> _1067_/A
+   1488.4 ps       _486_[22]:          _1067_/Y -> _1152_/A
+   1558.8 ps  CSR_PCaddr[22]:          _1152_/Y -> CSR_PCaddr[22]
+
+Path _1259_/CLK to output pin CSR_PCaddr[15] delay 1534.1 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1009_/A
+   1244.3 ps           _383_:          _1009_/Y -> _1013_/A
+   1320.0 ps           _386_:          _1013_/Y -> _1014_/A
+   1380.7 ps           _387_:          _1014_/Y -> _1018_/A
+   1454.3 ps       _486_[15]:          _1018_/Y -> _1145_/A
+   1534.1 ps  CSR_PCaddr[15]:          _1145_/Y -> CSR_PCaddr[15]
+
+Path _1259_/CLK to output pin CSR_PCaddr[28] delay 1511.01 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y -> _1100_/A
+   1255.7 ps           _460_:          _1100_/Y -> _1101_/B
+   1351.0 ps           _461_:          _1101_/Y -> _1105_/B
+   1429.6 ps       _486_[28]:          _1105_/Y -> _1158_/A
+   1511.0 ps  CSR_PCaddr[28]:          _1158_/Y -> CSR_PCaddr[28]
+
+Path _1259_/CLK to output pin CSR_PCaddr[14] delay 1481.12 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1009_/A
+   1244.3 ps           _383_:          _1009_/Y -> _1010_/A
+   1333.8 ps           _384_:          _1010_/Y -> _1011_/A
+   1410.6 ps       _486_[14]:          _1011_/Y -> _1144_/A
+   1481.1 ps  CSR_PCaddr[14]:          _1144_/Y -> CSR_PCaddr[14]
+
+Path _1259_/CLK to output pin CSR_PCaddr[13] delay 1416.3 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _996_/A
+   1076.5 ps           _372_:           _996_/Y -> _1001_/A
+   1189.9 ps           _376_:          _1001_/Y -> _1002_/A
+   1261.2 ps           _377_:          _1002_/Y -> _1005_/A
+   1336.2 ps       _486_[13]:          _1005_/Y -> _1143_/A
+   1416.3 ps  CSR_PCaddr[13]:          _1143_/Y -> CSR_PCaddr[13]
+
+Path _1259_/CLK to output pin CSR_PCaddr[9] delay 1395.38 ps
+      0.0 ps    clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps     mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps          _157_:           _704_/Y ->  _940_/B
+    700.4 ps          _326_:           _940_/Y ->  _977_/A
+   1036.8 ps          _356_:           _977_/Y ->  _978_/A
+   1154.1 ps          _357_:           _978_/Y ->  _980_/C
+   1237.4 ps          _359_:           _980_/Y ->  _982_/A
+   1314.7 ps       _486_[9]:           _982_/Y -> _1139_/A
+   1395.4 ps  CSR_PCaddr[9]:          _1139_/Y -> CSR_PCaddr[9]
+
+Path _1259_/CLK to output pin CSR_PCaddr[11] delay 1395.38 ps
+      0.0 ps     clk_bF$buf6: CLKBUF1_insert9/Y -> _1259_/CLK
+    236.5 ps      mstatus[0]:          _1259_/Q ->  _704_/A
+    425.5 ps           _157_:           _704_/Y ->  _940_/B
+    700.4 ps           _326_:           _940_/Y ->  _977_/A
+   1036.8 ps           _356_:           _977_/Y ->  _989_/A
+   1154.1 ps           _366_:           _989_/Y ->  _992_/C
+   1237.4 ps           _369_:           _992_/Y ->  _994_/A
+   1314.7 ps       _486_[11]:           _994_/Y -> _1141_/A
+   1395.4 ps  CSR_PCaddr[11]:          _1141_/Y -> CSR_PCaddr[11]
+
+Computed maximum clock frequency (zero margin) = 571.022 MHz
+-----------------------------------------
+

@@ -1,0 +1,15 @@
+/tb_riscv32i/realdmemaddr
+/tb_riscv32i/realstackaddr
+/tb_riscv32i/imem_addr
+#/tb_riscv32i/stackm
+/tb_riscv32i/riscv32i/datapath/registers/registers
+/tb_riscv32i/riscv32i/datapath/memoryinterface/data_store
+
+#/tb_riscv32i/riscv32i/bypassandflushunit/a_bypass_sel
+#/tb_riscv32i/riscv32i/bypassandflushunit/b_bypass_sel
+/tb_riscv32i/riscv32i/bypassandflushunit/rs2_bypass_sel
+#/tb_riscv32i/riscv32i/datapath/rega
+#/tb_riscv32i/riscv32i/datapath/regb
+
+
+

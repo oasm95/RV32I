@@ -1,0 +1,145 @@
+Vesta static timing analysis, pin-to-register and register-to-pin minimum timing
+
+Top 20 minimum delay paths:
+Path input pin CSR_mepc[31] to _1223_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[31]:         ->  _936_/B
+     40.0 ps         _323_: _936_/Y ->  _939_/C
+     81.3 ps      _21_[29]: _939_/Y -> _1223_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[30] to _1222_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[30]:         ->  _932_/B
+     40.0 ps         _320_: _932_/Y ->  _935_/C
+     81.3 ps      _21_[28]: _935_/Y -> _1222_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[29] to _1221_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[29]:         ->  _928_/B
+     40.0 ps         _317_: _928_/Y ->  _931_/C
+     81.3 ps      _21_[27]: _931_/Y -> _1221_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[28] to _1220_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[28]:         ->  _924_/B
+     40.0 ps         _314_: _924_/Y ->  _927_/C
+     81.3 ps      _21_[26]: _927_/Y -> _1220_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[27] to _1219_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[27]:         ->  _920_/B
+     40.0 ps         _311_: _920_/Y ->  _923_/C
+     81.3 ps      _21_[25]: _923_/Y -> _1219_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[26] to _1218_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[26]:         ->  _916_/B
+     40.0 ps         _308_: _916_/Y ->  _919_/C
+     81.3 ps      _21_[24]: _919_/Y -> _1218_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[25] to _1217_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[25]:         ->  _912_/B
+     40.0 ps         _305_: _912_/Y ->  _915_/C
+     81.3 ps      _21_[23]: _915_/Y -> _1217_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[24] to _1216_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[24]:         ->  _908_/B
+     40.0 ps         _302_: _908_/Y ->  _911_/C
+     81.3 ps      _21_[22]: _911_/Y -> _1216_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[23] to _1215_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[23]:         ->  _904_/B
+     40.0 ps         _299_: _904_/Y ->  _907_/C
+     81.3 ps      _21_[21]: _907_/Y -> _1215_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[22] to _1214_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[22]:         ->  _900_/B
+     40.0 ps         _296_: _900_/Y ->  _903_/C
+     81.3 ps      _21_[20]: _903_/Y -> _1214_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[21] to _1213_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[21]:         ->  _896_/B
+     40.0 ps         _293_: _896_/Y ->  _899_/C
+     81.3 ps      _21_[19]: _899_/Y -> _1213_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[20] to _1212_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[20]:         ->  _892_/B
+     40.0 ps         _290_: _892_/Y ->  _895_/C
+     81.3 ps      _21_[18]: _895_/Y -> _1212_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[19] to _1211_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[19]:         ->  _888_/B
+     40.0 ps         _287_: _888_/Y ->  _891_/C
+     81.3 ps      _21_[17]: _891_/Y -> _1211_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[18] to _1210_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[18]:         ->  _884_/B
+     40.0 ps         _284_: _884_/Y ->  _887_/C
+     81.3 ps      _21_[16]: _887_/Y -> _1210_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[17] to _1209_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[17]:         ->  _880_/B
+     40.0 ps         _281_: _880_/Y ->  _883_/C
+     81.3 ps      _21_[15]: _883_/Y -> _1209_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[16] to _1208_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[16]:         ->  _876_/B
+     40.0 ps         _278_: _876_/Y ->  _879_/C
+     81.3 ps      _21_[14]: _879_/Y -> _1208_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[15] to _1207_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[15]:         ->  _872_/B
+     40.0 ps         _275_: _872_/Y ->  _875_/C
+     81.3 ps      _21_[13]: _875_/Y -> _1207_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[14] to _1206_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[14]:         ->  _868_/B
+     40.0 ps         _272_: _868_/Y ->  _871_/C
+     81.3 ps      _21_[12]: _871_/Y -> _1206_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[13] to _1205_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[13]:         ->  _864_/B
+     40.0 ps         _269_: _864_/Y ->  _867_/C
+     81.3 ps      _21_[11]: _867_/Y -> _1205_/D
+
+   hold at destination = -4.84065
+
+Path input pin CSR_mepc[12] to _1204_/D delay 76.458 ps
+      0.0 ps  CSR_mepc[12]:         ->  _860_/B
+     40.0 ps         _266_: _860_/Y ->  _863_/C
+     81.3 ps      _21_[10]: _863_/Y -> _1204_/D
+
+   hold at destination = -4.84065
+
+-----------------------------------------
+
