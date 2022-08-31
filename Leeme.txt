@@ -21,3 +21,6 @@
 /*.pdf
     - es el ISA de RISCV para arquitectura privilegiada y arquitectura de usuario.
 
+/AUMENTO DEL RENDIMIENTO DE UN PROCESADOR RISC DE 32 BITS UTILIZANDO PIPELINE DE CINCO ETAPAS Y MEMORIA CACHE.pdf
+
+    - Trabajo de graduacion contiene el contexto del repositorio, proceso de diseño y pruebas al procesador.
