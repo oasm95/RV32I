@@ -1,0 +1,27 @@
+15:41:54 **** Build of configuration Debug for project SynthTbSoftware_bsp_xgpiops_polled_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xgpiops_polled_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpiops_polled_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../SynthTbSoftware_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpiops_polled_example.d" -MT"src/xgpiops_polled_example.o" -o "src/xgpiops_polled_example.o" "../src/xgpiops_polled_example.c"
+../src/xgpiops_polled_example.c: In function 'GpioOutputExample':
+../src/xgpiops_polled_example.c:214:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data;
+      ^~~~
+'Finished building: ../src/xgpiops_polled_example.c'
+' '
+'Building target: SynthTbSoftware_bsp_xgpiops_polled_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../SynthTbSoftware_bsp/ps7_cortexa9_0/lib -o "SynthTbSoftware_bsp_xgpiops_polled_example_1.elf"  ./src/xgpiops_polled_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: SynthTbSoftware_bsp_xgpiops_polled_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size SynthTbSoftware_bsp_xgpiops_polled_example_1.elf  |tee "SynthTbSoftware_bsp_xgpiops_polled_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29876	   1160	  22616	  53652	   d194	SynthTbSoftware_bsp_xgpiops_polled_example_1.elf
+'Finished building: SynthTbSoftware_bsp_xgpiops_polled_example_1.elf.size'
+' '
+
+15:41:55 Build Finished (took 475ms)
+

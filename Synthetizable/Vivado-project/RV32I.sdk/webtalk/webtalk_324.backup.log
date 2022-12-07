@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Sat Mar 19 15:04:04 2022
+# Process ID: 324
+# Current directory: C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
+# webtalk_init -webtalk_dir C:\\Users\\Yoadmin\\Documents\\vivado\\RV32I\\RV32I.sdk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "2022-03-19 15:04:02" -context "software_version_and_target_device"

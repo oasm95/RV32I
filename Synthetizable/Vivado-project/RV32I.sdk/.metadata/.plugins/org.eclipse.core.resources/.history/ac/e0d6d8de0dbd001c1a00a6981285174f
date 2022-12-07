@@ -1,0 +1,124 @@
+/*
+ * testvectorALU.h
+ *
+ *  Created on: Apr 15, 2022
+ *      Author: Yoadmin
+ */
+
+#ifndef SRC_TB_TESTVECTORALU_H_
+#define SRC_TB_TESTVECTORALU_H_
+//buffer 2 flags
+//buffer 1 32bit ouput
+
+int a[]  __attribute__ ((aligned (64))) = {};
+int b[]  __attribute__ ((aligned (64))) = {};
+
+static int add(int a,int b)
+{
+	return a + b;
+}
+
+static int sub(int a,int b)
+{
+	return a - b;
+}
+
+static int sltu(int a,int b)
+{
+	unsigned int a1 = (unsigned int) a;
+	unsigned int b1 = (unsigned int) b;
+	return (a1<b1)? 1:0 ;
+}
+
+static int a(int a,int b)
+{
+	return a;
+}
+
+static int b(int a,int b)
+{
+	return b;
+}
+
+static int ssl(int a,int b)
+{
+	return a << (b&0x1f);
+}
+
+static int srl(int a,int b)
+{
+	unsigned int a1 = (unsigned int) a;
+	unsigned int b1 = (unsigned int) b;
+	return a1 >> (b1&0x1f);
+}
+
+static int or(int a,int b)
+{
+	return a | b;
+}
+
+static int and(int a,int b)
+{
+	return a & b;
+}
+
+static int xor(int a,int b)
+{
+	return a ^ b;
+}
+
+static int stl(int a,int b)
+{
+	return (a<b)? 1:0 ;
+}
+
+static int sra(int a,int b)
+{
+	return a >> (b&0x1f);
+}
+
+static int clear(int a,int b)
+{
+	int mask = (~a)&0xffffffff;
+	return b & mask;
+}
+
+static int nop(int,int)
+{
+    return 0;
+}
+
+static int (*funcs[])() =
+	{
+		add,
+		ssl,
+		stl,
+		sltu,
+		xor,
+		srl,
+		or,
+		and,
+		sub,
+		nop,
+		stl,
+		sltu,
+		a,
+		b,
+		sra,
+		clear
+	};
+
+int ALU(int a, int b, int op)
+{
+	op = op & 0xff;
+	return funcs[op](a,b);
+}
+
+
+int genresults(int a, int b)
+{
+	int op = (a & 0x30000)>>16;
+}
+
+
+#endif /* SRC_TB_TESTVECTORALU_H_ */

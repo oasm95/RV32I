@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 6 resources" deleteContents="true" description="Delete 6 resources" element1="/SynthTbSoftware" element2="/SynthTbSoftware_bsp" element3="/SynthTbSoftware_bsp_xaxicdma_example_simple_intr_1" element4="/SynthTbSoftware_bsp_xgpiops_intr_example_1" element5="/SynthTbSoftware_bsp_xgpiops_polled_example_1" element6="/synthTBsystem_wrapper_hw_platform_0" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="6" stamp="1670363931316"/>
+</session>

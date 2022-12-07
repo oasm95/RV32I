@@ -1,0 +1,26 @@
+14:05:26 **** Build of configuration Debug for project SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xaxicdma_example_hybrid_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxicdma_example_hybrid_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../SynthTbSoftware_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxicdma_example_hybrid_intr.d" -MT"src/xaxicdma_example_hybrid_intr.o" -o "src/xaxicdma_example_hybrid_intr.o" "../src/xaxicdma_example_hybrid_intr.c"
+../src/xaxicdma_example_hybrid_intr.c:131:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+'Finished building: ../src/xaxicdma_example_hybrid_intr.c'
+' '
+'Building target: SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../SynthTbSoftware_bsp/ps7_cortexa9_0/lib -o "SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1.elf"  ./src/xaxicdma_example_hybrid_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1.elf  |tee "SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36788	   1960	  23232	  61980	   f21c	SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1.elf
+'Finished building: SynthTbSoftware_bsp_xaxicdma_example_hybrid_intr_1.elf.size'
+' '
+
+14:05:26 Build Finished (took 566ms)
+

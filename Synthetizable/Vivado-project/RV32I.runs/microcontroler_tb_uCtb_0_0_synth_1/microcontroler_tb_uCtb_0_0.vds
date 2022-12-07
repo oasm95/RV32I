@@ -1,0 +1,529 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 30 23:24:11 2022
+# Process ID: 1128
+# Current directory: C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.runs/microcontroler_tb_uCtb_0_0_synth_1
+# Command line: vivado.exe -log microcontroler_tb_uCtb_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microcontroler_tb_uCtb_0_0.tcl
+# Log file: C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.runs/microcontroler_tb_uCtb_0_0_synth_1/microcontroler_tb_uCtb_0_0.vds
+# Journal file: C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.runs/microcontroler_tb_uCtb_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source microcontroler_tb_uCtb_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Yoadmin/Documents/vivado/ip_repo/Axi4Slave_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top microcontroler_tb_uCtb_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4664 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 370.031 ; gain = 106.762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'microcontroler_tb_uCtb_0_0' [c:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/bd/microcontroler_tb/ip/microcontroler_tb_uCtb_0_0/synth/microcontroler_tb_uCtb_0_0.vhd:73]
+	Parameter CHOOSE_MODULE bound to: RV32I - type: string 
+	Parameter DONE_ADDR bound to: 32'b10000000000000000000000000000000 
+	Parameter RESET_ADDR bound to: 32'b10000000000000000000000000010000 
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'uCtb' declared at 'C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/new/uCtb.vhd:34' bound to instance 'U0' of component 'uCtb' [c:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/bd/microcontroler_tb/ip/microcontroler_tb_uCtb_0_0/synth/microcontroler_tb_uCtb_0_0.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'uCtb' [C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/new/uCtb.vhd:58]
+	Parameter CHOOSE_MODULE bound to: RV32I - type: string 
+	Parameter DONE_ADDR bound to: -2147483648 - type: integer 
+	Parameter RESET_ADDR bound to: -2147483632 - type: integer 
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'RISCV32I' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/RISCV32I.vhdl:24]
+	Parameter RESET_ADDR bound to: -2147483632 - type: integer 
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ControlUnit.vhdl:32]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ControlUnit.vhdl:135]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ControlUnit.vhdl:147]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ControlUnit.vhdl:260]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (1#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ControlUnit.vhdl:32]
+INFO: [Synth 8-638] synthesizing module 'DataPath' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/DataPath.vhdl:45]
+	Parameter RESET_ADDR bound to: -2147483632 - type: integer 
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/PC.vhdl:25]
+	Parameter RESET_ADDR bound to: -2147483632 - type: integer 
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/PC.vhdl:45]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (2#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/PC.vhdl:25]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/RegisterFile.vhdl:21]
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/RegisterFile.vhdl:70]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/RegisterFile.vhdl:82]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (3#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/RegisterFile.vhdl:21]
+INFO: [Synth 8-638] synthesizing module 'ImmDecoder' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ImmDecoder.vhdl:19]
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ImmDecoder' (4#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ImmDecoder.vhdl:19]
+INFO: [Synth 8-638] synthesizing module 'CSRFile' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/CSRFile.vhdl:26]
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/CSRFile.vhdl:67]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/CSRFile.vhdl:75]
+INFO: [Synth 8-256] done synthesizing module 'CSRFile' (5#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/CSRFile.vhdl:26]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ALU.vhdl:22]
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (6#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/ALU.vhdl:22]
+INFO: [Synth 8-638] synthesizing module 'MemInterface' [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:21]
+	Parameter BUS_Width bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:35]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:47]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:62]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:70]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:98]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:115]
+INFO: [Synth 8-256] done synthesizing module 'MemInterface' (7#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/MemInterface.vhdl:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/DataPath.vhdl:238]
+WARNING: [Synth 8-614] signal 'STALL' is read in the process but is not in the sensitivity list [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/DataPath.vhdl:249]
+INFO: [Synth 8-226] default block is never used [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/DataPath.vhdl:297]
+INFO: [Synth 8-256] done synthesizing module 'DataPath' (8#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/DataPath.vhdl:45]
+INFO: [Synth 8-256] done synthesizing module 'RISCV32I' (9#1) [C:/Users/Yoadmin/Downloads/RV32I-main/hardware/unpipelined/RISCV32I.vhdl:24]
+WARNING: [Synth 8-3848] Net irq in module/entity uCtb does not have driver. [C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/new/uCtb.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'uCtb' (10#1) [C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/new/uCtb.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'microcontroler_tb_uCtb_0_0' (11#1) [c:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/bd/microcontroler_tb/ip/microcontroler_tb_uCtb_0_0/synth/microcontroler_tb_uCtb_0_0.vhd:73]
+WARNING: [Synth 8-3331] design CSRFile has unconnected port CSR_mepc[1]
+WARNING: [Synth 8-3331] design CSRFile has unconnected port CSR_mepc[0]
+WARNING: [Synth 8-3331] design uCtb has unconnected port STALL
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 427.086 ; gain = 163.816
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin RISCV32I:IRQ to constant 0 [C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.srcs/sources_1/new/uCtb.vhd:67]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 427.086 ; gain = 163.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 427.086 ; gain = 163.816
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 755.020 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 755.020 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 758.266 ; gain = 3.246
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 758.266 ; gain = 494.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 758.266 ; gain = 494.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 758.266 ; gain = 494.996
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "DMem_Wen" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "CSRFile_Trap_Wen" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MRet" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ECall" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EBreak" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Ill_op" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "isstore" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isload" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isjalr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isjal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isbranch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isstore" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isload" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isjalr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isjal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isbranch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "DONE" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "sgn_stall" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 758.266 ; gain = 494.996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 35    
+	               30 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 7     
+	   2 Input     32 Bit        Muxes := 7     
+	   9 Input     32 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 9     
+	  12 Input      2 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+	  12 Input      1 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 12    
+	  14 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	  12 Input      2 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	  12 Input      1 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module ProgramCounter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module RegisterFile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 31    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module CSRFile 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               30 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   9 Input     32 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     30 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 3     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 3     
+Module MemInterface 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+Module DataPath 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 3     
+	   7 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 1     
+Module uCtb 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "isstore" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isbranch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isjal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isjalr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isload" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "U0/sgn_stall" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "U0/RISCV32I/ControlUnit/DMem_Wen" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "U0/DONE" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[31] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[30] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[29] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[28] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[27] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[26] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[25] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[24] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[23] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[22] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[21] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[20] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[19] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[18] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[17] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port IMemAddr[16] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[31] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[30] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[29] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[28] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[27] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[26] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[25] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[24] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[23] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[22] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[21] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[20] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[19] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[18] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[17] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port DMemAddr[16] driven by constant 0
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port Dhigh driven by constant 1
+INFO: [Synth 8-3917] design microcontroler_tb_uCtb_0_0 has port Dlow driven by constant 0
+WARNING: [Synth 8-3331] design CSRFile has unconnected port CSR_mepc[1]
+WARNING: [Synth 8-3331] design CSRFile has unconnected port CSR_mepc[0]
+WARNING: [Synth 8-3331] design microcontroler_tb_uCtb_0_0 has unconnected port STALL
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/RISCV32I/DataPath /CSR/meta_irq_reg)
+INFO: [Synth 8-3886] merging instance 'U0/RISCV32I/DataPath/CSR/mip_reg' (FD) to 'U0/RISCV32I/DataPath/CSR/meta_irq_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/RISCV32I/DataPath /CSR/meta_irq_reg)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 758.266 ; gain = 494.996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 761.137 ; gain = 497.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 764.336 ; gain = 501.066
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    48|
+|2     |LUT1   |     3|
+|3     |LUT2   |   148|
+|4     |LUT3   |   138|
+|5     |LUT4   |   158|
+|6     |LUT5   |   282|
+|7     |LUT6   |  1127|
+|8     |MUXF7  |   163|
+|9     |MUXF8  |    64|
+|10    |FDRE   |  1152|
+|11    |FDSE   |     3|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------+---------------+------+
+|      |Instance                 |Module         |Cells |
++------+-------------------------+---------------+------+
+|1     |top                      |               |  3286|
+|2     |  U0                     |uCtb           |  3286|
+|3     |    RISCV32I             |RISCV32I       |  3273|
+|4     |      DataPath           |DataPath       |  3273|
+|5     |        CSR              |CSRFile        |   330|
+|6     |        ImmediateDecoder |ImmDecoder     |    32|
+|7     |        ProgramCounter   |ProgramCounter |   194|
+|8     |        Registers        |RegisterFile   |  2717|
++------+-------------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 834.746 ; gain = 240.297
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 834.746 ; gain = 571.477
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 275 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'microcontroler_tb_uCtb_0_0' is not ideal for floorplanning, since the cellview 'RegisterFile' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 834.746 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+118 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 834.746 ; gain = 579.203
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 834.746 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.runs/microcontroler_tb_uCtb_0_0_synth_1/microcontroler_tb_uCtb_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.746 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Yoadmin/Documents/vivado/RV32I/RV32I.runs/microcontroler_tb_uCtb_0_0_synth_1/microcontroler_tb_uCtb_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file microcontroler_tb_uCtb_0_0_utilization_synth.rpt -pb microcontroler_tb_uCtb_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 30 23:24:46 2022...

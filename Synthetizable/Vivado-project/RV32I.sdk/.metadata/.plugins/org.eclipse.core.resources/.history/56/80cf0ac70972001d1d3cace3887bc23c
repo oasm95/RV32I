@@ -1,0 +1,50 @@
+/*
+        .global test1_start
+test1_start:
+        .incbin "../binaries/simpletests/test1._text"
+
+        .global test1_end
+test1_end:
+
+        .global test2_start
+test2_start:
+        .incbin "../binaries/simpletests/test2._text"
+
+        .global test2_end
+test2_end:
+
+        .global test3_start
+test3_start:
+        .incbin "../binaries/simpletests/test3._text"
+
+        .global test3_end
+test3_end:
+
+        .global test4_start
+test4_start:
+        .incbin "../binaries/simpletests/test4._text"
+
+        .global test4_end
+test4_end:
+
+        .global test5_start
+test5_start:
+        .incbin "../binaries/simpletests/test5._text"
+
+        .global test5_end
+test5_end:
+*/
+        .global dhrystoneI_start
+dhrystoneI_start:
+        .incbin "../binaries/benchmarks/mt-vvadd/mt-vvadd._text"
+
+        .global dhrystoneI_end
+dhrystoneI_end:
+
+        .global dhrystoneD_start
+dhrystoneD_start:
+        .incbin "../binaries/benchmarks/mt-vvadd/mt-vvadd._data"
+
+        .global dhrystoneD_end
+dhrystoneD_end:
+

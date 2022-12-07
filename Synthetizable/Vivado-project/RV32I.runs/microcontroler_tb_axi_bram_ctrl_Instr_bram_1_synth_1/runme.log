@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log microcontroler_tb_axi_bram_ctrl_Instr_bram_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source microcontroler_tb_axi_bram_ctrl_Instr_bram_1.tcl
+

@@ -1,0 +1,65 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 1190 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 1210 -defaultsOSRD
+preplace inst axi_bram_ctrl_2_bram -pg 1 -lvl 6 -y 120 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 1230 -defaultsOSRD
+preplace inst axi_bram_ctrl_2 -pg 1 -lvl 5 -y 820 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 3 -y 510 -defaultsOSRD
+preplace inst axi_bram_ctrl_3 -pg 1 -lvl 5 -y 980 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 6 -y 540 -defaultsOSRD
+preplace inst axi_bram_ctrl_3_bram -pg 1 -lvl 6 -y 340 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -y 890 -defaultsOSRD
+preplace inst tbSynth_0 -pg 1 -lvl 4 -y 520 -defaultsOSRD
+preplace inst axi_cdma_0 -pg 1 -lvl 3 -y 1170 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -y 1240 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 5 -y 330 -defaultsOSRD
+preplace inst xlconcat_2 -pg 1 -lvl 5 -y 140 -defaultsOSRD
+preplace inst xlconcat_3 -pg 1 -lvl 6 -y 1050 -defaultsOSRD
+preplace inst axi_bram_ctrl_1_bram -pg 1 -lvl 6 -y 720 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 1210 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -y 540 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 5 -y 680 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 1200 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 5 2 NJ 1190 NJ
+preplace netloc tbSynth_0_Din1Addr 1 4 2 N 420 1930J
+preplace netloc axi_smc_M02_AXI 1 4 1 1400
+preplace netloc axi_smc_M01_AXI 1 4 1 1380
+preplace netloc axi_cdma_0_M_AXI 1 3 1 970
+preplace netloc tbSynth_0_Dhigh 1 4 2 1320J 230 2010
+preplace netloc processing_system7_0_GPIO_O 1 2 4 680 20 NJ 20 NJ 20 1880
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 1890
+preplace netloc tbSynth_0_Dout1 1 4 2 1290 50 2010J
+preplace netloc processing_system7_0_M_AXI_GP1 1 1 5 370 30 NJ 30 NJ 30 NJ 30 1870
+preplace netloc axi_smc_M00_AXI 1 4 1 1370
+preplace netloc xlconcat_1_dout 1 5 1 1950J
+preplace netloc tbSynth_0_Dout2 1 4 2 1340 450 1940J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 1340 NJ 1340 NJ 1340 NJ 1340 NJ 1340 1870
+preplace netloc axi_bram_ctrl_2_BRAM_PORTA 1 5 1 1920
+preplace netloc tbSynth_0_Din2Addr 1 4 2 NJ 440 1910
+preplace netloc xlconcat_3_dout 1 5 2 NJ 1150 2220
+preplace netloc axi_cdma_0_cdma_introut 1 3 1 980
+preplace netloc tbSynth_0_Dout1Addr 1 4 2 1280 40 2020J
+preplace netloc axi_bram_ctrl_1_bram_doutb 1 3 3 990 990 1400J 900 2020J
+preplace netloc xlconcat_0_dout 1 4 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 5 2 NJ 1210 NJ
+preplace netloc axi_bram_ctrl_3_BRAM_PORTA 1 5 1 1980
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 4 370 1330 690 1000 980 1000 1390
+preplace netloc tbSynth_0_DONE 1 4 2 1360J 460 1900J
+preplace netloc tbSynth_0_Dout2Addr 1 4 2 1310 240 1970J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 10 1330 360 1090 680 890 960 360 1330 430 1960
+preplace netloc axi_smc_M04_AXI 1 4 1 1290
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 5 1 N
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 700
+preplace netloc xlconcat_2_dout 1 5 1 2000J
+preplace netloc tbSynth_0_Dout1Wen 1 4 1 1300
+preplace netloc axi_smc_M03_AXI 1 4 1 1380
+preplace netloc tbSynth_0_Dout2Wen 1 4 1 1350
+preplace netloc xlslice_0_Dout 1 3 1 NJ
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 3 3 990 10 NJ 10 1990J
+levelinfo -pg 1 -10 190 530 830 1140 1640 2120 2240 -top 0 -bot 1350
+"
+}
+0

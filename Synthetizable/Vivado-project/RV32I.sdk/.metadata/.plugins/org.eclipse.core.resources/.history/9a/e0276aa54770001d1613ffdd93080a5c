@@ -1,0 +1,35 @@
+        .global test1_start
+test1_start:
+        .incbin "../binaries/test1._text"
+
+        .global test1_end
+test1_end:
+
+        .global test2_start
+test2_start:
+        .incbin "../binaries/test2._text"
+
+        .global test2_end
+test2_end:
+
+        .global test3_start
+test3_start:
+        .incbin "../binaries/test3._text"
+
+        .global test3_end
+test3_end:
+
+        .global test4_start
+test4_start:
+        .incbin "../binaries/test4._text"
+
+        .global test4_end
+test4_end:
+
+        .global test5_start
+test5_start:
+        .incbin "../binaries/test5._tex"
+
+        .global test5_end
+test5_end:
+
